@@ -239,25 +239,11 @@ v0.9.4からは視点のクイックセーブ/ロード機能が追加されて�
 
 ## 2.4. もっと細かく調整したい方へ
 
-ここまで動かしてみて、見た目に気になる点があった方もいると思います。
+ここまで動かしてみて、見た目に納得行かない点があるかもしれません。
 
 * キーボードの位置がキャラクターに比べて高すぎ・低すぎ
 * キャラクターが明るすぎる・暗すぎる
 
-[3: 詳細設定](./about_settings.html)ではこれらの問題を解決できます。
+[3: 詳細設定](./about_settings.html)でこれらの問題を解決できます。
 
-個々のキャラクターにあわせてしっかりと調整したい方はこちらもお読みください。
-
-## Sections
-
-* [1: VMagicMirrorについて](./index.html)
-* 2: 基本的な使い方 (このページ)
-* [3: 詳細設定](./about_settings.html)
-* [4: トラブルシューティング](./troubleshooting.html)
-* [Tips A: デスクトップマスコット化のための設定](./tips_desktop_mascot.html)
-* [Tips B: プレゼンテーションでVMagicMirrorを使う](./tips_presentation.html)
-* [Tips C: 前バージョン(v0.8.0以降)の設定を引き継ぐ](./tips_load_prev_setting.html)
-* [Tips D: キーボードやタッチパッドの見た目を変更する](./tips_change_textures.html)
-* [License](./about_license.html)
-* [Change Log](./changelog.html)
-* [FAQ](./en_frequently_asked_questions.html)
+{% include_relative sitemap.md %}
