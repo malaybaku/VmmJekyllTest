@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Layout
-permalink: /docs/layout/
+permalink: /docs_layout/
 ---
 
 # レイアウト
