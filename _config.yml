@@ -1,7 +1,3 @@
-plugins:
-  - jekyll-remote-theme
-
-remote_theme: victorpre/materialize-jekyll
 #theme: jekyll-theme-leap-day
 title: VMagicMirror
 description: VMagicMirror is a mirror-like software, to reflect yourself as VRM avatar, without any special devices.
