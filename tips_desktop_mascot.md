@@ -26,17 +26,4 @@ VMagicMirrorはデスクトップマスコットとしても使えます。
 
 もし将来的に異なるバージョンのVMagicMirrorで置き換える場合や、自動で立ち上がる設定を無効にしたい場合、`Windowsの起動後にスタート`のチェックをオフにします。
 
-
-## Sections
-
-* [1: VMagicMirrorについて](./index.html)
-* [2: 基本的な使い方](./get_started.html)
-* [3: 詳細設定](./about_settings.html)
-* [4: トラブルシューティング](./troubleshooting.html)
-* Tips A: デスクトップマスコット化のための設定 (このページ)
-* [Tips B: プレゼンテーションでVMagicMirrorを使う](./tips_presentation.html)
-* [Tips C: 前バージョン(v0.8.0以降)の設定を引き継ぐ](./tips_load_prev_setting.html)
-* [Tips D: キーボードやタッチパッドの見た目を変更する](./tips_change_textures.html)
-* [License](./about_license.html)
-* [Change Log](./changelog.html)
-* [FAQ](./en_frequently_asked_questions.html)
+{% include_relative sitemap.md %}
