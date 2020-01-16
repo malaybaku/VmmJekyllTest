@@ -20,12 +20,11 @@
           </ul>
 
           <ul id="nav-mobile" class="side-nav">
-            <li><a href="#">Home</a></li>
+            <li><a href="{{ "/" | relative_url }}">Home</a></li>
+            <li><a href="{{ "/download/" | relative_url }}">Download</a></li>
             <li><a href="{{ "/get_started/" | relative_url }}">Get Started</a></li>
             <li><a href="{{ "/documents/" | relative_url }}">Docs</a></li>
             <li><a href="{{ "/questions/" | relative_url }}">FAQ</a></li>
-            <li><a href="{{ "/changelog/" | relative_url }}">Change Log</a></li>
-            <li><a href="{{ "/license/" | relative_url }}">License</a></li>
               <!-- {% if page_paths %}
                 {% for path in page_paths %}
                     {% assign my_page = site.pages | where: "path", path | first %}
