@@ -1,5 +1,10 @@
+---
+layout: page
+title: Layout
+permalink: /docs/layout/
+---
 
-# 3.3. レイアウト
+# レイアウト
 
 `レイアウト`タブではカメラ、キーボード、ゲームパッドなどの配置を調整できます。
 

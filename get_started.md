@@ -4,16 +4,16 @@ title: Get Started
 permalink: /get_started/
 ---
 
-# 2: 基本的な使い方
-
 [English](./en_get_started.html)
+
+# 基本的な使い方
 
 ※最小限のセットアップ手順は以下の動画でも紹介しています。大まかな流れだけ確認したい場合、こちらの動画に沿った手順でもセットアップが可能です。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PFalrIig-RM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-## 2.1. VMagicMirrorの開始と終了
+## 1. VMagicMirrorの開始と終了
 
 `VMagicMirror.exe`を起動すると、GUIがある「コントロールパネル」と、キャラクターが映る「キャラクター表示ウィンドウ」が立ち上がります。
 
@@ -22,16 +22,7 @@ permalink: /get_started/
 コントロールパネルかキャラクター表示ウィンドウの一方を閉じると、もう片方の画面も閉じてVMagicMirrorが終了します。「キャラクターは表示したいがコントロールパネルは隠したい」という場合、コントロールパネルを最小化します。
 
 
-## 2.2. キャラクターの表示
-
-<iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/I-CHfCHbjx8?autoplay=1&loop=1&playlist=I-CHfCHbjx8" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
+## 2. キャラクターの表示
 
 コントロールパネルの`ホーム`タブ内にある`VRMロード`ボタンを押し、PC上の`.vrm`ファイルを選択します。
 
@@ -59,7 +50,7 @@ permalink: /get_started/
 
 
 
-## 2.3. 配信タブ
+## 3. 配信タブ
 
 コントロールパネルの`配信`タブではVMagicMirrorのすべての主要機能にアクセスできます。
 
@@ -67,7 +58,7 @@ VRMをロードしたら、各機能を試してみましょう。
 
 [![Streaming Tab](./images/get_started/img00_050_streaming_tab.png)](./images/get_started/img00_050_streaming_tab.png){: data-lightbox="img00_050"}
 
-### 2.3.1. ウィンドウ
+### 3.1. ウィンドウ
 
 `ウィンドウ`で、`背景を透過`のチェックをオンにすることで、キャラクター表示ウィンドウの背景を透明にできます。VMagicMirrorは通常、この状態で使用します。
 
@@ -86,7 +77,7 @@ VRMをロードしたら、各機能を試してみましょう。
 [![Transparent BG can click](./images/get_started/img00_090_transparent_bg_can_click.png)](./images/get_started/img00_090_transparent_bg_can_click.png){: data-lightbox="img00_090"}
 
 
-### 2.3.2. 顔・表情
+### 3.2. 顔・表情
 
 `顔・表情`メニューは、顔の動きに関連する主要な機能です。
 
@@ -104,7 +95,7 @@ VRMをロードしたら、各機能を試してみましょう。
 
 その場合、普段の姿勢で画面を見ながら`姿勢・表情を補正`ボタンをクリックします。補正に成功すると、キャラクターが中央に戻ります。
 
-**Hint:** v0.9.3かより古いバージョンでキャラクターの目が閉じがちになってしまう場合、目を半閉じにして`姿勢・表情を補正`ボタンをクリックすると、目が開きやすくなります。似たように、キャラクターがうつむきがちになる場合は、少し下を向いて`姿勢・表情を補正`ボタンをクリックすると、キャラが上を向くようになります。
+**Hint:** キャラクターがうつむきがちになる場合は、少し下を向いて`姿勢・表情を補正`ボタンをクリックすると、キャラが上を向きやすくなります。反対に、キャラクターが上を向きすぎる場合は、上を剥いて`姿勢・表情を補正`ボタンをクリックすることで、キャラが下を向きやすくなります。
 
 #### 視線の動き
 
@@ -117,7 +108,7 @@ VMagicMirrorの基本設定では、キャラクターがマウスポインタ�
 * 固定: 顔トラッキングのみで首を動かすようにします。動きをおさえたい場合に使用します。
 
 
-### 2.3.3. Word To Motion
+### 3.3. Word To Motion
 
 この機能ではキャラクターの表情などをコントロールできます。
 
@@ -143,7 +134,7 @@ VMagicMirrorの基本設定では、キャラクターがマウスポインタ�
 * `この機能専用にデバイスを割り当て`で`キーボード`を選択し、数字キーの1、2、3、4のいずれかをタイピングする。
 
 
-### 2.3.4. 表示
+### 3.4. 表示
 
 `表示`で`キーボード`や`キャラの影`のチェックのオン・オフを切り替えることで、これらの要素を表示するか隠すかを選択できます。
 
@@ -229,7 +220,7 @@ v0.9.4からは視点のクイックセーブ/ロード機能が追加されて�
 
 **Hint:** 詳しくは[Tips B: プレゼンテーションでVMagicMirrorを使う](./tips_presentation.html)もあわせてご覧下さい。
 
-### 2.3.8. スクリーンショット
+### 3.8. スクリーンショット
 
 [![Screenshot](./images/get_started/img00_180_screenshot.png)](./images/get_started/img00_180_screenshot.png){: data-lightbox="img00_180"}
 
@@ -242,7 +233,7 @@ v0.9.4からは視点のクイックセーブ/ロード機能が追加されて�
 [![Screenshot Result](./images/get_started/img00_190_screenshot_shadow.png)](./images/get_started/img00_190_screenshot_shadow.png){: data-lightbox="img00_190"}
 
 
-## 2.4. もっと細かく調整したい方へ
+## 4. もっと細かく調整したい方へ
 
 ここまで動かしてみて、見た目に納得行かない点があるかもしれません。
 

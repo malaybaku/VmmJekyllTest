@@ -1,3 +1,8 @@
+---
+layout: page
+title: Word to Motion
+permalink: /docs/expressions/
+---
 
 # 3.5. Word to Motion
 

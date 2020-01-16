@@ -3,72 +3,55 @@ layout: page
 title: Home
 ---
 
-# 1. VMagicMirrorについて
-
 [English](./en_index.html)
+
+# VMagicMirror
 
 VMagicMirror v0.9.6
 
 * 作者: 獏星(ばくすたー)
 * 2020/01/13
 
-WindowsでVRMを表示し、特別なデバイスを使わずキャラクターを動かせるアプリケーションです。
+VMagicMirrorはWindows PCでVRMアバターを表示し、特別なデバイスを使わずキャラクターを動かせるアプリケーションです。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jhGOnf8HOKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-VMagicMirrorはオープンソースソフトウェアです。
+## できること
 
-[GitHub](https://github.com/malaybaku/VMagicMirror)にてソースコードを公開しています。
+アバター制御のさまざまな方法をサポートしています。
 
+* キーボードやマウスへの入力をVRMのモーションとして再現できます。
+* ゲームパッド(ゲームコントローラ)入力をVRMのモーションに反映できます。
+* 音声入力によるリップシンクに対応しています。
+* ウェブカメラでの顔トラッキングに対応しています。
 
-## 1.1. できること
+また、キーボード/ゲームパッド/MIDIコントローラのいずれかによってキャラクターの表情をスイッチできます。
 
-キーボードやマウスの入力動作をVRMのモーションとして再現できます。
+さらに背景を透過して配置できるため、他アプリケーションと重ねて実行できます。
 
-背景を透過して配置することで、他アプリケーションと重ねて動かせます。
-
-また、周辺機器向けの機能もサポートしています。
-
-* ゲームパッド(ゲームコントローラ)入力をVRMのモーションに反映
-* 音声入力によるリップシンク
-* カメラでの表情トラッキング
-
-おもに以下のユースケース向けに作成しています。
+次のような場面で利用できます。
 
 * PCゲームの実況配信
-* 文字書きメインの作業配信
+* プログラミングやモデリングの作業配信
 * ライブコーディング中の賑やかし
-* プレゼンテーションへのキャラクター上乗せ
+* プレゼンテーション画面へのキャラクター上乗せ
 * デスクトップマスコット
 
-## 1.2. ダウンロード
+## ダウンロード
 
 [BOOTH](https://booth.pm/ja/items/1272298)からダウンロード可能です。
 
-Windows 10環境をサポートしています。
+動作環境などの詳細は[Download](./download.html)をご覧下さい。
 
-無償で公開していますが、ブーストつきで購入していただけると作者が喜びます。
-
-動作環境の詳細については[FAQ](./questions.html)も参照下さい。
-
-## 1.3. ライセンス
+## ライセンス
 
 VMagicMirrorは個人・商用利用を問わずお使いいただけます。
 
-詳しくは[License](./about_license.html)を参照下さい。
+詳しくは[License](./license.html)を参照下さい。
 
-## 1.4. 使い方
+## 質問など
 
-* [2: 基本的な使い方](./get_started.html)
-* [3: 詳細設定](./about_settings.html)
-* [4: トラブルシューティング](./troubleshooting.html)
-* [Tips A: デスクトップマスコット化のための設定](./tips_desktop_mascot.html)
-* [Tips B: プレゼンテーションでVMagicMirrorを使う](./tips_presentation.html)
-* [Tips C: 前バージョン(v0.8.0以降)の設定を引き継ぐ](./tips_load_prev_setting.html)
-
-## 1.5. 質問など
-
-不具合報告、要望などは下記までお願いします。
+不具合報告や要望などありましたら下記までお願いします。
 
 * [Twitter](https://twitter.com/baku_dreameater)
 * [Blog](https://www.baku-dreameater.net/)

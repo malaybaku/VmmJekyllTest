@@ -1,4 +1,10 @@
 
+---
+layout: page
+title: Effects
+permalink: /docs/effects/
+---
+
 # 3.4. エフェクト
 
 `エフェクト`タブでは光、影、Bloom、風の設定を調節できます。
