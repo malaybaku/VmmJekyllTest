@@ -52,4 +52,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-{% include_relative sitemap.md %}
+{{ include_relative /_fragments/sitemap.md }}

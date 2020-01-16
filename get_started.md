@@ -251,4 +251,4 @@ v0.9.4からは視点のクイックセーブ/ロード機能が追加されて�
 
 [3: 詳細設定](./about_settings.html)でこれらの問題を解決できます。
 
-{% include_relative sitemap.md %}
+{{ include_relative /_fragments/sitemap.md }}

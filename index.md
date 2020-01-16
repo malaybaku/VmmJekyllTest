@@ -79,4 +79,4 @@ Twitterに関してはお問い合わせ、感想、利用報告などについ�
 
 * [VMagicMirror要望・質問フォーム](https://forms.gle/ULLsY4C96ggZBfNw9)
 
-{% include_relative sitemap.md %}
+{{ include_relative /_fragments/sitemap.md }}

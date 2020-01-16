@@ -168,4 +168,4 @@ PC環境によって発生する場合があります。現在原因不明のた
 PC環境によって発生する場合があります。現在原因不明のため、もしこの症状があった場合は一つ手前のバージョン(v0.9.2)の使用を検討下さい。
 
 
-{% include_relative sitemap.md %}
+{{ include_relative /_fragments/sitemap.md }}

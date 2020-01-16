@@ -228,4 +228,4 @@ permalink: /changelog/
 * BOOTHへ公開
 
 
-{% include_relative sitemap.md %}
+{{ include_relative /_fragments/sitemap.md }}
