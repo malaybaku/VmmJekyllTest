@@ -49,7 +49,7 @@ Windows 10環境をサポートしています。
 
 無償で公開していますが、ブーストつきで購入していただけると作者が喜びます。
 
-動作環境の詳細については[FAQ](./frequently_asked_questions.html)も参照下さい。
+動作環境の詳細については[FAQ](./questions.html)も参照下さい。
 
 ## 1.3. ライセンス
 
@@ -78,5 +78,3 @@ Twitterに関してはお問い合わせ、感想、利用報告などについ�
 ※ハッシュタグでのツイートについて、要望を書いているのに作成者が一切関知していない場合、Search Suggest Banされている可能性があります。お手数ですが[Shadowban.eu](https://shadowban.eu/)などで確認のうえ、もしSearch Suggest Banの対象でフィードバックをお寄せくださる場合はメンション(@ツイート)か以下Google Formにてお願いします。
 
 * [VMagicMirror要望・質問フォーム](https://forms.gle/ULLsY4C96ggZBfNw9)
-
-{{ include_relative /_fragments/sitemap.md }}

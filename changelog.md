@@ -226,6 +226,3 @@ permalink: /changelog/
 2019/03/13
 
 * BOOTHへ公開
-
-
-{{ include_relative /_fragments/sitemap.md }}

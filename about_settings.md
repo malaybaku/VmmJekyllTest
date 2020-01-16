@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Documents
-permalink: /about_settings/
+permalink: /documents/
 ---
 
 # 3. 詳細設定
@@ -41,4 +41,3 @@ v0.9.2以降では、大部分の設定をカテゴリ別にリセットでき�
 
 [![Reset Setting 2](./images/about_settings/img01_150_reset_setting_before.png)](./images/about_settings/img01_150_reset_setting_after.png){: data-lightbox="img01_150"}
 
-{{ include_relative /_fragments/sitemap.md }}
