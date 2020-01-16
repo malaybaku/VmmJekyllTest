@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Documents
-permalink: /documents/
+permalink: /docs/
 ---
 
 # 3. 詳細設定
@@ -16,15 +16,15 @@ permalink: /documents/
 
 設定ウィンドウはコントロールパネルで表示していない、細かな機能をサポートしています。
 
-* [3.1. ウィンドウ](./docs/window.html)
+* [3.1. ウィンドウ](/docs/window.html)
     - キャラクター表示ウィンドウの制御
-* [3.2. モーション](./docs/motion.html)
+* [3.2. モーション](/docs/motion.html)
     - キャラクターの体型や動き方にあわせた調整
-* [3.3. レイアウト](./docs/layout.html)
+* [3.3. レイアウト](/docs/layout.html)
     - カメラ、キーボード、タッチパッド、ゲームパッドの配置
-* [3.4. エフェクト](./docs/effects.html) (※v0.9.2以前では`ライト`タブという名称です)
+* [3.4. エフェクト](/docs/effects.html) (※v0.9.2以前では`ライト`タブという名称です)
     - ライト、影、Bloom、風の調整
-* [3.5. 表情の制御](./docs/expressions.html)
+* [3.5. 表情の制御](/docs/expressions.html)
     - 表情やモーションを切り替える機能の設定
 
 詳細については各ページを参照下さい。
