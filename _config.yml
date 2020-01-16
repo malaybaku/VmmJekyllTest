@@ -1,12 +1,23 @@
 #theme: jekyll-theme-leap-day
 title: VMagicMirror
-description: VMagicMirror is a mirror-like software, to reflect yourself as VRM avatar, without any special devices.
+author: 獏星(ばくすたー)
+description: VMagicMirror is a mirror-like software to reflect yourself as VRM avatar, without any special devices.
+
+twitter_username: baku_dreameater
+github_username:  malaybaku
+email: njslyr.trpg@gmail.com
+
+sass:
+    style: compressed
 
 #show_downloads: "false"
 
-github:
-  zip_url: https://baku-dreameater.booth.pm/items/1272298
-  manual_index_url: https://malaybaku.github.io/VMagicMirrorManual/index.html
+#github:
+#  zip_url: https://baku-dreameater.booth.pm/items/1272298
+#  manual_index_url: https://malaybaku.github.io/VMagicMirrorManual/index.html
 
 booth:
   download_url: https://baku-dreameater.booth.pm/items/1272298
+
+
+

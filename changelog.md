@@ -1,3 +1,8 @@
+---
+layout: page
+title: Change Log
+permalink: /changelog/
+---
 
 # Change Log
 

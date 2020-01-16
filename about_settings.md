@@ -1,3 +1,8 @@
+---
+layout: page
+title: Documents
+permalink: /about_settings/
+---
 
 # 3. 詳細設定
 

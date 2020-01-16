@@ -1,3 +1,8 @@
+---
+layout: page
+title: Get Started
+permalink: /get_started/
+---
 
 # 2: 基本的な使い方
 

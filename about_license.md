@@ -1,3 +1,8 @@
+---
+layout: page
+title: License
+permalink: /about_license/
+---
 
 # License
 
