@@ -3,6 +3,22 @@
 
 [Japanese](./changelog.html)
 
+---
+layout: page
+title: Change Log
+permalink: /changelog/
+---
+
+# Change Log
+
+[English](./en_changelog.html)
+
+## -
+
+????/??/??
+
+* Change: Update whole web page 
+
 ## v0.9.6
 
 2020/01/13

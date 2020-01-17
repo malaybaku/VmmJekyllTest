@@ -2,7 +2,7 @@
 ---
 layout: page
 title: Effects
-permalink: /docs_effects/
+permalink: /docs/effects/
 ---
 
 # 3.4. エフェクト

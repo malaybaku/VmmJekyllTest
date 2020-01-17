@@ -8,6 +8,12 @@ permalink: /changelog/
 
 [English](./en_changelog.html)
 
+## -
+
+????/??/??
+
+* 変更: ウェブページの外観を全面的に刷新しました。
+
 ## v0.9.6
 
 2020/01/13

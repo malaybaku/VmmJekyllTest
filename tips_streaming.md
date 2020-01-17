@@ -81,7 +81,3 @@ VMagicMirrorの実行画面をOBSなどでキャプチャする方法は二通�
 
 詳細については
 
-TODO: リンク書いて
-
-
-{% include_relative sitemap.md %}
