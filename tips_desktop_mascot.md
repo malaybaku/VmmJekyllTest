@@ -31,5 +31,3 @@ VMagicMirrorはデスクトップマスコットとしても使えます。
 その後、Windowsを再起動してみて、VMagicMirrorが表示されれば成功です。
 
 もし将来的に異なるバージョンのVMagicMirrorで置き換える場合や、自動で立ち上がる設定を無効にしたい場合、`Windowsの起動後にスタート`のチェックをオフにします。
-
-{% include_relative sitemap.md %}

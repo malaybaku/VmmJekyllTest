@@ -33,5 +33,3 @@ permalink: /tips_change_textures/
 [![Change Texture](./images/tips/img_tips_10_change_texture.png)](./images/tips/img_tips_10_change_texture.png){: data-lightbox="img_tips_10"}
 
 もとに戻したいときは、配置した`key.png`および`pad.png`を削除してからVMagicMirrorを再び起動します。
-
-{% include_relative sitemap.md %}
