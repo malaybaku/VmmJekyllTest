@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Word to Motion
-permalink: /docs/expressions/
+permalink: /docs_expressions/
 ---
 
 # 3.5. Word to Motion
@@ -72,5 +72,3 @@ https://twitter.com/baku_dreameater/status/1211990346525077504
 以下のような設定のアイテムを作ることで、表情をリセットできます。このアイテムは既定の設定で、`reset`という名称で含まれています。
 
 [![How to Reset Keep Face](./images/about_settings/img01_130_word_to_motion_reset_tips.png)](./images/about_settings/img01_130_word_to_motion_reset_tips.png){: data-lightbox="img01_130"}
-
-{% include_relative sitemap.md %}

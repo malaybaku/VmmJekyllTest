@@ -29,5 +29,3 @@ permalink: /docs/effects/
 * `VRMSpringBone`をセットアップしてある場合にのみ動作します。
 * 風機能ではキャラクターに設定された全ての`VRMSpringBone`が影響を受けます。髪だけを揺らしてスカートは揺らさない、といった設定はサポートしていません。
 
-{% include_relative sitemap.md %}
-
