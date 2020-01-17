@@ -1,4 +1,10 @@
 
+---
+layout: page
+title: Tips: 配信にVMagicMirrorを使う
+permalink: /tips_streaming/
+---
+
 # Tips: 配信にVMagicMirrorを使うために
 
 [English](./en_tips_streaming.html)

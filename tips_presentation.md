@@ -1,4 +1,10 @@
 
+---
+layout: page
+title: Tips: プレゼンテーション
+permalink: /tips_presentation/
+---
+
 # Tips B: プレゼンテーションでVMagicMirrorを使う
 
 [English](./en_tips_presentation.html)
@@ -66,4 +72,3 @@ Microsoft PowerPointの場合、スライド上で右クリックして`ポイ�
 
 **Hint:** 難易度は高いですが、左手でマウスを動かしながら右手でスクリーンを指し示すことで、あなたとキャラクターが同時にスクリーン上の同じ位置を指さすことができます。
 
-{% include_relative sitemap.md %}

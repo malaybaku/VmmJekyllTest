@@ -1,4 +1,10 @@
 
+---
+layout: page
+title: Tips: 前バージョンの設定引き継ぎ
+permalink: /tips_load_prev_setting/
+---
+
 # Tips C: 前バージョン(v0.8.0以降)の設定を引き継ぐ
 
 [English](./en_tips_load_prev_setting.html)
@@ -12,5 +18,3 @@
 * 設定が正しく読み込まれた場合、キャラクターやレイアウトをロードします。
 
 ※ウィンドウの位置が修正されない場合があります。この場合、コントロールパネルの`配信`タブで`背景を透過`をオフにして、位置を調整してください。
-
-{% include_relative sitemap.md %}

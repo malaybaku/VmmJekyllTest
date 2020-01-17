@@ -1,4 +1,10 @@
 
+---
+layout: page
+title: Tips: デスクトップマスコット化について
+permalink: /tips_desktop_mascot/
+---
+
 # Tips A: デスクトップマスコット化のための設定
 
 [English](./en_tips_desktop_mascot.html)

@@ -1,4 +1,10 @@
 
+---
+layout: page
+title: Tips: テクスチャの変更
+permalink: /tips_change_textures/
+---
+
 # Tips D: キーボードやタッチパッドの見た目を変更する
 
 [English](./en_tips_change_textures.html)
