@@ -17,9 +17,9 @@ permalink: /get_started
 
 `VMagicMirror.exe`を起動すると、GUIがある「コントロールパネル」と、キャラクターが映る「キャラクター表示ウィンドウ」が立ち上がります。
 
-<a href="./images/get_started/img00_015_started.png" data-lightbox="img00_015">
+<!-- <a href="./images/get_started/img00_015_started.png" data-lightbox="img00_015">
   <img src="./images/get_started/img00_015_started.png" class=".doc-thumbnail">
-</a>
+</a> -->
 
 コントロールパネルかキャラクター表示ウィンドウの一方を閉じると、もう片方の画面も閉じてVMagicMirrorが終了します。「キャラクターは表示したいがコントロールパネルは隠したい」という場合、コントロールパネルを最小化します。
 
