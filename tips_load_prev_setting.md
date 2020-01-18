@@ -2,7 +2,7 @@
 ---
 layout: page
 title: Tips: 前バージョンの設定引き継ぎ
-permalink: /tips_load_prev_setting/
+permalink: /tips/load_prev_setting
 ---
 
 # Tips C: 前バージョン(v0.8.0以降)の設定を引き継ぐ

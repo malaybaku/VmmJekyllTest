@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Get Started
-permalink: /get_started/
+permalink: /get_started
 ---
 
 [English](./en_get_started.html)

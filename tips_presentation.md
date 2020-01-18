@@ -2,7 +2,7 @@
 ---
 layout: page
 title: Tips: プレゼンテーション
-permalink: /tips_presentation/
+permalink: /tips/presentation
 ---
 
 # Tips B: プレゼンテーションでVMagicMirrorを使う

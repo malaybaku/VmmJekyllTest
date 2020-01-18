@@ -2,7 +2,7 @@
 ---
 layout: page
 title: Tips: デスクトップマスコット化について
-permalink: /tips_desktop_mascot/
+permalink: /tips/desktop_mascot
 ---
 
 # Tips A: デスクトップマスコット化のための設定

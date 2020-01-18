@@ -1,7 +1,7 @@
 ---
 layout: page
 title: FAQ
-permalink: /questions/
+permalink: /questions
 ---
 
 # FAQ

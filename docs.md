@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Documents
-permalink: /docs/
+permalink: /docs
 ---
 
 # 3. 詳細設定

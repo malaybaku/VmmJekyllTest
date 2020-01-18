@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Download
-permalink: /download/
+permalink: /download
 ---
 
 [English](./en_download.html)

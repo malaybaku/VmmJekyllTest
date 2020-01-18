@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Change Log
-permalink: /changelog/
+permalink: /changelog
 ---
 
 # Change Log

@@ -2,7 +2,7 @@
 ---
 layout: page
 title: Tips: テクスチャの変更
-permalink: /tips_change_textures/
+permalink: /tips/change_textures
 ---
 
 # Tips D: キーボードやタッチパッドの見た目を変更する
