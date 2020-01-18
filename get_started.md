@@ -6,6 +6,8 @@ permalink: /get_started
 
 [English](./en_get_started.html)
 
+{:doc-ref: data-lightbox="get_started_imgs" }
+
 # 基本的な使い方
 
 ※最小限のセットアップ手順は以下の動画でも紹介しています。大まかな流れだけ確認したい場合、こちらの動画に沿った手順でもセットアップが可能です。
@@ -15,11 +17,9 @@ permalink: /get_started
 
 ## 1. VMagicMirrorの開始と終了
 
-`VMagicMirror.exe`を起動すると、GUIがある「コントロールパネル」と、キャラクターが映る「キャラクター表示ウィンドウ」が立ち上がります。
 
-<!-- <a href="./images/get_started/img00_015_started.png" data-lightbox="img00_015">
-  <img src="./images/get_started/img00_015_started.png" class=".doc-thumbnail">
-</a> -->
+`VMagicMirror.exe`を起動すると、GUIがある「コントロールパネル」と、キャラクターが映る「キャラクター表示ウィンドウ」が立ち上がります。
+[![Start Image](./images/get_started/img00_015_started.png){: .doc-img}](./images/get_started/img00_015_started.png){:doc-ref}
 
 コントロールパネルかキャラクター表示ウィンドウの一方を閉じると、もう片方の画面も閉じてVMagicMirrorが終了します。「キャラクターは表示したいがコントロールパネルは隠したい」という場合、コントロールパネルを最小化します。
 
@@ -28,7 +28,7 @@ permalink: /get_started
 
 コントロールパネルの`ホーム`タブ内にある`VRMロード`ボタンを押し、PC上の`.vrm`ファイルを選択します。
 
-[![Load VRM](./images/get_started/img00_020_load_vrm.png)](./images/get_started/img00_020_load_vrm.png){: data-lightbox="img00_020"}
+[![Load VRM](./images/get_started/img00_020_load_vrm.png){: .doc-img}](./images/get_started/img00_020_load_vrm.png){:doc-ref}
 
 キャラクターを選択すると、キャラクター表示ウィンドウに規約が表示されます。
 
