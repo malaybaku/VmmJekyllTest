@@ -6,7 +6,7 @@ permalink: /get_started
 
 [English](./en_get_started.html)
 
-{:doc-ref: data-lightbox="get_started_imgs" }
+{:doc-ref: .doc-a data-lightbox="get_started_imgs" }
 
 # 基本的な使い方
 
@@ -19,9 +19,10 @@ permalink: /get_started
 
 
 `VMagicMirror.exe`を起動すると、GUIがある「コントロールパネル」と、キャラクターが映る「キャラクター表示ウィンドウ」が立ち上がります。
+
 [![Start Image](./images/get_started/img00_015_started.png){: .doc-img}](./images/get_started/img00_015_started.png){:doc-ref}
 
-コントロールパネルかキャラクター表示ウィンドウの一方を閉じると、もう片方の画面も閉じてVMagicMirrorが終了します。「キャラクターは表示したいがコントロールパネルは隠したい」という場合、コントロールパネルを最小化します。
+コントロールパネルかキャラクター表示ウィンドウの一方を閉じると、もう片方の画面も閉じて`VMagicMirror`が終了します。「キャラクターは表示したいがコントロールパネルは隠したい」という場合、コントロールパネルを最小化します。
 
 
 ## 2. キャラクターの表示
@@ -32,7 +33,7 @@ permalink: /get_started
 
 キャラクターを選択すると、キャラクター表示ウィンドウに規約が表示されます。
 
-[![Load Confirmation](./images/get_started/img00_030_load_vrm_confirmation.png)](./images/get_started/img00_030_load_vrm_confirmation.png){: data-lightbox="img00_030"}
+[![Load Confirmation](./images/get_started/img00_030_load_vrm_confirmation.png){: .doc-img}](./images/get_started/img00_030_load_vrm_confirmation.png){:doc-ref}
 
 ※規約が表示されない場合、セキュリティソフトが原因の可能性があります。セキュリティソフトを無効化してみてください。
 
@@ -40,13 +41,13 @@ permalink: /get_started
 
 同じキャラクターを次回以降も使いたい場合、`VRMロード`ボタンの下にある、`次回の起動時にも同じVRMを読み込む`のチェックをオンにします。
 
-[![After Loaded](./images/get_started/img00_040_after_loaded.png)](./images/get_started/img00_040_after_loaded.png){: data-lightbox="img00_040"}
+[![After Loaded](./images/get_started/img00_040_after_loaded.png)](./images/get_started/img00_040_after_loaded.png){:doc-ref}
 
 **Hint:** キーボードやマウスの位置がキャラクターの体型と合わない場合は、`キャラ体格で補正`ボタンを押すことでレイアウトが調整できます。
 
-[![Not Adjusted Layout](./images/get_started/img00_160_not_good_layout_example.png)](./images/get_started/img00_160_not_good_layout_example.png){: data-lightbox="img00_160"}
+[![Not Adjusted Layout](./images/get_started/img00_160_not_good_layout_example.png)](./images/get_started/img00_160_not_good_layout_example.png){:doc-ref}
 
-[![After Adjusted](./images/get_started/img00_170_after_adjust.png)](./images/get_started/img00_170_after_adjust.png){: data-lightbox="img00_170"}
+[![After Adjusted](./images/get_started/img00_170_after_adjust.png)](./images/get_started/img00_170_after_adjust.png){:doc-ref}
 
 さらに調整する場合は、順に読み進めて[3: 詳細設定](./about_settings.html)のなかで調整できます。
 
@@ -58,7 +59,7 @@ permalink: /get_started
 
 VRMをロードしたら、各機能を試してみましょう。
 
-[![Streaming Tab](./images/get_started/img00_050_streaming_tab.png)](./images/get_started/img00_050_streaming_tab.png){: data-lightbox="img00_050"}
+[![Streaming Tab](./images/get_started/streaming_tab_overview.png){: .doc-img}](./images/get_started/streaming_tab_overview.png){:doc-ref}
 
 ### 3.1. ウィンドウ
 

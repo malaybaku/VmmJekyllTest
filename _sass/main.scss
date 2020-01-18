@@ -16,8 +16,12 @@ code {
 
 .doc-img {
     @extend .z-depth-2;
-    max-width: 60%;
+    max-width: 75%;
 } 
+
+.doc-a {
+    margin: 24px;
+}
 
 .icon-block {
   padding: 0 15px;
