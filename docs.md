@@ -37,7 +37,7 @@ permalink: /docs
 
 以下の例では、ライトの設定を初期状態にリセットしています。
 
-[![Reset Setting 1](./images/about_settings/img01_140_reset_setting_before.png)](./images/about_settings/img01_140_reset_setting_before.png){: data-lightbox="img01_140"}
-
-[![Reset Setting 2](./images/about_settings/img01_150_reset_setting_before.png)](./images/about_settings/img01_150_reset_setting_after.png){: data-lightbox="img01_150"}
-
+<div class="row">
+{% include docimg.html file="./images/about_settings/img01_140_reset_setting_before.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/about_settings/img01_150_reset_setting_after.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
+</div>
