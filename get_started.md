@@ -22,7 +22,7 @@ permalink: /get_started
 
 <!-- [![Start Image](){: .doc-img}](./images/get_started/img00_015_started.png){:doc-ref} -->
 
-{{ include docimg.html ./images/get_started/img00_015_started.png }}
+{% include docimg.html ./images/get_started/img00_015_started.png %}
 
 コントロールパネルかキャラクター表示ウィンドウの一方を閉じると、もう片方の画面も閉じて`VMagicMirror`が終了します。「キャラクターは表示したいがコントロールパネルは隠したい」という場合、コントロールパネルを最小化します。
 
@@ -31,7 +31,8 @@ permalink: /get_started
 
 コントロールパネルの`ホーム`タブ内にある`VRMロード`ボタンを押し、PC上の`.vrm`ファイルを選択します。
 
-[![Load VRM](./images/get_started/img00_020_load_vrm.png){: .doc-img}](./images/get_started/img00_020_load_vrm.png){:doc-ref}
+{% include docimg.html ./images/get_started/img00_020_load_vrm.png %}
+<!-- [![Load VRM](./images/get_started/img00_020_load_vrm.png){: .doc-img}](./images/get_started/img00_020_load_vrm.png){:doc-ref} -->
 
 キャラクターを選択すると、キャラクター表示ウィンドウに規約が表示されます。
 
