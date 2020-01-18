@@ -13,8 +13,8 @@ code {
     margin: 4px;
 }
 
-section img {
-    @extend z-depth-1;
+.doc-img {
+    @extend .z-depth-3;
     max-width: 60%;
 } 
 
