@@ -28,8 +28,8 @@ permalink: /get_started
 キャラクター表示ウィンドウに表示される規約を確認して`OK`をクリックすることで、キャラクターをロードします。
 
 <div class="row">
-{% include docimg.html file="./images/get_started/img00_020_load_vrm.png" customclass="col s12 m6 l6" %}
-{% include docimg.html file="./images/get_started/img00_030_load_vrm_confirmation.png" customclass="col s12 m6 l6" %}
+{% include docimg.html file="./images/get_started/img00_020_load_vrm.png" customclass="col s12 m6 l6" imgclass="z-depth-2" %}
+{% include docimg.html file="./images/get_started/img00_030_load_vrm_confirmation.png" customclass="col s12 m6 l6" imgclass="z-depth-2" %}
 </div>
 
 ※規約が表示されない場合、セキュリティソフトが原因の可能性があります。セキュリティソフトを無効化してみてください。
