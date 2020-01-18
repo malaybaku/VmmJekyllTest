@@ -3,6 +3,7 @@
 h1, h2, h3, h4, h5, h6 {
     -webkit-font-smoothing: antialiased;
 }
+
 code {
     font-family: "Roboto", sans-serif;
     font-weight: bolder;
@@ -12,17 +13,16 @@ code {
     margin: 4px;
 }
 
+section img {
+    @extend z-depth-1;
+    max-width: 60%;
+} 
+
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
 	font-size: inherit;
-}
-.shadow-demo {
-    background-color: #26a69a;
-    width: 100px;
-    height: 100px;
-    margin: 20px auto;
 }
 h1.page-title {
     font-weight: 500;
