@@ -17,7 +17,9 @@ permalink: /get_started
 
 `VMagicMirror.exe`を起動すると、GUIがある「コントロールパネル」と、キャラクターが映る「キャラクター表示ウィンドウ」が立ち上がります。
 
-[![Start Image](./images/get_started/img00_015_started.png){: .doc-thumbnail}](./images/get_started/img00_015_started.png){: data-lightbox="img00_015"}
+<a href="./images/get_started/img00_015_started.png" data-lightbox="img00_015">
+  <img src="./images/get_started/img00_015_started.png" class=".doc-thumbnail">
+</a>
 
 コントロールパネルかキャラクター表示ウィンドウの一方を閉じると、もう片方の画面も閉じてVMagicMirrorが終了します。「キャラクターは表示したいがコントロールパネルは隠したい」という場合、コントロールパネルを最小化します。
 
@@ -26,11 +28,11 @@ permalink: /get_started
 
 コントロールパネルの`ホーム`タブ内にある`VRMロード`ボタンを押し、PC上の`.vrm`ファイルを選択します。
 
-[![Load VRM](./images/get_started/img00_020_load_vrm.png)](../images/get_started/img00_020_load_vrm.png){: data-lightbox="img00_020"}
+[![Load VRM](./images/get_started/img00_020_load_vrm.png)](./images/get_started/img00_020_load_vrm.png){: data-lightbox="img00_020"}
 
 キャラクターを選択すると、キャラクター表示ウィンドウに規約が表示されます。
 
-[![Load Confirmation](./images/get_started/img00_030_load_vrm_confirmation.png)](../images/get_started/img00_030_load_vrm_confirmation.png){: data-lightbox="img00_030"}
+[![Load Confirmation](./images/get_started/img00_030_load_vrm_confirmation.png)](./images/get_started/img00_030_load_vrm_confirmation.png){: data-lightbox="img00_030"}
 
 ※規約が表示されない場合、セキュリティソフトが原因の可能性があります。セキュリティソフトを無効化してみてください。
 
