@@ -42,9 +42,10 @@ permalink: /get_started
 
 **Hint:** キーボードやマウスの位置がキャラクターの体型と合わない場合は、`キャラ体格で補正`ボタンを押すことでレイアウトが調整できます。
 
-{% include docimg.html file="./images/get_started/img00_160_not_good_layout_example.png" %}
-
-{% include docimg.html file="./images/get_started/img00_170_after_adjust.png" %}
+<div class="row">
+{% include docimg.html file="./images/get_started/img00_160_not_good_layout_example.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_170_after_adjust.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
+</div>
 
 より細かな調整については次節の「フリーレイアウト」モードか、あるいは[詳細設定](./docs)のうち[レイアウト](./docs/layout)をご覧下さい。
 
@@ -65,11 +66,12 @@ permalink: /get_started
 
 背景が透明なとき、`(透過中)キャラ付近を掴んでドラッグ`のチェックがオンであればキャラクター付近を左クリック+ドラッグしてキャラクターを移動できます。
 
-{% include docimg.html file="./images/get_started/img00_070_transparent_bg_drag.png" %}
+移動後は`(透過中)キャラ付近を掴んでドラッグ`をオフにするとキャラクターはクリックに反応しなくなり、背面のアプリケーションをクリックできるようになります。
 
-いったん位置を確定させたあとは`(透過中)キャラ付近を掴んでドラッグ`をオフにすることで、キャラクターはクリックに反応しなくなり、背面のアプリケーションにもアクセスできます。
-
-{% include docimg.html file="./images/get_started/img00_090_transparent_bg_can_click.png" %}
+<div class="row">
+{% include docimg.html file="./images/get_started/img00_070_transparent_bg_drag.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_090_transparent_bg_can_click.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
+</div>
 
 
 ### 2.2. 顔・表情
@@ -131,23 +133,21 @@ permalink: /get_started
 
 本機能を使うときは、いったん`ウィンドウ`メニューの`背景を透過`をオフにします。
 
-その後、`フリーカメラモード`チェックをオンにし、キャラクター表示ウィンドウを左クリックしてアクティブにします。
-
-キャラクター表示ウィンドウがアクティブな間、いくつかの方法で視点を動かせます。
+その後、`フリーカメラモード`チェックをオンにすると、キャラクター表示ウィンドウ上で直接視点を動かせます。
 
 * 右クリック + ドラッグ : 視線を上下左右に回転
 * 中クリック + ドラッグ : カメラを上下左右に平行移動
 * 中ホイール : カメラを前後に移動
 
-{% include docimg.html file="./images/get_started/img00_130_free_camera_mode.png" %}
+<div class="row">
+{% include docimg.html file="./images/get_started/img00_130_free_camera_mode.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_140_after_free_camera_mode.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
+</div>
 
-キャラクターを見失った場合や、始めからやり直したい場合は、`位置をリセット`ボタンで初期状態に戻せます。
+キャラクターを見失った場合や始めからやり直したい場合、`位置をリセット`ボタンで初期状態に戻せます。
 
-調整が終わったら`背景を透過`をふたたびオンにします。
+調整が終わったら`背景を透過`をオンにします。`フリーカメラモード`を有効なままにすると誤って視点が動いてしまう場合があるため、操作後は`フリーカメラモード`のチェックをオフにします。
 
-また、`フリーカメラモード`も有効なままにすると誤ってカメラを動かしてしまう場合があるため、`フリーカメラモード`のチェックもオフにしておきます。
-
-{% include docimg.html file="./images/get_started/img00_140_after_free_camera_mode.png" %}
 
 また、動かした視点は`クイックセーブ`の`[1], [2], [3]`いずれかのボタンを押して保存したり、`クイックロード`の対応するボタンを押してロードしたりできます。
 
@@ -192,15 +192,17 @@ permalink: /get_started
 
 ### 2.8. スクリーンショット
 
-{% include docimg.html file="./images/get_started/img00_180_screenshot.png" %}
-
-カメラマークの`撮影`ボタンを押すと3秒間のカウントダウンののち、スクリーンショットを撮影します。
+カメラアイコンの`撮影`ボタンを押すと3秒間のカウントダウンののち、スクリーンショットを撮影します。
 
 スクリーンショットの保存先は`VMagicMirror.exe`があるフォルダ以下の`Screenshots`フォルダです。(スクリーンショットを1枚も撮った事が無い場合、フォルダが存在しないことがあります)
 
 スクリーンショットは透過画像で、影の表示/非表示も反映されるため、影ごと他の画像と合成することができます。
 
-{% include docimg.html file="./images/get_started/img00_190_screenshot_shadow.png" %}
+<div class="row">
+{% include docimg.html file="./images/get_started/img00_180_screenshot.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_190_screenshot_shadow.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
+</div>
+
 
 ## 3. もっと細かく調整したい方へ
 
