@@ -15,115 +15,87 @@ permalink: /get_started
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PFalrIig-RM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-## 1. VMagicMirrorの開始と終了
-
+## 1. 起動してキャラクターを表示する
 
 `VMagicMirror.exe`を起動すると、GUIがある「コントロールパネル」と、キャラクターが映る「キャラクター表示ウィンドウ」が立ち上がります。
 
-<!-- [![Start Image](){: .doc-img}](./images/get_started/img00_015_started.png){:doc-ref} -->
-
 {% include docimg.html file="./images/get_started/img00_015_started.png" %}
 
-コントロールパネルかキャラクター表示ウィンドウの一方を閉じると、もう片方の画面も閉じて`VMagicMirror`が終了します。「キャラクターは表示したいがコントロールパネルは隠したい」という場合、コントロールパネルを最小化します。
+コントロールパネルかキャラクター表示ウィンドウの一方を閉じると、もう片方の画面も閉じて`VMagicMirror`が終了します。コントロールパネルが邪魔な場合は、最小化しておきます。
 
-
-## 2. キャラクターの表示
-
-コントロールパネルの`ホーム`タブ内にある`VRMロード`ボタンを押し、PC上の`.vrm`ファイルを選択します。
+キャラクターをロードするにはコントロールパネルの`ホーム`タブ内にある`VRMロード`ボタンを押し、PC上の`.vrm`ファイルを選択します。
 
 {% include docimg.html file="./images/get_started/img00_020_load_vrm.png" %}
 
-<!-- [![Load VRM](./images/get_started/img00_020_load_vrm.png){: .doc-img}](./images/get_started/img00_020_load_vrm.png){:doc-ref} -->
+キャラクターを選択後、キャラクター表示ウィンドウに規約が表示されます。
 
-キャラクターを選択すると、キャラクター表示ウィンドウに規約が表示されます。
-
-[![Load Confirmation](./images/get_started/img00_030_load_vrm_confirmation.png){: .doc-img}](./images/get_started/img00_030_load_vrm_confirmation.png){:doc-ref}
+{% include docimg.html file="./images/get_started/img00_030_load_vrm_confirmation.png" %}
 
 ※規約が表示されない場合、セキュリティソフトが原因の可能性があります。セキュリティソフトを無効化してみてください。
 
-確認して問題なければ`OK`をクリックすると、キャラクターが表示され、マウスやキーボードの操作に応じて動きます。
+確認して問題なければ`OK`をクリックしてキャラクターをロードします。この時点でマウスやキーボードの操作に応じて動きます。
 
 同じキャラクターを次回以降も使いたい場合、`VRMロード`ボタンの下にある、`次回の起動時にも同じVRMを読み込む`のチェックをオンにします。
 
-[![After Loaded](./images/get_started/img00_040_after_loaded.png)](./images/get_started/img00_040_after_loaded.png){:doc-ref}
+{% include docimg.html file="./images/get_started/img00_040_after_loaded.png" %}
 
 **Hint:** キーボードやマウスの位置がキャラクターの体型と合わない場合は、`キャラ体格で補正`ボタンを押すことでレイアウトが調整できます。
 
-[![Not Adjusted Layout](./images/get_started/img00_160_not_good_layout_example.png)](./images/get_started/img00_160_not_good_layout_example.png){:doc-ref}
+{% include docimg.html file="./images/get_started/img00_160_not_good_layout_example.png" %}
 
-[![After Adjusted](./images/get_started/img00_170_after_adjust.png)](./images/get_started/img00_170_after_adjust.png){:doc-ref}
+{% include docimg.html file="./images/get_started/img00_170_after_adjust.png" %}
 
-さらに調整する場合は、順に読み進めて[3: 詳細設定](./about_settings.html)のなかで調整できます。
-
-
-
-## 3. 配信タブ
-
-コントロールパネルの`配信`タブではVMagicMirrorのすべての主要機能にアクセスできます。
-
-VRMをロードしたら、各機能を試してみましょう。
-
-[![Streaming Tab](./images/get_started/streaming_tab_overview.png){: .doc-img}](./images/get_started/streaming_tab_overview.png){:doc-ref}
-
-### 3.1. ウィンドウ
-
-`ウィンドウ`で、`背景を透過`のチェックをオンにすることで、キャラクター表示ウィンドウの背景を透明にできます。VMagicMirrorは通常、この状態で使用します。
-
-[![Transparent Background](./images/get_started/img00_060_transparent_bg.png)](./images/get_started/img00_060_transparent_bg.png){: data-lightbox="img00_060"}
-
-背景を透明にしたとき、`(透過中)キャラ付近を掴んでドラッグ`のチェックがオンになっていれば、キャラクター付近を左クリック+ドラッグしてキャラクターを移動できます。
-
-[![Transparent Background](./images/get_started/img00_070_transparent_bg_drag.png)](./images/get_started/img00_070_transparent_bg_drag.png){: data-lightbox="img00_070"}
-
-ただし、`(透過中)キャラ付近を掴んでドラッグ`がオンのままだとキャラクターを誤って移動してしまうことがあります。
-
-これを防ぐためには、キャラクターを移動させたあとで`(透過中)キャラ付近を掴んでドラッグ`のチェックをオフにします。
-
-すると、キャラクター表示ウィンドウは全くクリックに反応しなくなり、背後の画面にアクセスできます。
-
-[![Transparent BG can click](./images/get_started/img00_090_transparent_bg_can_click.png)](./images/get_started/img00_090_transparent_bg_can_click.png){: data-lightbox="img00_090"}
+より細かな調整については次節の「フリーレイアウト」モードか、あるいは[詳細設定](./docs)のうち[レイアウト](./docs/layout)をご覧下さい。
 
 
-### 3.2. 顔・表情
+## 2. 配信タブ
+
+コントロールパネルの`配信`タブでは`VMagicMirror`のすべての主要機能にアクセスできます。
+
+キャラクターをロードしたら8つの基本機能を試してみましょう。
+
+{% include docimg.html file="./images/get_started/streaming_tab_overview.png" %}
+
+### 2.1. ウィンドウ
+
+`ウィンドウ`では`背景を透過`のチェックをオンにすると、背景を透明にできます。`VMagicMirror`は通常、この状態で使用します。
+
+{% include docimg.html file="./images/get_started/img00_060_transparent_bg.png" %}
+
+背景が透明なとき、`(透過中)キャラ付近を掴んでドラッグ`のチェックがオンであればキャラクター付近を左クリック+ドラッグしてキャラクターを移動できます。
+
+{% include docimg.html file="./images/get_started/img00_070_transparent_bg_drag.png" %}
+
+いったん位置を確定させたあとは`(透過中)キャラ付近を掴んでドラッグ`をオフにすることで、キャラクターはクリックに反応しなくなり、背面のアプリケーションにもアクセスできます。
+
+{% include docimg.html file="./images/get_started/img00_090_transparent_bg_can_click.png" %}
+
+
+### 2.2. 顔・表情
 
 `顔・表情`メニューは、顔の動きに関連する主要な機能です。
 
-[![Face Streaming](./images/get_started/img00_100_streaming_face.png)](./images/get_started/img00_100_streaming_face.png){: data-lightbox="img00_100"}
+{% include docimg.html file="./images/get_started/img00_100_streaming_face.png" %}
 
-#### リップシンク
+- `リップシンク`: PCに接続されたマイクを選択して、音声にあった口の動きを反映します。
+- `顔をトラッキング`: ウェブカメラを選択することで、首の動作を反映します。
 
-`リップシンク`はマイクを使用する機能です。このチェックをオンにし、右のマイク一覧から使いたいマイクを選ぶと、リップシンクが有効になります。
-
-#### 顔トラッキング
-
-`顔をトラッキング`ではウェブカメラが必要です。リップシンクと同様に、`顔をトラッキング`のチェックをオンにし、右の一覧からウェブカメラを選ぶことで、顔トラッキングが有効になります。
-
-もしあなたの顔がカメラの正面から上下左右にずれていたり、カメラとの距離が近い、または遠い場合はキャラクターの姿勢がおかしくなるかもしれません。
-
-その場合、普段の姿勢で画面を見ながら`姿勢・表情を補正`ボタンをクリックします。補正に成功すると、キャラクターが中央に戻ります。
+ウェブカメラが正面にない場合やウェブカメラを移動させた場合は、普段の姿勢でディスプレイを見ながら`姿勢・表情を補正`ボタンをクリックしてキャラクターの位置を戻します。
 
 **Hint:** キャラクターがうつむきがちになる場合は、少し下を向いて`姿勢・表情を補正`ボタンをクリックすると、キャラが上を向きやすくなります。反対に、キャラクターが上を向きすぎる場合は、上を剥いて`姿勢・表情を補正`ボタンをクリックすることで、キャラが下を向きやすくなります。
 
-#### 視線の動き
-
-VMagicMirrorの基本設定では、キャラクターがマウスポインタの方向を向きます。
-
-これは作業配信やプレゼンテーションを想定したデフォルト設定ですが、都合によっては他のモードを選ぶこともできます。
-
-* マウス: キャラクターはマウスポインタの方向を向きます。デフォルト設定です。
-* ユーザー: キャラクターは常にあなたの方向を向きます。マウスの動きが激しすぎる場合などに使用します。
-* 固定: 顔トラッキングのみで首を動かすようにします。動きをおさえたい場合に使用します。
+`視線の動き`はキャラクターの目の動かし方を選択します。通常は`マウス`選択にすることで、キャラクターがマウスポインターの方向を見つめます。
 
 
-### 3.3. Word To Motion
+### 2.3. Word To Motion
 
-この機能ではキャラクターの表情などをコントロールできます。
+`Word To Motion`はいくつかの方法でキャラクターの表情をコントロールできる機能です。
 
-一例として、デフォルト設定のまま"joy"とタイピングするとキャラクターの表情が変化します。
+デフォルト設定の場合、キーボードで"joy"とタイピングするとキャラクターの表情が変化します。
 
-詳しくは[3: 詳細設定](./about_settings.html)の「3.5. Word to Motion」を参照下さい。
+詳しくは[詳細設定](./docs)の[Word To Motion](./docs/expressions)を参照下さい。
 
-[![Word to Motion](./images/get_started/img00_105_word_to_motion.png)](./images/get_started/img00_105_word_to_motion.png){: data-lightbox="img00_105"}
+{% include docimg.html file="./images/get_started/img00_105_word_to_motion.png" %}
 
 `デバイスの割り当て`は表情をコントロールするデバイスを切り替えられます。次のような使い分けを想定しています。
 
@@ -141,29 +113,24 @@ VMagicMirrorの基本設定では、キャラクターがマウスポインタ�
 * `この機能専用にデバイスを割り当て`で`キーボード`を選択し、数字キーの1、2、3、4のいずれかをタイピングする。
 
 
-### 3.4. 表示
+## 2.4. 表示
 
-`表示`で`キーボード`や`キャラの影`のチェックのオン・オフを切り替えることで、これらの要素を表示するか隠すかを選択できます。
+`VMagicMirror`の対応デバイスやエフェクトの表示オン・オフを切り替えます。
 
-[![Keyboard Visible](./images/get_started/img00_110_view_keyboard_visible.png)](./images/get_started/img00_110_view_keyboard_visible.png){: data-lightbox="img00_110"}
+キーボードを表示して`タイピング時のエフェクト`で`None`以外を選択した場合、タイピング時にエフェクトが表示されます。
 
-[![Keyboard Hidden](./images/get_started/img00_120_view_keyboard_hidden.png)](./images/get_started/img00_120_view_keyboard_hidden.png){: data-lightbox="img00_120"}
+{% include docimg.html file="./images/get_started/img00_125_view_typing_effect_example.png" %}
 
-※v0.9.0～v0.9.4ではゲームパッドはつねに非表示となります。
+**Hint:** 影の見栄えが悪い場合、[FAQ](./questions)の"影が綺麗に映らない"の項目をご確認下さい。それでも見栄えが改善しない場合、影の表示をオフにします。
 
-**Hint:** 影の見栄えがあまり良くない場合、[4: トラブルシューティング](./troubleshooting.html)の"4.9. 影が綺麗に映らない"をご確認下さい。どうしても見栄えが改善しない場合、影の表示をオフにして下さい。
 
-また、キーボードを表示した状態で`タイピング時のエフェクト`を中央の「テキスト」または右の「ライト」に指定することで、タイピングにあわせた演出も表示されるようになります
+### 2.5. カメラ
 
-[![Typing Effect](./images/get_started/img00_125_view_typing_effect_example.png)](./images/get_started/img00_125_view_typing_effect_example.png){: data-lightbox="img00_125"}
-
-### 2.3.5. カメラ
-
-`フリーカメラモード`を用いるとカメラの視点を変更し、自由な方向からキャラクターを見られます。
+カメラ機能は、キャラクターをうつす視点を操作する機能です。
 
 本機能を使うときは、いったん`ウィンドウ`メニューの`背景を透過`をオフにします。
 
-`フリーカメラモード`のチェックをオンにし、キャラクター表示ウィンドウを左クリックしてアクティブにします。
+その後、`フリーカメラモード`チェックをオンにし、キャラクター表示ウィンドウを左クリックしてアクティブにします。
 
 キャラクター表示ウィンドウがアクティブな間、いくつかの方法で視点を動かせます。
 
@@ -171,7 +138,7 @@ VMagicMirrorの基本設定では、キャラクターがマウスポインタ�
 * 中クリック + ドラッグ : カメラを上下左右に平行移動
 * 中ホイール : カメラを前後に移動
 
-[![Free Camera Mode](./images/get_started/img00_130_free_camera_mode.png)](./images/get_started/img00_130_free_camera_mode.png){: data-lightbox="img00_130"}
+{% include docimg.html file="./images/get_started/img00_130_free_camera_mode.png" %}
 
 キャラクターを見失った場合や、始めからやり直したい場合は、`位置をリセット`ボタンで初期状態に戻せます。
 
@@ -179,73 +146,67 @@ VMagicMirrorの基本設定では、キャラクターがマウスポインタ�
 
 また、`フリーカメラモード`も有効なままにすると誤ってカメラを動かしてしまう場合があるため、`フリーカメラモード`のチェックもオフにしておきます。
 
-[![After Free Camera Mode](./images/get_started/img00_140_after_free_camera_mode.png)](./images/get_started/img00_140_after_free_camera_mode.png){: data-lightbox="img00_140"}
+{% include docimg.html file="./images/get_started/img00_140_after_free_camera_mode.png" %}
 
-**Hint:** 操作に慣れてきたら、`背景を透過`をオンにしたままでも`フリーカメラモード`を使えます。
+また、動かした視点は`クイックセーブ`の`[1], [2], [3]`いずれかのボタンを押して保存したり、`クイックロード`の対応するボタンを押してロードしたりできます。
+
+{% include docimg.html file="./images/get_started/img00_135_camera_quick_save.png" %}
+
+
+**Hint:** 操作に慣れてきたら、`背景を透過`をオンにしたまま`フリーカメラモード`を使えます。
 
 * `(透過中)キャラ付近を掴んでドラッグ`をオンにする
 * キャラクターを左クリックする
 * 右クリック、中クリック、ホイールで視点を調整
 * キャラクターを動かしたくない場合、調整が終わりしだい`(透過中)キャラ付近を掴んでドラッグ`をオフにする
 
-※`背景を透過`をオンにしたまま`フリーカメラモード`を用いると、気づかないうちにキャラクターがキャラクター表示ウィンドウから見切れることがあります。キャラクターが見切れてよく分からなくなってしまった場合は`位置をリセット`ボタンを押してやり直すか、`背景を透過`をオフにしてウィンドウの位置を確認します。
-
-v0.9.4からは視点のクイックセーブ/ロード機能が追加されています。
-
-`フリーカメラモード`で視点を決めたのち`クイックセーブ`の`[1], [2], [3]`いずれかのボタンを押すと、視点を保存できます。保存された視点を`クイックロード`の対応するボタンでロードできます。
-
-[![Camera Quick Save](./images/get_started/img00_135_camera_quick_save.png)](./images/get_started/img00_135_camera_quick_save.png){: data-lightbox="img00_135"}
+ただし、この操作方法では気づかないうちにキャラクターがキャラクター表示ウィンドウから見切れることがあります。キャラクターを見失ってしまい、直し方がわからなくなった場合は`位置をリセット`ボタンを押してやり直すか、`背景を透過`をオフにしてウィンドウの表示を確認します。
 
 
-### 2.3.6. デバイスのレイアウト
-
-この機能はv0.9.5から追加されました。
+### 3.6. デバイスのレイアウト
 
 `フリーレイアウトモード`のチェックをオンにするとキーボード、タッチパッド、ゲームコントローラなどの位置を調整できます。
 
-[![Device Free Layout](./images/get_started/img00_200_free_layout.png)](./images/get_started/img00_200_free_layout.png){: data-lightbox="img00_200"}
+{% include docimg.html file="./images/get_started/img00_200_free_layout.png" %}
 
-調整を行うときは`背景を透過`がオフになります。
+なお、チェックをオンにした時点で`背景を透過`チェックがオフになります。
 
 画面左上の設定は次のような意味です。
 
 * Control Mode: デバイスの位置、回転、スケールのどれを調整するかを選択します。
-* Coordinate: デバイスに沿った座標で動かすか、ワールド座標を用いるかを選択します。よく分からない場合、`Local`のままで操作してください。
+* Coordinate: デバイスに沿った座標で動かすか、ワールド座標を用いるかを選択します。通常は`Local`のまま操作します。
 * Gamepad Scale: ゲームパッドのモデル部分の大きさを調整します。ゲームパッドが明らかに手から突き抜けてしまう場合、ここで値を小さくします。
 
-レイアウトが極端に崩れてしまった場合、`リセット`で標準的なレイアウトに戻せます。
+レイアウトが極端に崩れてしまった場合、`リセット`で標準的なレイアウトに戻します。
 
-### 2.3.7. モーション
+### 2.7. モーション
 
 `プレゼン風に右手を動かす`のチェックをオンにしてマウスを動かすと、キャラクターが右手でマウスポインタの方向を指し示します。
 
-[![Presentation Mode](./images/get_started/img00_150_presentation_mode.png)](./images/get_started/img00_150_presentation_mode.png){: data-lightbox="img00_150"}
+{% include docimg.html file="./images/get_started/img00_150_presentation_mode.png" %}
 
-このスタイルは解説動画やプレゼンテーションでVMagicMirrorを使うときに有効です。
+このスタイルは解説動画やプレゼンテーションで`VMagicMirror`を使う際に便利です。
 
-このモードを終了するときは`プレゼン風に右手を動かす`のチェックをオフにします。
+詳しくは[Tips: プレゼンテーションでVMagicMirrorを使う](./tips/presentation)もあわせてご覧下さい。
 
-**Hint:** 詳しくは[Tips B: プレゼンテーションでVMagicMirrorを使う](./tips_presentation.html)もあわせてご覧下さい。
+### 2.8. スクリーンショット
 
-### 3.8. スクリーンショット
+{% include docimg.html file="./images/get_started/img00_180_screenshot.png" %}
 
-[![Screenshot](./images/get_started/img00_180_screenshot.png)](./images/get_started/img00_180_screenshot.png){: data-lightbox="img00_180"}
+カメラマークの`撮影`ボタンを押すと3秒間のカウントダウンののち、スクリーンショットを撮影します。
 
-`撮影`ボタンを押すと3秒間のカウントダウンののち、スクリーンショットを撮影します。
-
-スクリーンショットの保存先は`VMagicMirror.exe`があるフォルダの`Screenshots`フォルダです。(スクリーンショットを1枚も撮った事が無い場合、フォルダが存在しないことがあります)
+スクリーンショットの保存先は`VMagicMirror.exe`があるフォルダ以下の`Screenshots`フォルダです。(スクリーンショットを1枚も撮った事が無い場合、フォルダが存在しないことがあります)
 
 スクリーンショットは透過画像で、影の表示/非表示も反映されるため、影ごと他の画像と合成することができます。
 
-[![Screenshot Result](./images/get_started/img00_190_screenshot_shadow.png)](./images/get_started/img00_190_screenshot_shadow.png){: data-lightbox="img00_190"}
+{% include docimg.html file="./images/get_started/img00_190_screenshot_shadow.png" %}
 
+## 3. もっと細かく調整したい方へ
 
-## 4. もっと細かく調整したい方へ
+[詳細設定](./docs)では主要機能以外のさまざまな機能を紹介しています。
 
-ここまで動かしてみて、見た目に納得行かない点があるかもしれません。
+一例として、次のようなセットアップが可能です。
 
-* キーボードの位置がキャラクターに比べて高すぎ・低すぎ
-* キャラクターが明るすぎる・暗すぎる
-
-[3: 詳細設定](./about_settings.html)でこれらの問題を解決できます。
-
+* クロマキーに緑色以外を指定する
+* キャラクターのヒジが体に食い込んでしまうのを直す
+* キャラ固有のBlendShapeを使った表情に切り替えられるようにする
