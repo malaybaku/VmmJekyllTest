@@ -25,11 +25,11 @@ permalink: /get_started
 
 キャラクターをロードするにはコントロールパネルの`ホーム`タブ内にある`VRMロード`ボタンを押し、PC上の`.vrm`ファイルを選択します。
 
-{% include docimg.html file="./images/get_started/img00_020_load_vrm.png" %}
+キャラクター表示ウィンドウに表示される規約を確認して`OK`をクリックすることで、キャラクターをロードします。
 
-キャラクターを選択後、キャラクター表示ウィンドウに規約が表示されます。
+{% include docimg.html file="./images/get_started/img00_020_load_vrm.png" class="col s12 m6 l6" %}
 
-{% include docimg.html file="./images/get_started/img00_030_load_vrm_confirmation.png" %}
+{% include docimg.html file="./images/get_started/img00_030_load_vrm_confirmation.png" class="col s12 m6 l6" %}
 
 ※規約が表示されない場合、セキュリティソフトが原因の可能性があります。セキュリティソフトを無効化してみてください。
 
