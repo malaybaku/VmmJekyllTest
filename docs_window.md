@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Window
-permalink: /docs_window/
+permalink: /docs/window/
 ---
 
 # ウィンドウ設定

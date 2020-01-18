@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home
+title: VMagicMirror
 ---
 
 [English](./en_index.html)
