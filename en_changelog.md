@@ -1,17 +1,13 @@
-
-# Change Log
-
-[Japanese](./changelog.html)
-
 ---
 layout: page
 title: Change Log
-permalink: /changelog/
+permalink: /en/changelog
+lang_prefix: /en/
 ---
 
-# Change Log
+[Japanese](../changelog)
 
-[English](./en_changelog.html)
+# Change Log
 
 ## -
 

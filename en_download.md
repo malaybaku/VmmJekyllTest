@@ -2,7 +2,7 @@
 layout: page
 title: Download
 permalink: /en/download
-lang_prefix: /en
+lang_prefix: /en/
 ---
 
 [Japanese](../download)

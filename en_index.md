@@ -2,7 +2,7 @@
 layout: page
 title: VMagicMirror
 permalink: /en
-lang_prefix: /en
+lang_prefix: /en/
 ---
 
 [Japanese](../)

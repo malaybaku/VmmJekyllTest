@@ -1,7 +1,14 @@
+---
+layout: page
+title: Download
+permalink: /en/get_started
+lang_prefix: /en/
+---
+
+[Japanese](../get_started)
 
 # 2: Getting Started
 
-[Japanese](./get_started.html)
 
 ## 2.1. Start and Exit VMagicMirror
 

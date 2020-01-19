@@ -4,11 +4,13 @@ title: Get Started
 permalink: /get_started
 ---
 
-[English](./en_get_started.html)
+[English](./en/get_started)
 
 # 基本的な使い方
 
 ※最小限のセットアップ手順は以下の動画でも紹介しています。大まかな流れだけ確認したい場合、こちらの動画に沿った手順でもセットアップが可能です。
+
+※動画の情報が古くなっているため修正予定です。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PFalrIig-RM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

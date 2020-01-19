@@ -6,7 +6,7 @@ permalink: /changelog
 
 # Change Log
 
-[English](./en_changelog.html)
+[English](./en/changelog)
 
 ## -
 

@@ -6,7 +6,7 @@ permalink: /questions
 
 # FAQ
 
-[English](./en_questions.html)
+[English](./en/questions)
 
 
 ## 4.1. キャラクター付近のコントロールパネルや他のアプリケーションがクリックに反応しない
