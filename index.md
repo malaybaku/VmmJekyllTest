@@ -21,8 +21,8 @@ title: VMagicMirror
       <div class="carousel-item white" href="#four!" style="transform: translateX(0px) translateX(-953.906px) translateZ(0px); z-index: -1; opacity: 1; display: block;">
         <img src="{{ "/images/home/gallery_04.jpg" | relative_url }}" class="home-gallery">
       </div>
-      <div class="carousel-fixed-item center with-indicators home-gallery-foot">
-      </div>
+      <!-- <div class="carousel-fixed-item center with-indicators home-gallery-foot">
+      </div> -->
       <!-- <ul class="indicators">
         <li class="indicator-item active"></li>
         <li class="indicator-item"></li>
