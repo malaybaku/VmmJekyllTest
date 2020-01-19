@@ -4,9 +4,9 @@ title: FAQ
 permalink: /questions
 ---
 
-# FAQ
-
 [English](./en/questions)
+
+# FAQ
 
 ## 起動直後にVMagicMirrorが停止する
 

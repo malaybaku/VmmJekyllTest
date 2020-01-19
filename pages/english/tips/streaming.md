@@ -5,7 +5,7 @@ permalink: /en/tips/streaming
 lang_prefix: /en/
 ---
 
-[Japanese](../tips/streaming)
+[Japanese](../../tips/streaming)
 
 # Tips: Use VMagicMirror for Streaming
 

@@ -5,7 +5,7 @@ permalink: /en/tips/presentation
 lang_prefix: /en/
 ---
 
-[Japanese](../tips/presentation)
+[Japanese](../../tips/presentation)
 
 # Tips: Use VMagicMirror for Presentation
 

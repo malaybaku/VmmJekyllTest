@@ -5,7 +5,7 @@ permalink: /en/tips/desktop_mascot
 lang_prefix: /en/
 ---
 
-[Japanese](../tips/use_on_mac)
+[Japanese](../../tips/use_on_mac)
 
 # Tips: Use VMagicMirror on Mac
 

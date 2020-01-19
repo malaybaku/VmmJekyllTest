@@ -5,7 +5,7 @@ permalink: /en/tips/desktop_mascot
 lang_prefix: /en/
 ---
 
-[Japanese](../tips/desktop_mascot)
+[Japanese](../../tips/desktop_mascot)
 
 # Tips: Use as Desktop Mascot
 

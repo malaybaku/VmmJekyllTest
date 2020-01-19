@@ -5,7 +5,7 @@ permalink: /en/tips/change_textures
 lang_prefix: /en/
 ---
 
-[Japanese](../tips/change_textures)
+[Japanese](../../tips/change_textures)
 
 # Tips: Change Device Textures
 

@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Docs
-permalink: /en/docs
+permalink: /en/docs/expressions
 lang_prefix: /en/
 ---
 
-[Japanese](../docs)
+[Japanese](../../docs/expressions)
 
 # 3. Settings
 
