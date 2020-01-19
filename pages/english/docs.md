@@ -23,8 +23,7 @@ Setting Window consists of 5 tabs.
 | [Layout](./docs/layout)          | Layout of camera and devices, and device based motion setting |
 | [Effects](./docs/effects)        | Light, shadow, bloom, and wind                                |
 | [Expressions](./docs/expressions)| Feature to move the character face and motion                 |
-|----------------------------------+---------------------------------------------------------------|
-
+|==================================|===============================================================|
 
 ## Reset Settings to default
 
