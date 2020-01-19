@@ -4,7 +4,7 @@ title: Download
 permalink: /download
 ---
 
-[English](./en_download.html)
+[English](./en/download)
 
 # ダウンロード
 

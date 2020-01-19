@@ -1,7 +1,13 @@
+---
+layout: page
+title: License
+permalink: /en/license
+lang_prefix: /en
+---
+
+[Japanese](../license)
 
 # License
-
-[Japanese](./license.html)
 
 VMagicMirror ("The Software") has official license note as `License Note` section.
 

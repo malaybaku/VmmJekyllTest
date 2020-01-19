@@ -5,7 +5,7 @@ permalink: /en/download
 lang_prefix: /en
 ---
 
-[Japanese](/en/download)
+[Japanese](../download)
 
 # Download
 

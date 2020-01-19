@@ -1,6 +1,7 @@
 ---
 layout: page
 title: VMagicMirror
+permalink: /en
 lang_prefix: /en
 ---
 
@@ -45,22 +46,13 @@ Available on [BOOTH](https://booth.pm/ja/items/1272298). Support Windows 10.
 
 VMagicMirror is free, and also you can donate for the software on BOOTH.
 
-For the detail of the enviroment requirement please see [FAQ](./en_frequently_asked_questions.html).
+For the detail of the enviroment requirement please see [FAQ](./questions).
 
 ## 1.3. License
 
 Available for both personal and commercial use.
 
-Please see the detail on [License](./en_about_license.html).
-
-## 1.4. How to use
-
-* [2: Getting Started](./en_get_started.html)
-* [3: Settings](./en_about_settings.html)
-* [4: Troubleshooting](./en_troubleshooting.html)
-* [Tips A: Desktop Mascot Setup](./en_tips_desktop_mascot.html)
-* [Tips B: VMagicMirror for Presentation](./en_tips_presentation.html)
-* [Tips C: Load Previous Version Setting](./en_tips_load_prev_setting.html)
+Please see the detail on [License](./license).
 
 ## 1.5. Contact
 
@@ -74,18 +66,3 @@ If you use Twitter, the review comments or requests with tag `#VMagicMirror` is 
 However the case is possible the author cannot find your feedback by Search Suggest Ban system of Twitter. If your tagged tweet is ignored, please visit to [Shadowban.eu](https://shadowban.eu/) to check it, and use mention (@ tweet) or following Google Form for the feedback.
 
 * [Feedback for VMagicMirror](https://forms.gle/Myt4vRdKLrYJLnGo9)
-
-
-## Sections
-
-* 1: VMagicMirror (This page)
-* [2: Getting Started](./en_get_started.html)
-* [3: Settings](./en_about_settings.html)
-* [4: Troubleshooting](./en_troubleshooting.html)
-* [Tips A: Desktop Mascot Setup](./en_tips_desktop_mascot.html)
-* [Tips B: VMagicMirror for Presentation](./en_tips_presentation.html)
-* [Tips C: Load Previous Version Setting](./en_tips_load_prev_setting.html)
-* [Tips D: Change Device Textures](./en_tips_change_textures.html)
-* [License](./en_about_license.html)
-* [Change Log](./en_changelog.html)
-* [FAQ](./en_frequently_asked_questions.html)
