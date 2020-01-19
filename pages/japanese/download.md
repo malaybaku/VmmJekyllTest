@@ -10,11 +10,15 @@ permalink: /download
 
 [BOOTH](https://booth.pm/ja/items/1272298)からダウンロード可能です。
 
-Windows 10環境をサポートしています。
+<a target="_blank" href="https://baku-dreameater.booth.pm/items/1272298/">
+  <img src="https://asset.booth.pm/static-images/banner/468x60_02.png">
+</a>
+
+ダウンロードおよび利用にあたっては[License](./license)もご確認下さい。
 
 無償で公開していますが、ブーストつきで購入していただけると作者が喜びます。
 
-## 動作環境
+### 動作環境
 
 Windows 10で動作します。
 
@@ -24,36 +28,30 @@ Windows 10で動作します。
 
 CPUやグラフィックボードは最低要件としてはほぼ何でも動作しますが、リップシンク、影の表示、顔トラッキングではCPU負荷が高くなります。
 
-開発者は以下の環境で動作チェックしています。
+開発者は以下の環境で動作チェックしていますが、もしお手元のPCでVMagicMirrorの動作が不自然に重すぎる場合、PC環境を記載のうえ開発者までご連絡下さい。
 
-* 環境1: デスクトップPC 
-    + CPU: Intel Core i7-6700K
-    + GPU: GeForce GTX 1080
-    + マイク入力
-        + VoiceMeeter Bananaの出力
-        + VT-4 WET (変声済みのVT-4の出力)
-        + C922 Pro Stream Webcam
-    + チェックしたウェブカメラ
-        + C922 Pro Stream Webcam
-* 環境2: ノートPC(Surface Book 2)
-    + チェックしたマイク入力
-        + PC本体マイク
-    + チェックしたウェブカメラ
-        + PC本体フロントカメラ
+**環境1: デスクトップPC**
 
-特定のPC環境で動作が重くなることを既知の問題として認識しています。
+CPU: Intel Core i7-6700K
 
-もしお手元のPCでVMagicMirrorの動作が重すぎる場合、分かる範囲でPC環境を記載のうえ開発者までご連絡下さい。
+GPU: GeForce GTX 1080
+
+ウェブカメラ: C922 Pro Stream Webcam
+
+マイク入力:
+
+1. VoiceMeeter Bananaの出力
+2. VT-4 WET (変声済みのVT-4の出力)
+3. C922 Pro Stream Webcam
 
 
-## ソースコードの入手
+**環境2: ノートPC(Surface Book 2)**
 
-VMagicMirrorはオープンソースソフトウェアです。
+ウェブカメラ: PC本体フロントエンドカメラ
 
-ソースコードは[GitHub](https://github.com/malaybaku/VMagicMirror)で公開しています。
+マイク入力: PC本体マイク
 
-## ライセンス
 
-個人・法人によらず、非商用・商用の双方にお使いいただけます。
+### ソースコードの入手
 
-詳しくは[License](./license)を参照下さい。
+[GitHub](https://github.com/malaybaku/VMagicMirror)で公開しています。

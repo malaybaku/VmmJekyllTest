@@ -9,10 +9,7 @@ lang_prefix: /en/
 
 # VMagicMirror
 
-VMagicMirror v0.9.6
-
-* Creator: 獏星(ばくすたー)
-* 2020/Jan/13
+VMagicMirror v0.9.6, 2020/Jan/13, by 獏星(ばくすたー).
 
 VMagicMirror is application for Windows desktop, to move your VRM without any special devices.
 
@@ -22,45 +19,43 @@ VMagicMirror is an open source software, the source code is available on [GitHub
 
 ## What you can
 
-VRM mimics your keyboard and mouse input motion.
+VMagicMirror can control VRM avatar with several ways, without tracking devices.
 
-Set the background to transparent and can play with other applications.
+`Keyboard` and `Mouse` input to VRM motion
 
-VMagicMirror also supports:
+`Gamepad` input to VRM motion
 
-* Gamepad input to character motion
-* Lipsync with your microphone
-* Web camera based face tracking
+`Lipsync` using microphone.
+
+`Head Tracking` by web camera.
+
+`Face Control` by keyboard, gamepad, or MIDI controller.
+
+In addition to the features above, VMagicMirror can set the background transparent and can play with other applications.
 
 This software assumes following use cases.
 
-* Record video or stream desktop PC game play
-* Writing work streaming
-* With live coding for some developers event
-* With your presentation
-* As a desktop mascot
+・Record video or stream desktop PC game play
 
-##  Download
+・Writing work streaming
 
-Available on [BOOTH](https://booth.pm/ja/items/1272298).
+・With live coding for some developers event
 
-See detail on [Download](./download).
+・With your presentation
 
-## License
+・Desktop mascot
 
-Available for both personal and commercial use.
 
-See the detail on [License](./license).
-
-## Contact
+### Contact
 
 Welcome for the bug reports and update requests!
 
-* [Twitter](https://twitter.com/baku_dreameater)
-* [Blog](https://www.baku-dreameater.net/)
+[Twitter](https://twitter.com/baku_dreameater)
+
+[Blog](https://www.baku-dreameater.net/)
 
 Especially the tweet with tag `#VMagicMirror` is welcome for the feedback, request, questions or any other topics related to `VMagicMirror`.
 
 However the case is possible the author cannot find your feedback by Search Suggest Ban system of Twitter. If your tagged tweet is ignored, please visit to [Shadowban.eu](https://shadowban.eu/) to check it, and use mention (@ tweet) or following Google Form for the feedback, or 
 
-* [Feedback for VMagicMirror](https://forms.gle/Myt4vRdKLrYJLnGo9)
+[Feedback for VMagicMirror](https://forms.gle/Myt4vRdKLrYJLnGo9)
