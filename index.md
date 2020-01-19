@@ -7,7 +7,7 @@ title: VMagicMirror
 
 <div class="section">
   <div class="row">
-    <div class="carousel carousel-slider center" data-indicators="true" data-namespace="DIVcarouselcarousel-slider1" style="height: 400px;">
+    <div class="carousel carousel-slider center" data-indicators="true" data-namespace="DIVcarouselcarousel-slider1" style="height: 500px;">
       <div class="carousel-item active" href="#one!" style="z-index: 0; opacity: 1; display: block; transform: translateX(0px) translateX(0px) translateX(0px) translateZ(0px);">
         <img src="{{ "/images/home/gallery_01.jpg" | relative_url }}" class="home-gallery">
       </div>
@@ -27,9 +27,9 @@ title: VMagicMirror
 <div class="section no-pad-bot">
   <div class="container">
     <br>
-    <h1 class="header center grey-text">VMagicMirror</h1>
+    <h1 class="header center grey-text darken-1">VMagicMirror</h1>
     <div class="row center">
-      <h5 class="header col s12 light">{{ site.description }}</h5>
+      <h5 class="header col s12 light">VMagicMirrorはWindows PCでVRMアバターを表示し、特別なデバイスを使わずキャラクターを動かせるアプリケーションです。</h5>
     </div>
     <div class="row center">
       <a target="_blank" href="https://baku-dreameater.booth.pm/items/1272298" class="btn-large waves-effect waves-light pink">
@@ -67,7 +67,7 @@ title: VMagicMirror
       <h4 class="center blue-text">
         <i class="material-icons">mic</i>
         /
-        <i class="material-icons">camera</i>
+        <i class="material-icons">videocam</i>
       </h4>
       <h5 class="center">マイク/カメラ対応</h5>
       <p class="light">マイク入力によるリップシンク、およびウェブカメラによる顔の位置トラッキングをサポートしています。</p>
@@ -137,8 +137,14 @@ title: VMagicMirror
   </div>
 </div>
 
-VMagicMirrorはWindows PCでVRMアバターを表示し、特別なデバイスを使わずキャラクターを動かせるアプリケーションです。
+<div class="section no-pad-bot">
+  <div class="container">
+    <br>
+  </div>
+</div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jhGOnf8HOKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-v0.9.6, 2020/01/13, by 獏星(ばくすたー).
+<div class="row">
+  <div class="col s6 offset-s3">
+    <iframe src="https://www.youtube.com/embed/jhGOnf8HOKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
