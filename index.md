@@ -5,15 +5,76 @@ title: VMagicMirror
 
 [English](./en/)
 
-# VMagicMirror
+<!-- note: このへんにカルーセルを入れたい -->
 
-VMagicMirror v0.9.6, 2020/01/13, by 獏星(ばくすたー).
+<div class="section no-pad-bot">
+  <div class="container">
+    <br><br>
+    <h1 class="header center grey-text">VMagicMirror</h1>
+    <div class="row center">
+      <h5 class="header col s12 light">{{ site.description }}</h5>
+    </div>
+    <div class="row center">
+      <a href="https://baku-dreameater.booth.pm/items/1272298" class="btn-large waves-effect waves-light pink">
+        Download on BOOTH
+      </a>
+    </div>
+    <br><br>
+  </div>
+</div>
+
+<!-- features -->
+
+<div class="row">
+  <div class="col s12 m4">
+    <div class="icon-block">
+      <h4 class="center blue-text">
+        <i class="material-icons">keyboard</i>
+        /
+        <i class="material-icons">videogame_asset</i>
+      </h4>
+      <h5 class="center">VR機器が不要</h5>
+      <p class="light">いわゆるVR機器を使わずにアバターを動かせます。キーボード、マウス、ゲームコントローラ、MIDIコントローラに対応しています。</p>
+    </div>
+  </div>
+
+  <div class="col s12 m4">
+    <div class="icon-block">
+      <h4 class="center blue-text">
+        <i class="material-icons">mic</i>
+        /
+        <i class="material-icons">camera</i>
+      </h4>
+      <h5 class="center">リップシンク/顔トラッキング</h5>
+      <p class="light">マイク入力によるリップシンク、およびウェブカメラによる顔の位置トラッキングをサポートしています。</p>
+    </div>
+  </div>
+
+  <div class="col s12 m4">
+    <div class="icon-block">
+      <h3 class="center blue-text">
+        <i class="material-icons">sentiment_satisfied</i>
+      </h3>
+      <h5 class="center">表情のコントロール</h5>
+      <p class="light">キーボード、ゲームコントローラ、またはMIDIコントローラでアバターの表情を切り替えられます。あらかじめセットアップされた、各キャラクターに固有の表情も使用できます。</p>
+    </div>
+  </div>
+</div>
+
+<!-- Usage -->
+
+v0.9.6, 2020/01/13, by 獏星(ばくすたー).
 
 VMagicMirrorはWindows PCでVRMアバターを表示し、特別なデバイスを使わずキャラクターを動かせるアプリケーションです。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jhGOnf8HOKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <div class="divider"></div>
+
+
+
+
+
 
 ## できること
 
