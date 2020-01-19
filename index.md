@@ -13,22 +13,22 @@ title: VMagicMirror
         <a class="btn waves-effect white grey-text darken-text-2">button</a>
       </div> -->
       <div class="carousel-item red white-text active" href="#one!" style="z-index: 0; opacity: 1; display: block; transform: translateX(0px) translateX(0px) translateX(0px) translateZ(0px);">
-        <img src="/images/home/gallery_01.png" class="home-carousel"></img>
+        <img src="{{ /images/home/gallery_01.png | relative_url }}" class="home-carousel"></img>
         <!-- <h2>First Panel</h2>
         <p class="white-text">This is your first panel</p> -->
       </div>
       <div class="carousel-item amber white-text" href="#two!" style="transform: translateX(0px) translateX(953.906px) translateZ(0px); z-index: -1; opacity: 1; display: block;">
-        <img src="/images/home/gallery_02.png" class="home-carousel"></img>
+        <img src="{{ /images/home/gallery_02.png | relative_url }}" class="home-carousel"></img>
         <!-- <h2>Second Panel</h2>
         <p class="white-text">This is your second panel</p> -->
       </div>
       <div class="carousel-item green white-text" href="#three!" style="transform: translateX(0px) translateX(-1907.81px) translateZ(0px); z-index: -2; opacity: 1; display: block;">
-        <img src="/images/home/gallery_03.png" class="home-carousel"></img>
+        <img src="{{ /images/home/gallery_03.png | relative_url }}" class="home-carousel"></img>
         <!-- <h2>Third Panel</h2>
         <p class="white-text">This is your third panel</p> -->
       </div>
       <div class="carousel-item blue white-text" href="#four!" style="transform: translateX(0px) translateX(-953.906px) translateZ(0px); z-index: -1; opacity: 1; display: block;">
-        <img src="/images/home/gallery_04.png" class="home-carousel"></img>
+        <img src="{{ /images/home/gallery_04.png | relative_url }}" class="home-carousel"></img>
         <!-- <h2>Fourth Panel</h2>
         <p class="white-text">This is your fourth panel</p> -->
       </div>
