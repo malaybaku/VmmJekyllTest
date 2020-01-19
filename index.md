@@ -143,4 +143,6 @@ title: VMagicMirror
   </div>
 </div>
 
-<iframe class="video-from-youtube" src="https://www.youtube.com/embed/jhGOnf8HOKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="row">
+<iframe class="video-from-youtube center" src="https://www.youtube.com/embed/jhGOnf8HOKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
