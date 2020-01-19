@@ -4,30 +4,30 @@ title: Documents
 permalink: /docs
 ---
 
-# 3. 詳細設定
+[English](./en/docs)
 
-[English](./en_documents.html)
+# 詳細設定
+
+ここでは[Get Started](./get_started)より詳細な機能を紹介します。
 
 ## 設定ウィンドウ
 
 コントロールパネルの`ホーム`タブで`設定ウィンドウを開く`ボタンを押すと設定ウィンドウが開きます。
 
-[![Setting Window](./images/about_settings/img01_010_setting_window.png)](./images/about_settings/img01_010_setting_window.png){: data-lightbox="img01_010"}
+{% include docimg.html file="./images/about_settings/img01_010_setting_window.png" %}
 
-設定ウィンドウではコントロールパネルよりも細かな機能をサポートしています。
+左から順に、5つのカテゴリーで分類されています。詳細は各ページにてご覧下さい。
 
-* [3.1. ウィンドウ](./window.html)
+* **[ウィンドウ](./docs/window)**
     - キャラクター表示ウィンドウの制御
-* [3.2. モーション](./motion.html)
+* **[モーション](./docs/motion)**
     - キャラクターの体型や動き方にあわせた調整
-* [3.3. レイアウト](./layout.html)
+* **[レイアウト](./docs/layout)**
     - カメラ、キーボード、タッチパッド、ゲームパッドの配置
-* [3.4. エフェクト](./effects.html)
+* **[エフェクト](./docs/effects)**
     - ライト、影、Bloom、風の調整
-* [3.5. 表情の制御](./expressions.html)
+* **[表情の制御](./docs/expressions)**
     - 表情やモーションを切り替える機能の設定
-
-詳細については各ページを参照下さい。
 
 ## 設定をリセットするには
 

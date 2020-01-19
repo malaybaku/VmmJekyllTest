@@ -3,7 +3,7 @@ layout: page
 title: VMagicMirror
 ---
 
-[English](./en_index.html)
+[English](./en/)
 
 # VMagicMirror
 

@@ -6,8 +6,6 @@ permalink: /get_started
 
 [English](./en_get_started.html)
 
-{:doc-ref: .doc-a data-lightbox="get_started_imgs" }
-
 # 基本的な使い方
 
 ※最小限のセットアップ手順は以下の動画でも紹介しています。大まかな流れだけ確認したい場合、こちらの動画に沿った手順でもセットアップが可能です。

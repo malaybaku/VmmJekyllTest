@@ -1,7 +1,12 @@
+---
+layout: page
+title: VMagicMirror
+lang_prefix: /en
+---
+
+[Japanese](../)
 
 # 1. VMagicMirror
-
-[Japanese](./index.html)
 
 VMagicMirror v0.9.6
 
