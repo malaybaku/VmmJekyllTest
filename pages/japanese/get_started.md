@@ -62,9 +62,9 @@ permalink: /get_started
 移動後は`(透過中)キャラ付近を掴んでドラッグ`をオフにすることでキャラクターがクリックに反応しなくなり、背面のアプリケーションをクリックできるようになります。
 
 <div class="row">
-{% include docimg.html file="./images/get_started/img00_060_transparent_bg.png" customclass="col s12 m4" imgclass="fit-doc-img" %}
-{% include docimg.html file="./images/get_started/img00_070_transparent_bg_drag.png" customclass="col s12 m4" imgclass="fit-doc-img" %}
-{% include docimg.html file="./images/get_started/img00_090_transparent_bg_can_click.png" customclass="col s12 m4" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_060_transparent_bg.png" customclass="col s12 m6 l4" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_070_transparent_bg_drag.png" customclass="col s12 m6 l4" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_090_transparent_bg_can_click.png" customclass="col s12 m6 l4" imgclass="fit-doc-img" %}
 </div>
 
 
@@ -76,8 +76,9 @@ permalink: /get_started
 {% include docimg.html file="./images/get_started/img00_100_streaming_face.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
 </div>
 
-- `リップシンク`: PCに接続されたマイクを選択して、音声にあった口の動きを反映します。
-- `顔をトラッキング`: ウェブカメラを選択することで、首の動作を反映します。
+`リップシンク`: PCに接続されたマイクを選択して、音声にあった口の動きを反映します。
+
+`顔をトラッキング`: ウェブカメラを選択することで、首の動作を反映します。
 
 ウェブカメラが正面にない場合やウェブカメラを移動させた場合は、普段の姿勢でディスプレイを見ながら`姿勢・表情を補正`ボタンをクリックしてキャラクターの位置を戻します。
 
@@ -100,35 +101,35 @@ permalink: /get_started
 
 `デバイスの割り当て`は次のような使い分けを想定しています。
 
-* `なし`や`キーボード(単語入力)`を選ぶケース: 単にキャラクターを置いておきたいとき。
-    - この場合、キャラクターの動きと実際のあなたの動きが最も一致します。
-* `ゲームパッド`や`MIDIコントローラ`: 作業画面の配信や、共有がしたいとき。
-    - キャラクターは常に作業をしている見た目に保ったまま、表情が切り替えられます。
-* `キーボード(テンキー)`を選ぶケース: ゲームのプレイ画面を配信、共有したいとき。
-    - キャラクターは常にゲームをしている見た目に保ったまま、キーボードで表情が切り替えられます。
+`なし`や`キーボード(単語入力)`を選ぶケース: 単にキャラクターを置いておきたいとき。この場合、キャラクターの動きと実際のあなたの動きが最も一致します。
+
+`ゲームパッド`や`MIDIコントローラ`: 作業画面の配信や、共有がしたいとき。キャラクターは常に作業をしている見た目に保ったまま、表情が切り替えられます。
+
+`キーボード(テンキー)`を選ぶケース: ゲームのプレイ画面を配信、共有したいとき。キャラクターは常にゲームをしている見た目に保ったまま、キーボードで表情が切り替えられます。
+
 
 #### 2.4. スクリーンショット
 
-カメラアイコンの`撮影`ボタンを押すと3秒間のカウントダウンののち、スクリーンショットを撮影します。
+`撮影`ボタンであるカメラアイコンのボタンを押すと、3秒間のカウントダウンののちスクリーンショットを撮影します。
 
 スクリーンショットの保存先は`VMagicMirror.exe`があるフォルダ以下の`Screenshots`フォルダです。(スクリーンショットを1枚も撮った事が無い場合、フォルダが存在しないことがあります)
 
 スクリーンショットは透過画像で、影の表示/非表示も反映されるため、影ごと他の画像と合成できます。
 
 <div class="row">
-{% include docimg.html file="./images/get_started/img00_180_screenshot.png" customclass="col s12 m4" imgclass="fit-doc-img" %}
-{% include docimg.html file="./images/get_started/img00_190_screenshot_shadow.png" customclass="col s12 m4" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_180_screenshot.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_190_screenshot_shadow.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
 </div>
 
 
 #### 2.5. 表示
 
-`VMagicMirror`の対応デバイスやエフェクトの表示オン・オフを切り替えます。
+`表示`では`VMagicMirror`の対応デバイスやエフェクトのオン・オフを切り替えます。
 
-キーボードを表示して`タイピング時のエフェクト`で`None`以外を選択した場合、タイピング時にエフェクトが表示されます。
+とくにキーボードを表示して`タイピング時のエフェクト`で`None`以外を選択した場合、タイピング時にエフェクトが表示されます。
 
 <div class="row">
-{% include docimg.html file="./images/get_started/img00_125_view_typing_effect_example.png" customclass="col l6" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_125_view_typing_effect_example.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
 </div>
 
 **Hint:** 影の見栄えが悪い場合、[FAQ](./questions)の"影が綺麗に映らない"の項目を確認してください。それでも見栄えが改善しない場合、影の表示をオフにします。
@@ -140,21 +141,19 @@ permalink: /get_started
 
 本機能を使うときは基本的に`ウィンドウ`メニューの`背景を透過`をオフにします。その後、`フリーカメラモード`チェックをオンにすると、キャラクター表示ウィンドウ上で直接視点を動かせます。
 
-||-----------------------+----------------------------||
-|| 操作                  | 視点の動きかた             ||
-||:---------------------:|:---------------------------||
-|| 右クリック + ドラッグ | 視線を上下左右に回転       ||
-|| 中クリック + ドラッグ | カメラを上下左右に平行移動 ||
-|| 中ホイール            | カメラを前後に移動         ||
-||=======================+============================||
+`右クリック + ドラッグ`: 視線を上下左右に回転します。
+
+`中クリック + ドラッグ`: カメラを上下左右に平行移動します。
+
+`中ホイール`: カメラを前後に移動します。
 
 調整が終わったら`背景を透過`をオンに、`フリーカメラモード`をオフに戻します。
 
 キャラクターを見失った場合や始めからやり直したい場合、`位置をリセット`ボタンで初期状態に戻せます。
 
 <div class="row">
-{% include docimg.html file="./images/get_started/img00_130_free_camera_mode.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
-{% include docimg.html file="./images/get_started/img00_140_after_free_camera_mode.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_130_free_camera_mode.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_140_after_free_camera_mode.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
 </div>
 
 また、動かした視点は`クイックセーブ`の`[1], [2], [3]`いずれかのボタンを押して保存したり、`クイックロード`の対応するボタンを押してロードしたりできます。
@@ -179,15 +178,11 @@ permalink: /get_started
 
 フリーレイアウトモード中の、キャラクター表示ウィンドウ左上の設定は次のような意味です。
 
-||-----------------+----------------------------------------------------------------------||
-|| 項目            | 項目の意味                                                           ||
-||:---------------:|:---------------------------------------------------------------------||
-|| Control Mode    | デバイスの位置、回転、スケールのどれを調整するかを選択します。       ||
-|| Coordinate      | デバイスに沿った座標で動かすか、ワールド座標を用いるかを選択します。 ||
-||                 | 通常は`Local`のまま操作します。                                      ||
-|| Gamepad Scale   | ゲームパッドのモデル部分の大きさを調整します。                       ||
-||                 | ゲームパッドが手から突き抜けてしまう場合、値を小さくします。         ||
-||=================+======================================================================||
+`Control Mode`: デバイスの位置、回転、スケールのどれを調整するかを選択します。
+
+`Coordinate`: デバイスに沿った座標で動かすか、ワールド座標を用いるかを選択します。通常は`Local`のまま操作します。
+
+`Gamepad Scale`: ゲームパッドのモデル部分の大きさを調整します。ゲームパッドが手から突き抜けてしまう場合、値を小さくします。
 
 レイアウトが極端に崩れてしまった場合、`リセット`で標準的なレイアウトに戻します。
 
@@ -196,7 +191,7 @@ permalink: /get_started
 `プレゼン風に右手を動かす`のチェックをオンにしてマウスを動かすと、キャラクターが右手でマウスポインタの方向を指し示します。
 
 <div class="row">
-{% include docimg.html file="./images/get_started/img00_150_presentation_mode.png" customclass="col l6" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_150_presentation_mode.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
 </div>
 
 このスタイルは解説動画やプレゼンテーションで`VMagicMirror`を使う際に便利です。
