@@ -38,11 +38,11 @@ VMagicMirror v0.9.1以降ではゲームコントローラを使ってモーシ�
 * Step 3: カスタムウィンドウ上でモーションや表情を設定します。
 * Step 4: `OK`を押して変更を反映します。
 
-[![Word to Motion Custom](./images/about_settings/img01_110_word_to_motion_custom_flow.png)](./images/about_settings/img01_110_word_to_motion_custom_flow.png){: data-lightbox="img01_110"}
+{% include docimg.html file="/images/about_settings/img01_110_word_to_motion_custom_flow.png" %}
 
 カスタムウィンドウで出来る主な操作は以下の4つです。
 
-[![Word to Motion Custom Window](./images/about_settings/img01_120_word_to_motion_custom_window.png)](./images/about_settings/img01_120_word_to_motion_custom_window.png){: data-lightbox="img01_120"}
+{% include docimg.html file="/images/about_settings/img01_120_word_to_motion_custom_window.png" %}
 
 * 1: このアイテムを起動するワードを指定します。
 * 2: モーションを選びます。
@@ -73,5 +73,4 @@ https://twitter.com/baku_dreameater/status/1211990346525077504
 
 以下のような設定のアイテムを作ることで、表情をリセットできます。このアイテムは既定の設定で、`reset`という名称で含まれています。
 
-
-[![How to Reset Keep Face](./images/about_settings/img01_130_word_to_motion_reset_tips.png)](./images/about_settings/img01_130_word_to_motion_reset_tips.png){: data-lightbox="img01_130"}
+{% include docimg.html file="/images/about_settings/img01_130_word_to_motion_reset_tips.png" %}
