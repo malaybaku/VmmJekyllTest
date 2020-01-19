@@ -7,7 +7,7 @@ lang_prefix: /en/
 
 [Japanese](../)
 
-# 1. VMagicMirror
+# VMagicMirror
 
 VMagicMirror v0.9.6
 
@@ -20,7 +20,7 @@ VMagicMirror is application for Windows desktop, to move your VRM without any sp
 
 VMagicMirror is an open source software, the source code is available on [GitHub](https://github.com/malaybaku/VMagicMirror).
 
-## 1.1. What you can
+## What you can
 
 VRM mimics your keyboard and mouse input motion.
 
@@ -40,29 +40,27 @@ This software assumes following use cases.
 * With your presentation
 * As a desktop mascot
 
-## 1.2. Download
+##  Download
 
-Available on [BOOTH](https://booth.pm/ja/items/1272298). Support Windows 10.
+Available on [BOOTH](https://booth.pm/ja/items/1272298).
 
-VMagicMirror is free, and also you can donate for the software on BOOTH.
+See detail on [Download](./download).
 
-For the detail of the enviroment requirement please see [FAQ](./questions).
-
-## 1.3. License
+## License
 
 Available for both personal and commercial use.
 
-Please see the detail on [License](./license).
+See the detail on [License](./license).
 
-## 1.5. Contact
+## Contact
 
 Welcome for the bug reports and update requests!
 
 * [Twitter](https://twitter.com/baku_dreameater)
 * [Blog](https://www.baku-dreameater.net/)
 
-Tweet with tag `#VMagicMirror` is welcome for the feedback, request, questions or any other topics related to `VMagicMirror`.
+Especially the tweet with tag `#VMagicMirror` is welcome for the feedback, request, questions or any other topics related to `VMagicMirror`.
 
-However the case is possible the author cannot find your feedback by Search Suggest Ban system of Twitter. If your tagged tweet is ignored, please visit to [Shadowban.eu](https://shadowban.eu/) to check it, and use mention (@ tweet) or following Google Form for the feedback.
+However the case is possible the author cannot find your feedback by Search Suggest Ban system of Twitter. If your tagged tweet is ignored, please visit to [Shadowban.eu](https://shadowban.eu/) to check it, and use mention (@ tweet) or following Google Form for the feedback, or 
 
 * [Feedback for VMagicMirror](https://forms.gle/Myt4vRdKLrYJLnGo9)

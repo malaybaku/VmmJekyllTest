@@ -58,7 +58,7 @@ v0.9.6以降ではMIDIコントローラでも表情が切り替えられます�
 
 MIDIコントローラのキーと表情を関連づけるために3つのステップが必要です。
 
-https://twitter.com/baku_dreameater/status/1211990346525077504
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/VMagicMirror?src=hash&amp;ref_src=twsrc%5Etfw">#VMagicMirror</a><br>MIDIコンを叩くと表情が変わるやつの進捗です。<br><br>・コントロールパネル側で、MIDIコンと実行するアイテムのマッピング設定を開く<br>・MIDIコンのキーを叩いてセットアップ<br>・セットアップ完了したら再びMIDIコンのキーを叩く<br><br>の3手順で動きます <a href="https://t.co/RDbsszWLpi">pic.twitter.com/RDbsszWLpi</a></p>&mdash; 獏星(ばくすたー) / Megumi Baxter (@baku_dreameater) <a href="https://twitter.com/baku_dreameater/status/1211990346525077504?ref_src=twsrc%5Etfw">December 31, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 * `デバイスの割り当て`を`MIDIコントローラ`にした状態で`キー割り当て`右の編集ボタンをクリックします。
 * `MIDIのノート割り当て`ウィンドウが現れるので、この状態で使用したいMIDIキーを9個、順番に押します。押したキーの番号は`変更後のノート`に記録されます。

@@ -15,16 +15,15 @@ lang_prefix: /en/
 
 Setting Window consists of 5 tabs.
 
-* **[Window](./docs/window)**
-    - Control character window
-* **[Motion](./docs/motion)**
-    - Adjust character size related parameters and motion scale
-* **[Layout](./docs/layout)**
-    - Layout of camera and devices, and device based motion setting
-* **[Effects](./docs/effects)**
-    - Light, shadow, bloom, and wind
-* **[Expressions](./docs/expressions)**
-    - Feature to move the character face and motion
+|----------------------------------+---------------------------------------------------------------|
+| Tab Name                         | Description                                                   |
+|:--------------------------------:|:--------------------------------------------------------------|
+| [Window](./docs/window)          | Control character window                                      |
+| [Motion](./docs/motion)          | Adjust character size related parameters and motion scale     |
+| [Layout](./docs/layout)          | Layout of camera and devices, and device based motion setting |
+| [Effects](./docs/effects)        | Light, shadow, bloom, and wind                                |
+| [Expressions](./docs/expressions)| Feature to move the character face and motion                 |
+|----------------------------------+---------------------------------------------------------------|
 
 
 ## Reset Settings to default
