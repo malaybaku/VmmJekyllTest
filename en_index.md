@@ -1,7 +1,7 @@
 ---
 layout: page
 title: VMagicMirror
-permalink: /en
+permalink: /en/index
 lang_prefix: /en/
 ---
 
@@ -61,7 +61,7 @@ Welcome for the bug reports and update requests!
 * [Twitter](https://twitter.com/baku_dreameater)
 * [Blog](https://www.baku-dreameater.net/)
 
-If you use Twitter, the review comments or requests with tag `#VMagicMirror` is great for the creator to find.
+Tweet with tag `#VMagicMirror` is welcome for the feedback, request, questions or any other topics related to `VMagicMirror`.
 
 However the case is possible the author cannot find your feedback by Search Suggest Ban system of Twitter. If your tagged tweet is ignored, please visit to [Shadowban.eu](https://shadowban.eu/) to check it, and use mention (@ tweet) or following Google Form for the feedback.
 
