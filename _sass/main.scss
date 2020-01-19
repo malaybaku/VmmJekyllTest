@@ -14,10 +14,6 @@ code {
     margin: 4px;
 }
 
-ul {
-    list-style-image:url('../images/mybullet.png');
-}
-
 .doc-img {
     @extend .z-depth-2;
     max-width: 75%;
