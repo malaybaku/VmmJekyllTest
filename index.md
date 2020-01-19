@@ -44,7 +44,7 @@ title: VMagicMirror
 <div class="section no-pad-bot">
   <div class="container">
     <br>
-      <h2 class="header center grey-text">Features</h1>
+      <h2 class="header center grey-text">Features</h2>
     <br>
   </div>
 </div>
@@ -89,7 +89,7 @@ title: VMagicMirror
 <div class="section no-pad-bot">
   <div class="container">
     <br>
-      <h2 class="header center grey-text">Usages</h1>
+      <h2 class="header center grey-text">Usages</h2>
     <br>
   </div>
 </div>
