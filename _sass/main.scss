@@ -14,6 +14,12 @@ code {
     margin: 4px;
 }
 
+img.home-carousel {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0px;    
+}
+
 .doc-img {
     @extend .z-depth-2;
     max-width: 75%;

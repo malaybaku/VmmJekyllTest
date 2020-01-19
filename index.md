@@ -6,6 +6,43 @@ title: VMagicMirror
 [English](./en/)
 
 <!-- note: このへんにカルーセルを入れたい -->
+<div class="section">
+  <div class="row">
+    <div class="carousel carousel-slider center" data-indicators="true" data-namespace="DIVcarouselcarousel-slider1" style="height: 400px;">
+      <!-- <div class="carousel-fixed-item center with-indicators">
+        <a class="btn waves-effect white grey-text darken-text-2">button</a>
+      </div> -->
+      <div class="carousel-item red white-text active" href="#one!" style="z-index: 0; opacity: 1; display: block; transform: translateX(0px) translateX(0px) translateX(0px) translateZ(0px);">
+        <img src="/images/home/gallery_01.png" class="home-carousel"></img>
+        <!-- <h2>First Panel</h2>
+        <p class="white-text">This is your first panel</p> -->
+      </div>
+      <div class="carousel-item amber white-text" href="#two!" style="transform: translateX(0px) translateX(953.906px) translateZ(0px); z-index: -1; opacity: 1; display: block;">
+        <img src="/images/home/gallery_02.png" class="home-carousel"></img>
+        <!-- <h2>Second Panel</h2>
+        <p class="white-text">This is your second panel</p> -->
+      </div>
+      <div class="carousel-item green white-text" href="#three!" style="transform: translateX(0px) translateX(-1907.81px) translateZ(0px); z-index: -2; opacity: 1; display: block;">
+        <img src="/images/home/gallery_03.png" class="home-carousel"></img>
+        <!-- <h2>Third Panel</h2>
+        <p class="white-text">This is your third panel</p> -->
+      </div>
+      <div class="carousel-item blue white-text" href="#four!" style="transform: translateX(0px) translateX(-953.906px) translateZ(0px); z-index: -1; opacity: 1; display: block;">
+        <img src="/images/home/gallery_04.png" class="home-carousel"></img>
+        <!-- <h2>Fourth Panel</h2>
+        <p class="white-text">This is your fourth panel</p> -->
+      </div>
+      <ul class="indicators">
+        <li class="indicator-item active"></li>
+        <li class="indicator-item"></li>
+        <li class="indicator-item"></li>
+        <li class="indicator-item"></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
 
 <div class="section no-pad-bot">
   <div class="container">
@@ -15,7 +52,7 @@ title: VMagicMirror
       <h5 class="header col s12 light">{{ site.description }}</h5>
     </div>
     <div class="row center">
-      <a href="https://baku-dreameater.booth.pm/items/1272298" class="btn-large waves-effect waves-light pink">
+      <a target="_blank" href="https://baku-dreameater.booth.pm/items/1272298" class="btn-large waves-effect waves-light pink">
         Download on BOOTH
       </a>
     </div>
@@ -23,7 +60,9 @@ title: VMagicMirror
   </div>
 </div>
 
-<!-- features -->
+
+
+<!-- Features -->
 
 <div class="row">
   <div class="col s12 m4">
@@ -45,16 +84,16 @@ title: VMagicMirror
         /
         <i class="material-icons">camera</i>
       </h4>
-      <h5 class="center">リップシンク/顔トラッキング</h5>
+      <h5 class="center">マイク/カメラ対応</h5>
       <p class="light">マイク入力によるリップシンク、およびウェブカメラによる顔の位置トラッキングをサポートしています。</p>
     </div>
   </div>
 
   <div class="col s12 m4">
     <div class="icon-block">
-      <h3 class="center blue-text">
+      <h4 class="center blue-text">
         <i class="material-icons">sentiment_satisfied</i>
-      </h3>
+      </h4>
       <h5 class="center">表情のコントロール</h5>
       <p class="light">キーボード、ゲームコントローラ、またはMIDIコントローラでアバターの表情を切り替えられます。あらかじめセットアップされた、各キャラクターに固有の表情も使用できます。</p>
     </div>
@@ -62,6 +101,9 @@ title: VMagicMirror
 </div>
 
 <!-- Usage -->
+
+
+
 
 v0.9.6, 2020/01/13, by 獏星(ばくすたー).
 
