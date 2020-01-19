@@ -10,16 +10,18 @@ title: VMagicMirror
   <div class="row">
     <div class="carousel carousel-slider center" data-indicators="true" data-namespace="DIVcarouselcarousel-slider1" style="height: 400px;">
       <div class="carousel-item white active" href="#one!" style="z-index: 0; opacity: 1; display: block; transform: translateX(0px) translateX(0px) translateX(0px) translateZ(0px);">
-        <img src="{{ "/images/home/gallery_01.png" | relative_url }}" class="home-gallery">
+        <img src="{{ "/images/home/gallery_01.jpg" | relative_url }}" class="home-gallery">
       </div>
       <div class="carousel-item white" href="#two!" style="transform: translateX(0px) translateX(953.906px) translateZ(0px); z-index: -1; opacity: 1; display: block;">
-        <img src="{{ "/images/home/gallery_02.png" | relative_url }}" class="home-gallery">
+        <img src="{{ "/images/home/gallery_02.jpg" | relative_url }}" class="home-gallery">
       </div>
       <div class="carousel-item white" href="#three!" style="transform: translateX(0px) translateX(-1907.81px) translateZ(0px); z-index: -2; opacity: 1; display: block;">
-        <img src="{{ "/images/home/gallery_03.png" | relative_url }}" class="home-gallery">
+        <img src="{{ "/images/home/gallery_03.jpg" | relative_url }}" class="home-gallery">
       </div>
       <div class="carousel-item white" href="#four!" style="transform: translateX(0px) translateX(-953.906px) translateZ(0px); z-index: -1; opacity: 1; display: block;">
-        <img src="{{ "/images/home/gallery_04.png" | relative_url }}" class="home-gallery">
+        <img src="{{ "/images/home/gallery_04.jpg" | relative_url }}" class="home-gallery">
+      </div>
+      <div class="carousel-fixed-item center with-indicators home-gallery-foot">
       </div>
       <!-- <ul class="indicators">
         <li class="indicator-item active"></li>
