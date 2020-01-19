@@ -4,6 +4,8 @@ title: Window
 permalink: /docs/window
 ---
 
+[English](../en/docs/window)
+
 # ウィンドウ設定
 
 (note: 画像は別途挿入されます)

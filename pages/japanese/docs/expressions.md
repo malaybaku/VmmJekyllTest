@@ -4,11 +4,13 @@ title: Word to Motion
 permalink: /docs/expressions
 ---
 
+[English](../en/docs/expression)
+
 # 3.5. Word to Motion
 
 `Word to Motion`はv0.9.0で追加された機能で、単語をタイピングするとキャラクターの表情が切り替えられたり、簡易的なモーションを再生できたりする機能です。
 
-[![Word to Motion Tab](./images/about_settings/img01_100_word_to_motion_tab.png)](./images/about_settings/img01_100_word_to_motion_tab.png){: data-lightbox="img01_100"}
+{% include docimg.html file="/images/about_settings/img01_100_word_to_motion_tab.png" %}
 
 使い方によってはこの機能がかえって不自然になる事もあります。その場合、`Word to Motionを有効化`チェックをオフにします。
 
@@ -20,7 +22,7 @@ permalink: /docs/expressions
 
 VMagicMirror v0.9.1以降ではゲームコントローラを使ってモーションや表情を実行できます。`ゲームパッドのボタンで表情/モーションを実行`チェックをオンにして、左の列に書かれたボタンを押すと、モーションが実行できます。
 
-[![Word to Motion by Gamepad](./images/about_settings/img01_105_word_to_motion_by_gamepad.png)](./images/about_settings/img01_105_word_to_motion_by_gamepad.png){: data-lightbox="img01_105"}
+{% include docimg.html file="/images/about_settings/img01_105_word_to_motion_by_gamepad.png" %}
 
 この例ではコントローラの`Y`キーを押して、`fun`の表情を実行しています。
 
@@ -70,5 +72,6 @@ https://twitter.com/baku_dreameater/status/1211990346525077504
 `アニメーション終了後も表情を維持`をオンにしたアイテムで表情を切り替える場合、表情をリセットする機能が必要になるはずです。
 
 以下のような設定のアイテムを作ることで、表情をリセットできます。このアイテムは既定の設定で、`reset`という名称で含まれています。
+
 
 [![How to Reset Keep Face](./images/about_settings/img01_130_word_to_motion_reset_tips.png)](./images/about_settings/img01_130_word_to_motion_reset_tips.png){: data-lightbox="img01_130"}

@@ -4,6 +4,8 @@ title: Layout
 permalink: /docs/layout
 ---
 
+[English](../en/docs/layout)
+
 # レイアウト
 
 `レイアウト`タブではカメラ、キーボード、ゲームパッドなどの配置を調整できます。

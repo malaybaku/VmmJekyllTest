@@ -4,26 +4,25 @@ title: Motion
 permalink: /docs/motion
 ---
 
+[English](../en/docs/motion)
+
 # モーション
 
 `モーション`タブではキャラクターの動き方や体型にかんする調整ができます。
 
-[![Motion Tab](./images/about_settings/img01_018_motion_tab.png)](./images/about_settings/img01_018_motion_tab.png){: data-lightbox="img01_018"}
+{% include docimg.html file="/images/about_settings/img01_018_motion_tab.png" %}
 
-## 1. 顔・表情
+## 顔・表情
 
 上部の項目はコントロールパネルの`配信`タブで`顔・表情`に表示されているのとほぼ同じですが、詳細な設定が可能です。
 
 `顔トラッキング中も自動でまばたき`チェックをオフにすると、画像処理ベースで目の開閉を制御するようになります。
 
-またv0.9.6以降では`顔トラッキング中の前後移動を有効化`チェックをオンにすることで、キャラクターが前後に動くようになります。手元のPC環境で顔トラッキングが安定している場合はこのチェックをオンにしますが、キャラクターがガクガクしてしまう場合はオフに戻します。
+`顔トラッキング中の前後移動を有効化`チェックをオンにすると、キャラクターが前後に動くようになります。顔トラッキングが安定している場合、このチェックをオンにするとキャラクターの動きが更にリッチになります。
 
+`Funブレンドのデフォルト値[%]`は、キャラクターの表情をつねにやや笑顔に保つための設定値です。大きくするほど基本の表情が笑顔になりますが、キャラクターによってはまばたきやリップシンクの動作と組み合わせたとき不自然になるため、その場合は小さな値にします。
 
-下部の`Funブレンドのデフォルト値[%]`は、キャラクターの表情をつねにやや笑顔に保つための設定値です。
-
-大きくするほど基本の表情が笑顔になりますが、キャラクターによってはまばたきやリップシンクの動作と組み合わせたとき不自然になるため、その場合は小さな値にします。
-
-その下の`眉毛(開いてカスタマイズ)`は、通常開く必要のない高度な機能です。独自に作成したVRMで眉毛をうまく動かしたい場合や、眉毛の動きが大きすぎたり、小さすぎたりする場合にカスタマイズします。
+`眉毛(開いてカスタマイズ)`は、通常開く必要のない高度な機能です。独自に作成したVRMで眉毛をうまく動かしたい場合や、眉毛の動きが大きすぎたり、小さすぎたりする場合にカスタマイズします。
 
 ※ここをカスタマイズするにはVRMの表情を操作する「ブレンドシェイプ」の知識が必要です。もし詳しくない場合、[バーチャルキャストWikiの説明](https://virtualcast.jp/wiki/doku.php?id=%E3%83%A2%E3%83%87%E3%83%AB%E4%BD%9C%E6%88%90:%E3%83%96%E3%83%AC%E3%83%B3%E3%83%89%E3%82%B7%E3%82%A7%E3%82%A4%E3%83%97%E8%A8%AD%E5%AE%9A)に記載の`ブレンドシェイプの値設定`などをご覧下さい。
 
@@ -34,7 +33,7 @@ permalink: /docs/motion
 * `右眉下げ`: 右眉を下げるブレンドシェイプを指定します。
 * `眉上げスケール [%]`と`眉下げスケール [%]`: 眉の上下の動きの大きさです。誇張したい場合は大きめの値を、大きくしすぎると不自然になる場合は小さめの値を指定します。
 
-## 2. 腕・ひじ
+## 腕・ひじ
 
 腕やひじの動かし方を設定します。
 
@@ -48,11 +47,11 @@ permalink: /docs/motion
 
 以下は、デフォルトの設定、脇をきつくしめる設定、脇を開いた設定の例です。
 
-[![Arm Side Default](./images/about_settings/img01_020_arm_side_default.png)](./images/about_settings/img01_020_arm_side_default.png){: data-lightbox="img01_020"}
-
-[![Arm Side Close](./images/about_settings/img01_030_arm_side_close.png)](./images/about_settings/img01_030_arm_side_close.png){: data-lightbox="img01_030"}
-
-[![Arm Side Open](./images/about_settings/img01_040_arm_side_open.png)](./images/about_settings/img01_040_arm_side_open.png){: data-lightbox="img01_040"}
+<div class="row">
+{% include docimg.html file="/images/about_settings/img01_020_arm_side_default.png" customclass="col s12 m4 l4" imgclass="fit-doc-img" %}
+{% include docimg.html file="/images/about_settings/img01_030_arm_side_close.png" customclass="col s12 m4 l4" imgclass="fit-doc-img" %}
+{% include docimg.html file="/images/about_settings/img01_040_arm_side_open.png" customclass="col s12 m4 l4" imgclass="fit-doc-img" %}
+</div>
 
 `補助ポインターを表示`では、`プレゼン風に右手を動かす`のチェックがオンのときにマウスポインターを強調するかどうかを設定します。
 
@@ -75,7 +74,7 @@ permalink: /docs/motion
 
 **Hint:** 自然な動きに調整したのち、わざと`(打鍵後)手の高さ調整[cm]`の値だけを大きくすることで、大げさにタイピング動作するようにできます。
 
-[![Large Typing Motion](./images/about_settings/img01_045_large_type_motion.png)](./images/about_settings/img01_045_large_type_motion.png){: data-lightbox="img01_045"}
+{% include docimg.html file="/images/about_settings/img01_045_large_type_motion.png" customclass="col s12 m4 l4" imgclass="fit-doc-img" %}
 
 
 ## 4. 待機モーション

@@ -8,7 +8,7 @@ permalink: /docs
 
 # 詳細設定
 
-ここでは[Get Started](./get_started)より詳細な機能を紹介します。
+ここでは[Get Started](./get_started)で紹介したものより詳細な調整機能を紹介します。
 
 ## 設定ウィンドウ
 
@@ -38,6 +38,6 @@ permalink: /docs
 以下の例では、ライトの設定を初期状態にリセットしています。
 
 <div class="row">
-{% include docimg.html file="./images/about_settings/img01_140_reset_setting_before.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
-{% include docimg.html file="./images/about_settings/img01_150_reset_setting_after.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
+{% include docimg.html file="/images/about_settings/img01_140_reset_setting_before.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
+{% include docimg.html file="/images/about_settings/img01_150_reset_setting_after.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
 </div>
