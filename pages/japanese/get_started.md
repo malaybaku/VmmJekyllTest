@@ -6,8 +6,8 @@ permalink: /get_started
 
 [English](./en/get_started)
 
-# 基本的な使い方
-
+# Get Started
+[
 ※最小限のセットアップ手順は以下の動画でも紹介しています。大まかな流れだけ確認したい場合、こちらの動画に沿った手順でもセットアップが可能です。
 
 ※動画の情報が古くなっているため修正予定です。
@@ -15,35 +15,37 @@ permalink: /get_started
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PFalrIig-RM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-## 1. 起動してキャラクターを表示する
+### 1. 起動してキャラクターを表示する
 
 `VMagicMirror.exe`を起動すると、GUIがある「コントロールパネル」と、キャラクターが映る「キャラクター表示ウィンドウ」が立ち上がります。
 
 コントロールパネルかキャラクター表示ウィンドウの一方を閉じると、もう片方の画面も閉じて`VMagicMirror`が終了します。コントロールパネルが邪魔な場合は最小化しておきます。
 
-キャラクターをロードするにはコントロールパネルの`ホーム`タブの`VRMロード`ボタンをクリックし、PC上の`.vrm`ファイルを選択します。キャラクター表示ウィンドウに表示される規約を確認して`OK`をクリックすると、キャラクターをロードします。
-
-同じキャラクターを次回以降も使いたい場合、`VRMロード`ボタンの下にある、`次回の起動時にも同じVRMを読み込む`のチェックをオンにします。
+キャラクターをロードするにはコントロールパネルの`ホーム`タブの`VRMロード`ボタンをクリックし、PC上の`.vrm`ファイルを選択します。
 
 <div class="row">
-{% include docimg.html file="./images/get_started/img00_015_started.png" customclass="col s12 m6 l4" imgclass="fit-doc-img" %}
-{% include docimg.html file="./images/get_started/img00_020_load_vrm.png" customclass="col s12 m6 l4" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_015_started.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_020_load_vrm.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
 </div>
 
+キャラクター表示ウィンドウに表示される規約を確認して`OK`をクリックすると、キャラクターをロードします。
+
+ロード後、同じキャラクターを次回以降も使いたい場合、`VRMロード`ボタンの下にある`次回の起動時にも同じVRMを読み込む`のチェックをオンにします。
+
 <div class="row">
-{% include docimg.html file="./images/get_started/img00_030_load_vrm_confirmation.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
-{% include docimg.html file="./images/get_started/img00_040_after_loaded.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_030_load_vrm_confirmation.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_040_after_loaded.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
 </div>
 
 **Hint:** この時点でキーボードやタッチパッドの位置、視点がキャラクターに合わない場合、ひとまず`キャラ体格で補正`ボタンをクリックしておきます。
 
 <div class="row">
-{% include docimg.html file="./images/get_started/img00_160_not_good_layout_example.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
-{% include docimg.html file="./images/get_started/img00_170_after_adjust.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_160_not_good_layout_example.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_170_after_adjust.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
 </div>
 
 
-## 2. 配信タブ: メイン機能の使い方
+### 2. 配信タブ: メイン機能の使い方
 
 コントロールパネルの`配信`タブでは`VMagicMirror`のすべての主要機能にアクセスできます。
 
@@ -51,7 +53,7 @@ permalink: /get_started
 
 {% include docimg.html file="./images/get_started/streaming_tab_overview.png" %}
 
-### 2.1. ウィンドウ
+#### 2.1. ウィンドウ
 
 `ウィンドウ`で`背景を透過`のチェックをオンにすると、背景を透明にできます。`VMagicMirror`は通常、この状態で使用します。
 
@@ -66,12 +68,12 @@ permalink: /get_started
 </div>
 
 
-### 2.2. 顔・表情
+#### 2.2. 顔・表情
 
 `顔・表情`メニューは、顔の動きに関連する主要な機能です。
 
 <div class="row">
-{% include docimg.html file="./images/get_started/img00_100_streaming_face.png" customclass="col l6" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_100_streaming_face.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
 </div>
 
 - `リップシンク`: PCに接続されたマイクを選択して、音声にあった口の動きを反映します。
@@ -84,12 +86,12 @@ permalink: /get_started
 `視線の動き`はキャラクターの目の動かし方を選択します。通常は`マウス`選択にすることで、キャラクターがマウスポインターの方向を見つめます。
 
 
-### 2.3. Word To Motion
+#### 2.3. Word To Motion
 
 `Word To Motion`はいくつかの方法でキャラクターの表情をコントロールできる機能です。
 
 <div class="row">
-{% include docimg.html file="./images/get_started/img00_105_word_to_motion.png" customclass="col l6" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_105_word_to_motion.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
 </div>
 
 デフォルト設定の場合、キーボードで"joy"とタイピングするとキャラクターの表情が変化します。それ以外でも、`デバイスの割り当て`で`ゲームパッド`を選んでA,B,X,Yボタンを押したり、`キーボード (数字の0-8)`を選んで数字キーの1,2,3,4を押したりしても表情が変化します。
@@ -105,7 +107,7 @@ permalink: /get_started
 * `キーボード(テンキー)`を選ぶケース: ゲームのプレイ画面を配信、共有したいとき。
     - キャラクターは常にゲームをしている見た目に保ったまま、キーボードで表情が切り替えられます。
 
-### 2.4. スクリーンショット
+#### 2.4. スクリーンショット
 
 カメラアイコンの`撮影`ボタンを押すと3秒間のカウントダウンののち、スクリーンショットを撮影します。
 
@@ -114,12 +116,12 @@ permalink: /get_started
 スクリーンショットは透過画像で、影の表示/非表示も反映されるため、影ごと他の画像と合成できます。
 
 <div class="row">
-{% include docimg.html file="./images/get_started/img00_180_screenshot.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
-{% include docimg.html file="./images/get_started/img00_190_screenshot_shadow.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_180_screenshot.png" customclass="col s12 m4" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_190_screenshot_shadow.png" customclass="col s12 m4" imgclass="fit-doc-img" %}
 </div>
 
 
-## 2.5. 表示
+#### 2.5. 表示
 
 `VMagicMirror`の対応デバイスやエフェクトの表示オン・オフを切り替えます。
 
@@ -132,19 +134,19 @@ permalink: /get_started
 **Hint:** 影の見栄えが悪い場合、[FAQ](./questions)の"影が綺麗に映らない"の項目を確認してください。それでも見栄えが改善しない場合、影の表示をオフにします。
 
 
-### 2.6. カメラ
+#### 2.6. カメラ
 
 カメラ機能では、キャラクターをうつす視点を操作できます。
 
 本機能を使うときは基本的に`ウィンドウ`メニューの`背景を透過`をオフにします。その後、`フリーカメラモード`チェックをオンにすると、キャラクター表示ウィンドウ上で直接視点を動かせます。
 
-|-----------------------+----------------------------|
-| 操作                  | 視点の動きかた             |
-|:---------------------:|:---------------------------|
-| 右クリック + ドラッグ | 視線を上下左右に回転       |
-| 中クリック + ドラッグ | カメラを上下左右に平行移動 |
-| 中ホイール            | カメラを前後に移動         |
-|=======================|============================|
+||-----------------------+----------------------------||
+|| 操作                  | 視点の動きかた             ||
+||:---------------------:|:---------------------------||
+|| 右クリック + ドラッグ | 視線を上下左右に回転       ||
+|| 中クリック + ドラッグ | カメラを上下左右に平行移動 ||
+|| 中ホイール            | カメラを前後に移動         ||
+||=======================+============================||
 
 調整が終わったら`背景を透過`をオンに、`フリーカメラモード`をオフに戻します。
 
@@ -167,7 +169,7 @@ permalink: /get_started
 ただし、この操作方法では気づかないうちにキャラクターがキャラクター表示ウィンドウから見切れることがあります。キャラクターを見失ってしまい、直し方がわからなくなった場合は`位置をリセット`ボタンを押してやり直すか、`背景を透過`をオフにしてウィンドウの表示を確認します。
 
 
-### 2.7. デバイスのレイアウト
+#### 2.7. デバイスのレイアウト
 
 `フリーレイアウトモード`のチェックをオンにするとキーボード、タッチパッド、ゲームコントローラなどの位置を調整できます。
 
@@ -177,19 +179,19 @@ permalink: /get_started
 
 フリーレイアウトモード中の、キャラクター表示ウィンドウ左上の設定は次のような意味です。
 
-|-----------------+----------------------------------------------------------------------|
-| 項目            | 項目の意味                                                           |
-|:---------------:|:---------------------------------------------------------------------|
-| Control Mode    | デバイスの位置、回転、スケールのどれを調整するかを選択します。       |
-| Coordinate      | デバイスに沿った座標で動かすか、ワールド座標を用いるかを選択します。 |
-|                 | 通常は`Local`のまま操作します。                                      |
-| Gamepad Scale   | ゲームパッドのモデル部分の大きさを調整します。                       |
-|                 | ゲームパッドが手から突き抜けてしまう場合、値を小さくします。         |
-|=================|======================================================================|
+||-----------------+----------------------------------------------------------------------||
+|| 項目            | 項目の意味                                                           ||
+||:---------------:|:---------------------------------------------------------------------||
+|| Control Mode    | デバイスの位置、回転、スケールのどれを調整するかを選択します。       ||
+|| Coordinate      | デバイスに沿った座標で動かすか、ワールド座標を用いるかを選択します。 ||
+||                 | 通常は`Local`のまま操作します。                                      ||
+|| Gamepad Scale   | ゲームパッドのモデル部分の大きさを調整します。                       ||
+||                 | ゲームパッドが手から突き抜けてしまう場合、値を小さくします。         ||
+||=================+======================================================================||
 
 レイアウトが極端に崩れてしまった場合、`リセット`で標準的なレイアウトに戻します。
 
-### 2.8. モーション
+#### 2.8. モーション
 
 `プレゼン風に右手を動かす`のチェックをオンにしてマウスを動かすと、キャラクターが右手でマウスポインタの方向を指し示します。
 
