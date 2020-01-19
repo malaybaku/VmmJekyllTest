@@ -11,9 +11,9 @@ lang_prefix: /en/
 
 VMagicMirror ("The Software") has official license note as `License Note` section.
 
-`Casual License Note` is not an license note, but might be a help for your use of The Software.
+`Preamble` is not a part of license note.
 
-## Casual License Note
+## Preamble
 
 * You can use The Software for both personal and commercial use.
 * You do not have to credit The Software if you upload the video or streaming your screen with The Software.
@@ -21,10 +21,7 @@ VMagicMirror ("The Software") has official license note as `License Note` sectio
 * The Software itself does not contain neither violent nor sexual expressions.
 * The Software usage as purely personal purpose (e.g. desktop mascot) is not an avatar usage.
 * The Software usage as streaming or video output will be an avatar usage.
-
-Because The Software does not concern the purpose of users' usage, it allows to load VRM with avatar use restriction.
-
-It is a users' responsibility to comply the VRM model license.
+* User must also comply to the VRM model license.
 
 ## License Note
 

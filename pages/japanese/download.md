@@ -56,4 +56,4 @@ VMagicMirrorはオープンソースソフトウェアです。
 
 個人・法人によらず、非商用・商用の双方にお使いいただけます。
 
-詳しくは[License](./about_license.html)を参照下さい。
+詳しくは[License](./license)を参照下さい。

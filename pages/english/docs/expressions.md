@@ -1,7 +1,13 @@
+---
+layout: page
+title: Docs
+permalink: /en/docs
+lang_prefix: /en/
+---
+
+[Japanese](../docs)
 
 # 3. Settings
-
-[Japanese](./about_settings.html)
 
 Setting Window is available from `Open Setting Window` on `Home` tab in control panel.
 

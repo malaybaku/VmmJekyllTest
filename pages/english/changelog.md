@@ -235,17 +235,3 @@ lang_prefix: /en/
 
 * Publish on BOOTH
 
-
-## Sections
-
-* [1: VMagicMirror](./en_index.html)
-* [2: Getting Started](./en_get_started.html)
-* [3: Settings](./en_about_settings.html)
-* [4: Troubleshooting](./en_troubleshooting.html)
-* [Tips A: Desktop Mascot Setup](./en_tips_desktop_mascot.html)
-* [Tips B: VMagicMirror for Presentation](./en_tips_presentation.html)
-* [Tips C: Load Previous Version Setting](./en_tips_load_prev_setting.html)
-* [Tips D: Change Device Textures](./en_tips_change_textures.html)
-* [License](./en_about_license.html)
-* Change Log (This page)
-* [FAQ](./en_frequently_asked_questions.html)

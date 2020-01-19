@@ -1,7 +1,13 @@
+---
+layout: page
+title: FAQ
+permalink: /en/questions
+lang_prefix: /en/
+---
 
-# 4. Troubleshooting
+[Japanese](../questions)
 
-[Japanese](./troubleshooting.html)
+# 4. FAQ
 
 ## 4.1. Cannot click control panel or other application near to the character
 
@@ -135,17 +141,3 @@ This issue happens in specific PC environment, but the cause is not clear yet.
 
 If you encounter this issue, please consider to use v0.9.2 instead.
 
-
-## Sections
-
-* [1: VMagicMirror](./en_index.html)
-* [2: Getting Started](./en_get_started.html)
-* [3: Settings](./en_about_settings.html)
-* [4: Troubleshooting](./en_troubleshooting.html)
-* [Tips A: Desktop Mascot Setup](./en_tips_desktop_mascot.html)
-* [Tips B: VMagicMirror for Presentation](./en_tips_presentation.html)
-* [Tips C: Load Previous Version Setting](./en_tips_load_prev_setting.html)
-* [Tips D: Change Device Textures](./en_tips_change_textures.html)
-* [License](./en_about_license.html)
-* [Change Log](./en_changelog.html)
-* [FAQ](./en_frequently_asked_questions.html)

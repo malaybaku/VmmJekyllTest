@@ -14,7 +14,7 @@ permalink: /docs
 
 コントロールパネルの`ホーム`タブで`設定ウィンドウを開く`ボタンを押すと設定ウィンドウが開きます。
 
-{% include docimg.html file="./images/about_settings/img01_010_setting_window.png" %}
+{% include docimg.html file="/images/about_settings/img01_010_setting_window.png" %}
 
 左から順に、5つのカテゴリーで分類されています。詳細は各ページにてご覧下さい。
 
