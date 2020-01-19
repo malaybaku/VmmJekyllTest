@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tips: Change Device Textures
+title: Change Device Textures
 permalink: /en/tips/change_textures
 lang_prefix: /en/
 ---

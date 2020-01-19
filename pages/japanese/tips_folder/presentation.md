@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tips: プレゼンテーション
+title: プレゼンテーション
 permalink: /tips/presentation
 ---
 

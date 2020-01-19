@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tips: 前バージョンの設定を引き継ぐ
+title: 前バージョンの設定を引き継ぐ
 permalink: /tips/load_prev_setting
 ---
 

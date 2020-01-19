@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tips: 配信にVMagicMirrorを使う
+title: 配信にVMagicMirrorを使う
 permalink: /tips/streaming/
 ---
 

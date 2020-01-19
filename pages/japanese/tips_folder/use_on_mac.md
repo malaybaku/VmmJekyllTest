@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tips: MacでVMagicMirrorを使う
+title: MacでVMagicMirrorを使う
 permalink: /tips/use_on_mac
 ---
 

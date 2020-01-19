@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tips: Use VMagicMirror for Streaming
+title: Use VMagicMirror for Streaming
 permalink: /en/tips/streaming
 lang_prefix: /en/
 ---

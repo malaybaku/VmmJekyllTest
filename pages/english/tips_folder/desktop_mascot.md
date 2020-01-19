@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tips: Use as Desktop Mascot
+title: Use as Desktop Mascot
 permalink: /en/tips/desktop_mascot
 lang_prefix: /en/
 ---

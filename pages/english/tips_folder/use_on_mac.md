@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tips: Use VMagicMirror on Mac
+title: Use VMagicMirror on Mac
 permalink: /en/tips/desktop_mascot
 lang_prefix: /en/
 ---

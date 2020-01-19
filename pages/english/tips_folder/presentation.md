@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tips: Use for Presentation
+title: Use for Presentation
 permalink: /en/tips/presentation
 lang_prefix: /en/
 ---

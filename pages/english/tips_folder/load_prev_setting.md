@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tips: Load Previous Settings
+title: Load Previous Settings
 permalink: /en/tips/load_prev_setting
 lang_prefix: /en/
 ---

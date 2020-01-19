@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tips: デスクトップマスコット
+title: デスクトップマスコット
 permalink: /tips/desktop_mascot
 ---
 

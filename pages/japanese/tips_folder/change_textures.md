@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Tips: テクスチャの変更
-permalink: /tipstest/change_textures
+title: テクスチャの変更
+permalink: /tips/change_textures
 ---
 
 [English](../en/tips/change_textures)
