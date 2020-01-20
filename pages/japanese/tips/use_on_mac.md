@@ -6,9 +6,9 @@ permalink: /tips/use_on_mac
 
 [English](../en/tips/use_on_mac)
 
-# Tips: MacでVMagicMirrorを使う
+# MacでVMagicMirrorを使う
 
-前提としての注意すが、`VMagicMirror`は`Windows`のみをサポートしており、`Mac OS`での使用は想定されていません。
+`VMagicMirror`は`Windows`のみをサポートしており、`Mac OS`での使用は想定されていません。
 
 ただしMac機のスペックが十分高く、かつデスクトップマスコット用途が必須でない場合は、Mac端末上で起動した`Windows`の環境で`VMagicMirror`を動作させることも考えられます。
 

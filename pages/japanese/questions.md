@@ -8,7 +8,8 @@ permalink: /questions
 
 # FAQ
 
-## 起動直後にVMagicMirrorが停止する
+#### 起動直後にVMagicMirrorが停止する
+{: doc-sec2 }
 
 設定ファイルが破損している可能性があります。
 
@@ -20,7 +21,8 @@ permalink: /questions
 * `VMagicMirror.exe`があるフォルダ以下の`ConfigApp`フォルダを開き、`_autosave`という名前のファイルを削除します。その後、`VMagicMirror`を再び起動します。
 
 
-## 4.3. CPU負荷が高すぎる
+#### CPU負荷が高すぎる
+{: doc-sec2 }
 
 コントロールパネルの`配信`タブで、リップシンクや顔トラッキングを無効化します。
 

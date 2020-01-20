@@ -21,7 +21,8 @@ permalink: /tips/presentation
 3. 実際にプレゼンテーションを行います。
 
 
-### スライドのレイアウトチェック
+#### スライドのレイアウトチェック
+{: doc-sec2 }
 
 プレゼンテーションとキャラクターが競合しないために、スライドのレイアウトを確認します。
 
@@ -42,12 +43,13 @@ permalink: /tips/presentation
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uLCMPtVyWVE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-### VMagicMirrorのセットアップ 
+#### VMagicMirrorのセットアップ 
+{: doc-sec2 }
 
 調整前の準備として、キャラクターがプレゼンテーション動作をする状況をセットアップします。
 
-* [Get Started](../get_started)の手順にしたがってVRMを読み込み、視点やデバイスレイアウトをセットアップします。
-* その後、設定ウィンドウの`配信`タブで`プレゼン風に右手を動かす`のチェックをオンにします。
+1. [Get Started](../get_started)の手順にしたがってVRMを読み込み、視点やデバイスレイアウトをセットアップします。
+2. その後、設定ウィンドウの`配信`タブで`プレゼン風に右手を動かす`のチェックをオンにします。
 
 右手がマウスポインターの方向を指すようになったら、詳細設定で動き方を調節します。
 
@@ -60,7 +62,8 @@ permalink: /tips/presentation
 
 この時点で見栄えが満足できない場合、設定ウィンドウの[モーション](../docs/motion)タブや[エフェクト](../docs/effects)タブの項目を調整します。
 
-### プレゼンテーションをする
+#### プレゼンテーションをする
+{: doc-sec2 }
 
 プレゼンテーションを行いながらマウスを動かすことで、キャラクターがスライドをさしているように演出します。
 

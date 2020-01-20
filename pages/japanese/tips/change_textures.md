@@ -1,12 +1,12 @@
 ---
 layout: page
-title: テクスチャの変更
+title: キーボードやタッチパッドの見た目を変更する
 permalink: /tips/change_textures
 ---
 
 [English](../en/tips/change_textures)
 
-# Tips: キーボードやタッチパッドの見た目を変更する
+# キーボードやタッチパッドの見た目を変更する
 
 ユーザーインターフェースはありませんが、`VMagicMirror`ではキーボードのキーや、タッチパッドの画像を好きなものに変更できます。現在は`png`形式の画像のみをサポートしています。
 
