@@ -8,14 +8,15 @@ permalink: /get_started
 
 # Get Started
 
-※最小限のセットアップ手順は以下の動画でも紹介しています。大まかな流れだけ確認したい場合、こちらの動画に沿った手順でもセットアップが可能です。
+このドキュメントでは、ダウンロードした`VMagicMirror`の基本的な使い方を紹介します。
 
-※動画の情報が古くなっているため修正予定です。
+※最小限のセットアップ手順は以下の動画でも紹介しています。大まかな流れだけ確認したい場合、こちらの動画に沿った手順でもセットアップが可能です。ただし、動画の情報がやや古いことに注意してください。
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PFalrIig-RM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### 1. 起動してキャラクターを表示する
+{: .doc-sec1 }
 
 `VMagicMirror.exe`を起動すると、GUIがある「コントロールパネル」と、キャラクターが映る「キャラクター表示ウィンドウ」が立ち上がります。
 
@@ -46,6 +47,7 @@ permalink: /get_started
 
 
 ### 2. 配信タブ: メイン機能の使い方
+{: .doc-sec1 }
 
 コントロールパネルの`配信`タブでは`VMagicMirror`のすべての主要機能にアクセスできます。
 
@@ -54,6 +56,7 @@ permalink: /get_started
 {% include docimg.html file="./images/get_started/streaming_tab_overview.png" %}
 
 #### 2.1. ウィンドウ
+{: .doc-sec2 }
 
 `ウィンドウ`で`背景を透過`のチェックをオンにすると、背景を透明にできます。`VMagicMirror`は通常、この状態で使用します。
 
@@ -69,6 +72,7 @@ permalink: /get_started
 
 
 #### 2.2. 顔・表情
+{: .doc-sec2 }
 
 `顔・表情`メニューは、顔の動きに関連する主要な機能です。
 
@@ -88,6 +92,7 @@ permalink: /get_started
 
 
 #### 2.3. Word To Motion
+{: .doc-sec2 }
 
 `Word To Motion`はいくつかの方法でキャラクターの表情をコントロールできる機能です。
 
@@ -109,6 +114,7 @@ permalink: /get_started
 
 
 #### 2.4. スクリーンショット
+{: .doc-sec2 }
 
 `撮影`ボタンであるカメラアイコンのボタンを押すと、3秒間のカウントダウンののちスクリーンショットを撮影します。
 
@@ -123,6 +129,7 @@ permalink: /get_started
 
 
 #### 2.5. 表示
+{: .doc-sec2 }
 
 `表示`では`VMagicMirror`の対応デバイスやエフェクトのオン・オフを切り替えます。
 
@@ -136,6 +143,7 @@ permalink: /get_started
 
 
 #### 2.6. カメラ
+{: .doc-sec2 }
 
 カメラ機能では、キャラクターをうつす視点を操作できます。
 
@@ -169,6 +177,7 @@ permalink: /get_started
 
 
 #### 2.7. デバイスのレイアウト
+{: .doc-sec2 }
 
 `フリーレイアウトモード`のチェックをオンにするとキーボード、タッチパッド、ゲームコントローラなどの位置を調整できます。
 
@@ -187,6 +196,7 @@ permalink: /get_started
 レイアウトが極端に崩れてしまった場合、`リセット`で標準的なレイアウトに戻します。
 
 #### 2.8. モーション
+{: .doc-sec2 }
 
 `プレゼン風に右手を動かす`のチェックをオンにしてマウスを動かすと、キャラクターが右手でマウスポインタの方向を指し示します。
 
@@ -199,7 +209,8 @@ permalink: /get_started
 詳しくは[Tips: プレゼンテーションでVMagicMirrorを使う](./tips/presentation)もあわせてご覧下さい。
 
 
-## 3. もっと細かく調整したい場合は
+### 3. もっと細かく調整したい場合は
+{: .doc-sec1 }
 
 [Docs](./docs)や[Tips](./tips)にて、さらに詳細な機能をいくつか紹介しています。
 
