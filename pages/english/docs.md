@@ -9,7 +9,10 @@ lang_prefix: /en/
 
 # Docs
 
-`VMagicMirror` has more features for customie, from `Open Setting Window` on `Home` tab in control panel.
+#### Setting Window
+{: doc-sec2 }
+
+`VMagicMirror` has more features for custom. To access them, click `Open Setting Window` on `Home` tab in control panel.
 
 {% include docimg.html file="/images/about_settings/img01_010_setting_window.png" %}
 
@@ -25,7 +28,8 @@ Setting Window consists of 5 tabs.
 | [Expressions](./docs/expressions)| Feature to move the character face and motion                 |
 |==================================|===============================================================|
 
-## Reset Settings to default
+#### Reset Settings to default
+{: doc-sec2 }
 
 In setting window, many of the setting category supports reset settings by click `Reset` button at the right of category name.
 
