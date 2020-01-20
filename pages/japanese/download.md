@@ -18,7 +18,10 @@ permalink: /download
 
 無償で公開していますが、ブーストつきで購入していただけると作者が喜びます。
 
+また、ソースコードは[GitHub](https://github.com/malaybaku/VMagicMirror)で公開しています。
+
 ### 動作環境
+{: doc-sec1 }
 
 Windows 10で動作します。
 
@@ -50,8 +53,3 @@ GPU: GeForce GTX 1080
 ウェブカメラ: PC本体フロントエンドカメラ
 
 マイク入力: PC本体マイク
-
-
-### ソースコードの入手
-
-[GitHub](https://github.com/malaybaku/VMagicMirror)で公開しています。

@@ -7,7 +7,7 @@ lang_prefix: /en/
 
 [Japanese](../contact)
 
-## Contact
+# Contact
 
 Welcome for the bug reports and update requests!
 
