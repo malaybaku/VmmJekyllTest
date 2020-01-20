@@ -7,7 +7,7 @@ lang_prefix: /en/
 
 [Japanese](../../docs/window)
 
-## Effects
+# Effects
 
 note: screenshot will come here..
 
@@ -29,5 +29,5 @@ Example to show distance between screen and the character :
 
 For the wind settings:
 
-* Please setup `VRMSpringBone` beforehand, to enable wind-based motion.
-* Wind feature moves all `VRMSpringBone` components, so "only hair (not skirt)" like setting is not supported.
+1. Please setup `VRMSpringBone` beforehand, to enable wind-based motion.
+2. Wind feature moves all `VRMSpringBone` components, so "only hair (not skirt)" like setting is not supported.

@@ -12,7 +12,8 @@ permalink: /docs/motion
 
 {% include docimg.html file="/images/about_settings/img01_018_motion_tab.png" %}
 
-## 顔・表情
+#### 顔・表情
+{: doc-sec2 }
 
 上部の項目はコントロールパネルの`配信`タブで`顔・表情`に表示されているのとほぼ同じですが、詳細な設定が可能です。
 
@@ -33,7 +34,8 @@ permalink: /docs/motion
 * `右眉下げ`: 右眉を下げるブレンドシェイプを指定します。
 * `眉上げスケール [%]`と`眉下げスケール [%]`: 眉の上下の動きの大きさです。誇張したい場合は大きめの値を、大きくしすぎると不自然になる場合は小さめの値を指定します。
 
-## 腕・ひじ
+#### 腕・ひじ
+{: doc-sec2 }
 
 腕やひじの動かし方を設定します。
 
@@ -66,7 +68,8 @@ permalink: /docs/motion
 大きな値にすると手が体にめり込みにくくなりますが、手元を指しにくくなり、腕が伸びがちになります。
 
 
-## 3. 手・指
+#### 3. 手・指
+{: doc-sec2 }
 
 手や指の長さと、打鍵動作の大きさを調整します。
 
@@ -77,7 +80,8 @@ permalink: /docs/motion
 {% include docimg.html file="/images/about_settings/img01_045_large_type_motion.png" customclass="col s12 m4 l4" imgclass="fit-doc-img" %}
 
 
-## 4. 待機モーション
+#### 4. 待機モーション
+{: doc-sec2 }
 
 待機モーションは呼吸動作に相当する動きです。
 

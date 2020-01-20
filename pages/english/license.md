@@ -11,17 +11,16 @@ lang_prefix: /en/
 
 VMagicMirror ("The Software") has official license note as `License Note` section.
 
-`Preamble` is not a part of license note.
+`Preamble` is not a part of license note, but will help to understand the concept.
 
 ## Preamble
 
-* You can use The Software for both personal and commercial use.
-* You do not have to credit The Software if you upload the video or streaming your screen with The Software.
-
-* The Software itself does not contain neither violent nor sexual expressions.
-* The Software usage as purely personal purpose (e.g. desktop mascot) is not an avatar usage.
-* The Software usage as streaming or video output will be an avatar usage.
-* User must also comply to the VRM model license.
+1. You can use The Software for both personal and commercial use.
+2. You do not have to credit The Software if you upload the video or streaming your screen with The Software.
+3. The Software itself does not contain neither violent nor sexual expressions.
+4. The Software usage as purely personal purpose (e.g. desktop mascot) is not an avatar usage.
+5. The Software usage as streaming or video output will be an avatar usage.
+6. User must also comply to the VRM model license.
 
 ## License Note
 
@@ -46,17 +45,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-## Sections
-
-* [1: VMagicMirror](./en_index.html)
-* [2: Getting Started](./en_get_started.html)
-* [3: Settings](./en_about_settings.html)
-* [4: Troubleshooting](./en_troubleshooting.html)
-* [Tips A: Desktop Mascot Setup](./en_tips_desktop_mascot.html)
-* [Tips B: VMagicMirror for Presentation](./en_tips_presentation.html)
-* [Tips C: Load Previous Version Setting](./en_tips_load_prev_setting.html)
-* [Tips D: Change Device Textures](./en_tips_change_textures.html)
-* License (this page)
-* [Change Log](./en_changelog.html)
-* [FAQ](./en_frequently_asked_questions.html)
