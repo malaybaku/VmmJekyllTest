@@ -28,7 +28,7 @@ permalink: /docs/expressions
 3. キーボードのテンキー
 4. MIDIコントローラのキー押下
 
-{% include docimg.html file="/images/about_settings/img01_105_word_to_motion_by_gamepad.png" %}
+{% include docimg.html file="/images/docs/word_to_motion_by_gamepad.png" %}
 
 上の例では`デバイスの割り当て`で`ゲームパッド`を選択し、`Y`ボタンを押した結果、`fun`の表情を実行しています。
 
@@ -41,11 +41,11 @@ permalink: /docs/expressions
 3. カスタムウィンドウ上でモーションや表情を設定します。
 4. `OK`を押して変更を反映します。
 
-{% include docimg.html file="/images/about_settings/img01_110_word_to_motion_custom_flow.png" %}
+{% include docimg.html file="/images/docs/word_to_motion_custom_flow.png" %}
 
 カスタムウィンドウで出来る主な操作は以下の4つです。
 
-{% include docimg.html file="/images/about_settings/img01_120_word_to_motion_custom_window.png" %}
+{% include docimg.html file="/images/docs/word_to_motion_custom_window.png" %}
 
 1. このアイテムを起動するワードを指定します。
 2. モーションを選びます。
@@ -85,4 +85,4 @@ MIDIコントローラのキーと表情を関連づけるために3つのステ
 
 以下のような設定のアイテムを作ることで、表情をリセットできます。このアイテムは既定の設定で、`reset`という名称で含まれています。
 
-{% include docimg.html file="/images/about_settings/img01_130_word_to_motion_reset_tips.png" %}
+{% include docimg.html file="/images/docs/word_to_motion_reset_tips.png" %}

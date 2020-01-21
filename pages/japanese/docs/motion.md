@@ -10,7 +10,7 @@ permalink: /docs/motion
 
 `モーション`タブではキャラクターの動き方や体型にかんする調整ができます。
 
-{% include docimg.html file="/images/about_settings/img01_050_layout_tab.png" %}
+{% include docimg.html file="/images/docs/motion_top.png" %}
 
 #### 顔・表情
 {: .doc-sec2 }
@@ -50,9 +50,9 @@ permalink: /docs/motion
 以下はデフォルトの設定、脇をきつくしめる設定、脇を開いた設定の例です。
 
 <div class="row">
-{% include docimg.html file="/images/about_settings/img01_020_arm_side_default.png" customclass="col s12 m4 l4" imgclass="fit-doc-img" %}
-{% include docimg.html file="/images/about_settings/img01_030_arm_side_close.png" customclass="col s12 m4 l4" imgclass="fit-doc-img" %}
-{% include docimg.html file="/images/about_settings/img01_040_arm_side_open.png" customclass="col s12 m4 l4" imgclass="fit-doc-img" %}
+{% include docimg.html file="/images/docs/arm_side_default.png" customclass="col s12 m4 l4" imgclass="fit-doc-img" %}
+{% include docimg.html file="/images/docs/arm_side_close.png" customclass="col s12 m4 l4" imgclass="fit-doc-img" %}
+{% include docimg.html file="/images/docs/arm_side_open.png" customclass="col s12 m4 l4" imgclass="fit-doc-img" %}
 </div>
 
 `プレゼン風に右手を動かす`: チェックをオンにすると右手がマウスポインタの位置を指すようになります。
@@ -79,7 +79,7 @@ permalink: /docs/motion
 
 **Hint:** 自然な動きに調整したのち、わざと`(打鍵後)手の高さ調整[cm]`の値だけを大きくすることで、大げさにタイピング動作するようにできます。
 
-{% include docimg.html file="/images/about_settings/img01_045_large_type_motion.png" customclass="col s12 m4 l4" imgclass="fit-doc-img" %}
+{% include docimg.html file="/images/docs/large_typing_motion.png" customclass="col s12 m4 l4" imgclass="fit-doc-img" %}
 
 #### 待機モーション
 {: .doc-sec2 }
