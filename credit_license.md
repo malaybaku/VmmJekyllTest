@@ -10,7 +10,7 @@ permalink: /credit_license
 
 VMagicMirror uses model data by Attribution 4.0 International (CC BY 4.0).
 
-https://sketchfab.com/3d-models/xbox-controller-fb71f28a6eab4a2785cf68ff87c4c1fc
+[Model Source on SketchFab](https://sketchfab.com/3d-models/xbox-controller-fb71f28a6eab4a2785cf68ff87c4c1fc)
 
 In VMagicMirror, the materials are replaced for the visual consistency.
 
