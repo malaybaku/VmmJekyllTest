@@ -10,14 +10,14 @@ lang_prefix: /en/
 # Change Log
 
 #### -
-{: doc-sec2 }
+{: .doc-sec2 }
 
 ????/??/??
 
 * Change: Update whole web page 
 
 #### v0.9.6
-{: doc-sec2 }
+{: .doc-sec2 }
 
 2020/01/13
 
@@ -28,7 +28,7 @@ lang_prefix: /en/
 * Change: This updates has some internal performance improvements.
 
 #### v0.9.5
-{: doc-sec2 }
+{: .doc-sec2 }
 
 2019/12/14
 
@@ -40,7 +40,7 @@ lang_prefix: /en/
 * Fix: URL link not working issue
 
 #### v0.9.4
-{: doc-sec2 }
+{: .doc-sec2 }
 
 2019/12/07
 
@@ -52,7 +52,7 @@ lang_prefix: /en/
 * Change: Application framework is still .NET Core 3.0, but distribute as NOT-single binary. This change means the application style becomes more conservative than v0.9.3.
 
 #### v0.9.3
-{: doc-sec2 }
+{: .doc-sec2 }
 
 2019/11/09
 
@@ -64,7 +64,7 @@ lang_prefix: /en/
 * Change: Config application framework changed to .NET Core 3.0. From this version distributed app only contains large `VMagicMirrorConfig.exe` in the config app folder. Also first startup of the software takes time a bit.
 
 #### v0.9.2
-{: doc-sec2 }
+{: .doc-sec2 }
 
 2019/10/26
 
@@ -74,7 +74,7 @@ lang_prefix: /en/
 * Remove: Gamepad visible / invisible selection (because v0.9.0 or later version does not show it)
 
 #### v0.9.1
-{: doc-sec2 }
+{: .doc-sec2 }
 
 2019/10/14
 
@@ -86,7 +86,7 @@ lang_prefix: /en/
 * Change: Fix internal behavior to reduce risk of treated as malware from security software
 
 #### v0.9.0
-{: doc-sec2 }
+{: .doc-sec2 }
 
 2019/09/29
 
@@ -100,7 +100,7 @@ lang_prefix: /en/
 * Fix: Fix bug of unnatural eye motion, when the character does not have blink BlendShape.
 
 #### v0.8.7
-{: doc-sec2 }
+{: .doc-sec2 }
 
 2019/08/04
 
@@ -109,7 +109,7 @@ lang_prefix: /en/
 * Change: Head motion to be 3DoF when tracking face
 
 #### v0.8.6
-{: doc-sec2 }
+{: .doc-sec2 }
 
 2019/07/22
 
@@ -119,7 +119,7 @@ lang_prefix: /en/
 
 
 #### v0.8.5
-{: doc-sec2 }
+{: .doc-sec2 }
 
 2019/06/15
 
@@ -130,7 +130,7 @@ lang_prefix: /en/
 * Change: Increase the scale of waiting motion with faster motion
 
 #### v0.8.4 
-{: doc-sec2 }
+{: .doc-sec2 }
 
 2019/06/05
 
@@ -139,7 +139,7 @@ lang_prefix: /en/
 * Change (Internal): Update UniVRM version from v0.51.0 to v0.53.0.
 
 #### v0.8.3 
-{: doc-sec2 }
+{: .doc-sec2 }
 
 2019/06/02
 
@@ -151,7 +151,7 @@ lang_prefix: /en/
 * Fix: Stabilize the appearance of VRM load UI.
 
 #### v0.8.2(a)
-{: doc-sec2 }
+{: .doc-sec2 }
 
 2019/05/21
 
@@ -159,7 +159,7 @@ lang_prefix: /en/
 * Changed: Internal optimization for the higher FPS during face tracking.
 
 #### v0.8.2
-{: doc-sec2 }
+{: .doc-sec2 }
 
 2019/05/19
 
@@ -173,7 +173,7 @@ lang_prefix: /en/
 * Changed : Hide mouse pad always (as it looks not so good by overriding keyboard area..)
 
 #### v0.8.1
-{: doc-sec2 }
+{: .doc-sec2 }
 
 2019/05/12
 
@@ -186,7 +186,7 @@ lang_prefix: /en/
 * Fix issue after lip sync is disabled, mouth remains open
 
 #### v0.8.0
-{: doc-sec2 }
+{: .doc-sec2 }
 
 2019/05/04
 
@@ -196,14 +196,14 @@ lang_prefix: /en/
 * Eyebrow motion for VRoidStudio 0.6.3 or newer VRoidStudio output model
 
 #### v0.1.6a (v0.16a)
-{: doc-sec2 }
+{: .doc-sec2 }
 
 2019/04/28
 
 * Fix issue that v0.1.6 bends wrist angle too much
 
 #### v0.1.6 (v0.16)
-{: doc-sec2 }
+{: .doc-sec2 }
 
 2019/04/27
 
@@ -212,7 +212,7 @@ lang_prefix: /en/
 * Close character's elbow to the body feature
 
 #### v0.1.5 (v0.15)
-{: doc-sec2 }
+{: .doc-sec2 }
 
 2019/04/20
 
@@ -221,14 +221,14 @@ lang_prefix: /en/
 * Fix issue some character cannot move her/his finger and lip sync does not work
 
 #### v0.1.4 (v0.14)
-{: doc-sec2 }
+{: .doc-sec2 }
 
 2019/03/29
 
 * Controller input support
 
 #### v0.1.3 (v0.13)
-{: doc-sec2 }
+{: .doc-sec2 }
 
 2019/03/22
 
@@ -236,7 +236,7 @@ lang_prefix: /en/
 * UI translation for JP/EN
 
 #### v0.1.2 (v0.12)
-{: doc-sec2 }
+{: .doc-sec2 }
 
 2019/03/17
 
@@ -245,7 +245,7 @@ lang_prefix: /en/
 * Fix issue the PrintScreen key is incorrect
 
 #### v0.1.1 (v0.11)
-{: doc-sec2 }
+{: .doc-sec2 }
 
 2019/03/14
 
@@ -254,7 +254,7 @@ lang_prefix: /en/
 * Disable full screen by default
 
 #### v0.1.0 (v0.1)
-{: doc-sec2 }
+{: .doc-sec2 }
 
 2019/03/13
 

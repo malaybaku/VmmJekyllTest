@@ -10,7 +10,7 @@ lang_prefix: /en/
 # Docs
 
 #### Setting Window
-{: doc-sec2 }
+{: .doc-sec2 }
 
 `VMagicMirror` has more features for custom. To access them, click `Open Setting Window` on `Home` tab in control panel.
 
@@ -29,7 +29,7 @@ Setting Window consists of 5 tabs.
 |==================================|===============================================================|
 
 #### Reset Settings to default
-{: doc-sec2 }
+{: .doc-sec2 }
 
 In setting window, many of the setting category supports reset settings by click `Reset` button at the right of category name.
 

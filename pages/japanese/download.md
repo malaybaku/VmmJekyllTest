@@ -21,7 +21,7 @@ permalink: /download
 また、ソースコードは[GitHub](https://github.com/malaybaku/VMagicMirror)で公開しています。
 
 ### 動作環境
-{: doc-sec1 }
+{: .doc-sec1 }
 
 Windows 10で動作します。
 
