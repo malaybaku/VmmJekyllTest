@@ -79,7 +79,9 @@ permalink: /docs/motion
 
 **Hint:** 自然な動きに調整したのち、わざと`(打鍵後)手の高さ調整[cm]`の値だけを大きくすることで、大げさにタイピング動作するようにできます。
 
+<div class="row">
 {% include docimg.html file="/images/docs/large_typing_motion.png" customclass="col s12 m4 l4" imgclass="fit-doc-img" %}
+</div>
 
 #### 待機モーション
 {: .doc-sec2 }

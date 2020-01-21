@@ -17,8 +17,6 @@ permalink: /docs/expressions
 
 単語をタイピングすることでキャラクターの表情を切り替えたり、簡易的なモーションを再生できたりする機能です。
 
-{% include docimg.html file="/images/docs/word_to_motion_top.png" %}
-
 もともとは単語タイピングにのみ反応する機能でしたが、現在は以下4つの方法から一つを選んで表情やモーションを再生できます。
 
 `デバイスの割り当て`で、この機能を使う方法を設定します。
@@ -28,7 +26,10 @@ permalink: /docs/expressions
 3. キーボードのテンキー
 4. MIDIコントローラのキー押下
 
-{% include docimg.html file="/images/docs/word_to_motion_by_gamepad.png" %}
+<div class="row">
+{% include docimg.html file="/images/docs/word_to_motion_top.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
+{% include docimg.html file="/images/docs/word_to_motion_by_gamepad.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
+</div>
 
 上の例では`デバイスの割り当て`で`ゲームパッド`を選択し、`Y`ボタンを押した結果、`fun`の表情を実行しています。
 
@@ -41,11 +42,12 @@ permalink: /docs/expressions
 3. カスタムウィンドウ上でモーションや表情を設定します。
 4. `OK`を押して変更を反映します。
 
-{% include docimg.html file="/images/docs/word_to_motion_custom_flow.png" %}
+<div class="row">
+{% include docimg.html file="/images/docs/word_to_motion_custom_flow.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
+{% include docimg.html file="/images/docs/word_to_motion_custom_window.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
+</div>
 
 カスタムウィンドウで出来る主な操作は以下の4つです。
-
-{% include docimg.html file="/images/docs/word_to_motion_custom_window.png" %}
 
 1. このアイテムを起動するワードを指定します。
 2. モーションを選びます。
@@ -56,9 +58,9 @@ permalink: /docs/expressions
     * `アニメーション終了後も表情を維持`をオンにすると、表情を切り替えたままにできます。
 4. ブレンドシェイプの設定です。基本的には1つのブレンドシェイプのみを大きな値にし、他はゼロにします。
 
-v0.9.6以降ではMIDIコントローラでも表情が切り替えられます。
 
-MIDIコントローラのキーと表情を関連づけるために3つのステップが必要です。
+また、v0.9.6以降ではMIDIコントローラでも表情が切り替えられます。MIDIコントローラのキーと表情を関連づけるためには3つのステップが必要です。こちらの例を参照下さい。
+
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/VMagicMirror?src=hash&amp;ref_src=twsrc%5Etfw">#VMagicMirror</a><br>MIDIコンを叩くと表情が変わるやつの進捗です。<br><br>・コントロールパネル側で、MIDIコンと実行するアイテムのマッピング設定を開く<br>・MIDIコンのキーを叩いてセットアップ<br>・セットアップ完了したら再びMIDIコンのキーを叩く<br><br>の3手順で動きます <a href="https://t.co/RDbsszWLpi">pic.twitter.com/RDbsszWLpi</a></p>&mdash; 獏星(ばくすたー) / Megumi Baxter (@baku_dreameater) <a href="https://twitter.com/baku_dreameater/status/1211990346525077504?ref_src=twsrc%5Etfw">December 31, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

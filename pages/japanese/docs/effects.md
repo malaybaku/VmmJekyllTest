@@ -36,8 +36,8 @@ permalink: /docs/effects
 影の向きと奥行きを用いてキャラクターとデスクトップ画面の距離感を表現できます。以下の画像ではデフォルト設定に加えて、キャラと画面が離れているような見え方に調整した例を並べています。
 
 <div class="row">
-{% include docimg.html file="/images/docs/shadow_default.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
-{% include docimg.html file="/images/docs/shadow_look_far.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
+{% include docimg.html file="/images/docs/shadow_default.png" customclass="col s12 m4 l4" imgclass="fit-doc-img" %}
+{% include docimg.html file="/images/docs/shadow_look_far.png" customclass="col s12 m4 l4" imgclass="fit-doc-img" %}
 </div>
 
 ライトおよび影は、VRMで`Unlit`系シェーダーを使っていると機能しないことに注意してください。
