@@ -17,8 +17,10 @@ Available on [BOOTH](https://booth.pm/ja/items/1272298).
 
 Please see  [License](./about_license.html) if you are not clear the permitted usage.
 
+You can download source code on [GitHub](https://github.com/malaybaku/VMagicMirror).
 
-## Environments
+### Environments
+{: .doc-sec2 }
 
 Supports Windows PC.
 
@@ -55,7 +57,3 @@ Webcam: Embedded front camera
 
 Microphone: Embedded microphone
 
-
-### Download Source Code
-
-Available on [GitHub](https://github.com/malaybaku/VMagicMirror).

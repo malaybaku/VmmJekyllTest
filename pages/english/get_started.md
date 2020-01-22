@@ -7,260 +7,211 @@ lang_prefix: /en/
 
 [Japanese](../get_started)
 
-# 2: Getting Started
+
+# Get Started
+
+This page shows the basic usage of `VMagicMirror` after download.
+
+The video below shows the setup process, though it is a bit old.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PFalrIig-RM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-## 2.1. Start and Exit VMagicMirror
+### 1. Start and Load Character
+{: .doc-sec1 }
 
-`VMagicMirror.exe` is main .exe file of VMagicMirror.
+Start `VMagicMirror.exe` to show GUI window ("Control Panel"), and Green window to show character ("Character Window").
 
-When you start the application you will see "Control Panel" with GUI and "Character Window", where the character will appear.
+When you close one of the window, the other window also closes and VMagicMirror quits. If you do not want to show control panel, then minimize it.
 
-[![Start Image](./images/get_started/img00_015_started.png)](./images/get_started/img00_015_started.png){: data-lightbox="img00_015"}
+Click `Load VRM` button on `Home` tab in control panel to select your `.vrm` file on PC.
 
-When you close one of control panel or character window, then the other window will automatically close and VMagicMirror shuts down.
+<div class="row">
+{% include docimg.html file="./images/get_started/img00_015_started.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_020_load_vrm.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
+</div>
 
-Instead, the control panel can be minimized during you do not need it.
+After select the character you will see the license for the model. Confirm it and click `OK` to load character.
 
-## 2.2. Load Character
+If you want to load the character automatically on next boot, then check `Load current VRM on next startup`.
 
-<iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/I-CHfCHbjx8?autoplay=1&loop=1&playlist=I-CHfCHbjx8" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
+<div class="row">
+{% include docimg.html file="./images/get_started/img00_030_load_vrm_confirmation.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_040_after_loaded.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
+</div>
 
-In the control panel `Home` tab, select `Load VRM` button to select `.vrm` file on your PC.
+**Hint:** If your character is not shown correctly, try `Adjust size by VRM` button. You can more chances to fix the layout later.
 
-[![Load VRM](./images/get_started/img00_020_load_vrm.png)](./images/get_started/img00_020_load_vrm.png){: data-lightbox="img00_020"}
+<div class="row">
+{% include docimg.html file="./images/get_started/img00_160_not_good_layout_example.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_170_after_adjust.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
+</div>
 
-After you selected the character the license will be shown.
 
-[![Load Confirmation](./images/get_started/img00_030_load_vrm_confirmation.png)](./images/get_started/img00_030_load_vrm_confirmation.png){: data-lightbox="img00_030"}
+### 2. Streaming Tab and Main Features
+{: .doc-sec1 }
 
-**NOTE:** If you cannot see the license and you are using some security software, please retry after disabling them.
+`Streaming` tab in control panel is to access all of main features of `VMagicMirror`.
 
-After the confirmation and `OK`, then the character will appear and react to your mouse and keyboard input.
+{% include docimg.html file="./images/get_started/streaming_tab_overview.png" %}
 
-If you want to use the same character every time, check `Load current VRM on next startup`.
+#### 2.1. Window
+{: .doc-sec2 }
 
-[![After Loaded](./images/get_started/img00_040_after_loaded.png)](./images/get_started/img00_040_after_loaded.png){: data-lightbox="img00_040"}
-
-**Hint:** If your character and keyboard / mouse layout do not match, do not worry. First you can use `Adjust size by VRM` button to fix camera positions and keyboard / mouse pad positions. 
-
-[![Not Adjusted Layout](./images/get_started/img00_160_not_good_layout_example.png)](./images/get_started/img00_160_not_good_layout_example.png){: data-lightbox="img00_160"}
-
-[![After Adjusted](./images/get_started/img00_170_after_adjust.png)](./images/get_started/img00_170_after_adjust.png){: data-lightbox="img00_170"}
-
-Also you can see about more detailed customize in section [3: Settings](./en_about_settings.html).
-
-## 2.3. Streaming 
-
-From `Streaming` tab in control panel, you can access to all main features in VMagicMirror.
-
-After loading VRM please try them.
-
-[![Streaming Tab](./images/get_started/img00_050_streaming_tab.png)](./images/get_started/img00_050_streaming_tab.png){: data-lightbox="img00_050"}
-
-### 2.3.1. Window
-
-Check on `Window` > `Transparent Window` then the character window's background becomes transparent. It is good to use VMagicMirror normally in this state.
-
-[![Transparent Background](./images/get_started/img00_060_transparent_bg.png)](./images/get_started/img00_060_transparent_bg.png){: data-lightbox="img00_060"}
+Check on `Transparent Window` to make character window background to transparent. 
 
 After setup transparent background, then confirm to check `(When Transparent) Drag the character`. You can left-click and drag the character during the check is on.
 
-[![Transparent Background](./images/get_started/img00_070_transparent_bg_drag.png)](./images/get_started/img00_070_transparent_bg_drag.png){: data-lightbox="img00_070"}
+If you want to dragging feature, then turn off `Drag the character` after placing your avatar.
 
-However the `Drag the character` check might prevent your mouse input.
+<div class="row">
+{% include docimg.html file="./images/get_started/img00_060_transparent_bg.png" customclass="col s12 m6 l4" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_070_transparent_bg_drag.png" customclass="col s12 m6 l4" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_090_transparent_bg_can_click.png" customclass="col s12 m6 l4" imgclass="fit-doc-img" %}
+</div>
 
-So, please check off `(When Transparent) Drag the character` after you have moved the character to the position you like.
 
-[![Transparent BG can click](./images/get_started/img00_090_transparent_bg_can_click.png)](./images/get_started/img00_090_transparent_bg_can_click.png){: data-lightbox="img00_090"}
-
-
-### 2.3.2. Face
+#### 2.2. 顔・表情
+{: .doc-sec2 }
 
 `Face` can setup your VRM's face expressions.
 
-[![Face Streaming](./images/get_started/img00_100_streaming_face.png)](./images/get_started/img00_100_streaming_face.png){: data-lightbox="img00_100"}
+<div class="row">
+{% include docimg.html file="./images/get_started/img00_100_streaming_face.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
+</div>
 
-#### LipSync
+`LipSync`: Select microphone to use LipSync (viseme) feature.
 
-Check on `LipSync` and select microphone device, then lipsync is available.
-
-#### Track Face
-
-Check on `Track Face` and select camera to enable face tracking.
+`Track Face`: Select webcam to track your head motion
 
 If your face is not at the center for the web camera, or you are too near/far to the camera, the character indication might be unnatural. In this case, click `Calibrate position` to adjust.
 
-**Hint:** When you use v0.9.3 or older version, and if your character have always closing eye, try to close your eye halfly and `Calibrate position`, then the character tends to open eyes. Similarly, when your character always look downward then look down and `Calibrate position` to adjust.
+
+**Hint:** When your character always look downward then look down and `Calibrate position` to adjust. It makes your avatar to look up always.
 
 
-#### Eye Look Target
-
-In default, VMagicMirror setup makes character to look at mouse.
-
-This motion is suited for working streaming or presentation, but you might needs other type of motions.
-
-* Mouse (Default): Character looks at mouse pointer position.
-* User : Character always look at you. You can use it when the `Mouse` option too much moves character's eyes.
-* None : Eye Look Target is always forward to the character's head. In this mode you can move the neck by face tracking, but eye will not move in most cases.
-
-### 2.3.3. Word To Motion
-
-"Word to Motion" is the feature to support motion and face expression with your custom, and you can test its default expression set here.
-
-Test by typing "joy" with default setting.
-
-Please see the detail at "3.5. Word to Motion" in [3: Settings](./en_about_settings.html).
-
-[![Word to Motion](./images/get_started/img00_105_word_to_motion.png)](./images/get_started/img00_105_word_to_motion.png){: data-lightbox="img00_105"}
-
-You can change `Device Assign` and test what it works.
-
-* Select `Keyboard (word)` and type word "joy", "angry", "sorrow", or "fun".
-* Select `Gamepad`, and press A, B, X, or Y button.
-* Select `Keyboard (num 0-8)`, and press 1, 2, 3, or 4 key.
+`Eye Look Target` sets where to see. In default you can use `Mouse` so that the character looks the orientation mouse pointer exists.
 
 
-**NOTE:** If you select keyboard or gamepad for `Assign device for this function`, then the character ignores the selected device as arm motion input. 
+#### 2.3. Word To Motion
+{: .doc-sec2 }
 
-For example, if you select keyboard the character stops typing motion. The following concept will help which one you should use.
+`Word To Motion` is feature to control face expression.
 
-* `None`, `keyboard (word)`: Not streaming purpose, but for desktop mascot.
-    - `None` selection reflects both keyboard and gamepad input to arm motion, so the character's motion will look like most similar as yours.
-* `Gamepad`, `MIDI Controller`: Share your screen, with some working like writing or painting.
-    - You can keep the character looking to work with keyboard/mouse, while you can change the face expression by gamepad.
-* `Keyboard (num 0-8)`: Stream the game play.
-    - You can keep the character looking to play game with gamepad, while you can change the face expression by keyboard.
+<div class="row">
+{% include docimg.html file="./images/get_started/img00_105_word_to_motion.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
+</div>
 
-### 2.3.4. View
+In default, please try typing "joy" and see what results on your avatar. Also you can select `Gamepad` on `Device Assignment` and press A,B,X,Y buttons, or select `Keyboard (num 0-8)` and press keys to switch expresssions.
 
-Toggle `Keyboard`, `Gamepad` or `Avatar's Shadow` to show and hide them.
+Please see the detail in [Expressions](./docs/expressions).
 
-[![Keyboard Visible](./images/get_started/img00_110_view_keyboard_visible.png)](./images/get_started/img00_110_view_keyboard_visible.png){: data-lightbox="img00_110"}
+`Device Assignment` expects several use cases.
 
-[![Keyboard Hidden](./images/get_started/img00_120_view_keyboard_hidden.png)](./images/get_started/img00_120_view_keyboard_hidden.png){: data-lightbox="img00_120"}
+`None` or `Keboard (word)`: Just placing avatar on PC. This setups most well mimes your motion.
 
-*In v0.9.0-v0.9.4, gamepad is always disappeared.
+`Gamepad` or `MIDI Controller`: Work streaming matches for these options.
 
-**Hint:** If the shadow looks not good, please refer to [4: Troubleshooting](./en_troubleshooting.html) and see "4.9. Shadow looks not good". If this troubleshooting does not work well, please disable shadow.
-
-`Typing Effect` is enabled when you select `text` option at the center, or `light` at the right.
-
-[![Typing Effect](./images/get_started/img00_125_view_typing_effect_example.png)](./images/get_started/img00_125_view_typing_effect_example.png){: data-lightbox="img00_125"}
+`Keyboard (num 0-8)`: The case when you want to disable keyboard based motion but want to input. You can keep the character always gripping gamepad, and you can still use keyboard and mouse!
 
 
-### 2.3.5. Camera
 
-This "Camera" means eyesight on the character window.
+#### 2.4. Screenshot
+{: .doc-sec2 }
 
-You can set the camera to see the character from any direction you want, by `Free Camera Mode`.
-
-Before using this feature, disable `Window` > `Transparent Window` temporary.
-
-Check on `Free Camera Mode` and click character window.
-
-Then, during the character window is active, you can move the camera by following inputs.
-
-* Right click + drag : rotate camera
-* Middle click + drag : translate camera to up/down/left/right
-* Middle wheel : move camera forward or backword.
-
-[![Free Camera Mode](./images/get_started/img00_130_free_camera_mode.png)](./images/get_started/img00_130_free_camera_mode.png){: data-lightbox="img00_130"}
-
-When you lost the character in window or you want to reset, click `Reset Position`.
-
-After adjusting the camera check on `Transparent Window` again.
-
-Similar to `Drag character`, the `Free Camera Mode` may leads wrong operation to change the camera position, so please check off `Free Camera Mode` after finishing the adjust.
-
-[![After Free Camera Mode](./images/get_started/img00_140_after_free_camera_mode.png)](./images/get_started/img00_140_after_free_camera_mode.png){: data-lightbox="img00_140"}
-
-From v0.9.4, camera quick save / load is supported.
-
-Setup the view by `Free Camera Mode`, and click one of `[1], [2], or [3]` button to save the camera setting. After saving, you can load them by `Quick Load` buttons.
-
-[![Camera Quick Save](./images/get_started/img00_135_camera_quick_save.png)](./images/get_started/img00_135_camera_quick_save.png){: data-lightbox="img00_135"}
-
-
-**Hint:** Actually you can set camera position with transparent window also.
-
-* Check on `(When Transparent) Drag Character`
-* Left click the character
-* Adjust camera position
-* After adjusting, check off `(When Transparent)Drag Character`
-
-**Note:** If you follow the way above, the character might be partially cut off by going out to character window. If you lost the character and want to reset, then press `Reset Position` button, or check off `Transparent Window` to see what is happening.
-
-### 2.3.6. Device Layout
-
-This feature is available from v0.9.5.
-
-Turn on `Free Layout` to enter device free layout mode.
-
-[![Device Free Layout](./images/get_started/img00_200_free_layout.png)](./images/get_started/img00_200_free_layout.png){: data-lightbox="img00_200"}
-
-When enter this mode `Transparent Window` is turned off.
-
-During this mode, character window shows UI on the top-left.
-
-* Control Mode: Choose which parameter to change, position, rotation, or scale.
-* Coordinate: Choose the coordinate from device local, or world. If you are not clear about this, use `Local`.
-* Gamepad Scale: Adjust gamepad model size. If gamepad is too big for your avatar, then decrease this value.
-
-`Reset` can recover the standard layout.
-
-
-### 2.3.7. Motion
-
-Check on `Presentation-like hand` to move VRM's right hand as if he / she is on a presentation.
-
-[![Presentation Mode](./images/get_started/img00_150_presentation_mode.png)](./images/get_started/img00_150_presentation_mode.png){: data-lightbox="img00_150"}
-
-This style matches when you have presentation or you want to create instruction video.
-
-When quitting the mode check off `Presentation-like hand`.
-
-**Hint:** Detail is in [Tips B: VMagicMirror for Presentation](./en_tips_presentation.html).
-
-### 2.3.8. Screenshot
-
-[![Screenshot](./images/get_started/img00_180_screenshot.png)](./images/get_started/img00_180_screenshot.png){: data-lightbox="img00_180"}
-
-Press `Take` button to start 3 second count down, and the screenshot will be captured.
+Press camera icon `Take Picture` button to start 3 second count down, and the screenshot will be captured.
 
 Screenshot is saved to the `Screenshots` folder in the folder where `VMagicMirror.exe` exists.
 
-The screenshot is transparent considered image. If you turn on shadow it will be also included. This S
+<div class="row">
+{% include docimg.html file="./images/get_started/img00_180_screenshot.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_190_screenshot_shadow.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
+</div>
 
-[![Screenshot Result](./images/get_started/img00_190_screenshot_shadow.png)](./images/get_started/img00_190_screenshot_shadow.png){: data-lightbox="img00_190"}
+
+#### 2.5. View
+{: .doc-sec2 }
+
+Toggle the checks to set which device is visible and which is invisible.
+
+Especially you can see the effect when keyboard is shown and selecting `Typing Effect` to something not None.
+
+<div class="row">
+{% include docimg.html file="./images/get_started/img00_125_view_typing_effect_example.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
+</div>
+
+**Hint:** If shadow looks bad, please check [FAQ](./questions) and "Shadow looks not good". If this does not help, then disable shadow.
+
+#### 2.6. Camera
+{: .doc-sec2 }
+
+This "Camera" means eyesight on the character window.
+
+When you use this feature turn off `Transparent Window` first. Then, check `Free Camera Mode` to move the point of view.
+
+`Right Click + Drag`: Rotate eyesight.
+
+`Middle Click + Drag`: Translate camera position.
+
+`Middle wheel`: Move camera forward or backword.
+
+After the setup it will be good to turn on `Transparent Background` and disable `Free camera mode`.
+
+When you are confused where avatar is, press `Reset position` to recover the situation.
+
+<div class="row">
+{% include docimg.html file="./images/get_started/img00_130_free_camera_mode.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
+{% include docimg.html file="./images/get_started/img00_140_after_free_camera_mode.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
+</div>
+
+During this setup you can use `Quick Save` and `Quick Load` buttons to save or load the point of view.
+
+**Hint:** There is another way to setup camera position, with keeping `Transparent Window` enabled.
+
+1. Check on `(When Transparent) Drag Character`
+2. Left click the character
+3. Adjust camera position
+4. After adjusting, check off `(When Transparent)Drag Character`
+
+In this process you might get trouble the character is cut off or going out of character window. In this case press `Reset Position`, or turn off `Transparent Window` to see the actual layout.
+
+#### 2.7. Device Layout
+{: .doc-sec2 }
+
+Turn on `Free Layout` to enter device free layout mode.
+
+{% include docimg.html file="./images/get_started/img00_200_free_layout.png" %}
+
+When enter this mode `Transparent Window` is turned off.
+
+During this mode the control UI appears at the top-left corner of character window.
+
+`Control Mode`: Choose which parameter to change, position, rotation, or scale.
+
+`Coordinate`: Choose the coordinate from device local, or world. If you are not clear about this, use `Local`.
+
+`Gamepad Scale`: Adjust gamepad model size. If gamepad is too big for your avatar, then decrease this value.
+
+`Reset`: Use this command to recover the standard layout.
 
 
-## 2.4. For further customize
+#### 2.8. Motion
+{: .doc-sec2 }
 
-You may see some problems about the looking of your VRM.
+Check on `Presentation-like hand` to move VRM's right hand as if he / she is on a presentation.
 
-* Keyboard position is too high or low for my character...
-* The character looks too bright or too dark...
+<div class="row">
+{% include docimg.html file="./images/get_started/img00_150_presentation_mode.png" customclass="col s12 m6" imgclass="fit-doc-img" %}
+</div>
 
-In this case [3: Settings](./en_about_settings.html) will solve your problems, so please refer to them.
+This style matches when you have presentation or you want to create instruction video.
 
-## Sections
+See [Tips: Use VMagicMirror for Presentation](./tips/presentation) for the detail.
 
-* [1: VMagicMirror](./en_index.html)
-* 2: Getting Started (this page)
-* [3: Settings](./en_about_settings.html)
-* [4: Troubleshooting](./en_troubleshooting.html)
-* [Tips A: Desktop Mascot Setup](./en_tips_desktop_mascot.html)
-* [Tips B: VMagicMirror for Presentation](./en_tips_presentation.html)
-* [Tips C: Load Previous Version Setting](./en_tips_load_prev_setting.html)
-* [Tips D: Change Device Textures](./en_tips_change_textures.html)
-* [License](./en_about_license.html)
-* [Change Log](./en_changelog.html)
-* [FAQ](./en_frequently_asked_questions.html)
+
+### 3. For further customize
+{: .doc-sec1 }
+
+This page is about basic use with control panel, and VMagicMirror also has more detailed menu in Setting Window.
+
+See [Docs](./docs) or [Tips](./tips) for the detail.

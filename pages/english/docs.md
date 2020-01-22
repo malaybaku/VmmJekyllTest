@@ -14,7 +14,7 @@ lang_prefix: /en/
 
 `VMagicMirror` has more features for custom. To access them, click `Open Setting Window` on `Home` tab in control panel.
 
-{% include docimg.html file="/images/about_settings/img01_010_setting_window.png" %}
+{% include docimg.html file="/images/docs/setting_window.png" %}
 
 Setting Window consists of 5 tabs.
 
@@ -36,6 +36,7 @@ In setting window, many of the setting category supports reset settings by click
 Below is an example to reset light settings to default.
 
 <div class="row">
-{% include docimg.html file="/images/about_settings/img01_140_reset_setting_before.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
-{% include docimg.html file="/images/about_settings/img01_150_reset_setting_after.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
+{% include docimg.html file="/images/docs/reset_setting_before.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
+{% include docimg.html file="/images/docs/reset_setting_after.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
 </div>
+
