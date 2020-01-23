@@ -13,7 +13,8 @@ VMagicMirror expects 2 main use cases of Streaming and Desktop Mascot.
 
 This tips writes about the setup for streaming.
 
-### Choose screen capture or Window capture
+#### Choose screen capture or Window capture
+{: .doc-sec2 }
 
 For the popular streaming software like OBS, usually you have 2 ways to capture the character shown on VMagicMirror.
 
@@ -32,7 +33,8 @@ If your avatar has green part, you might need to change chromakey color. In sett
 
 Keyboard and touchpad objects are semi-transparent and thus maybe looks not good, when in composit image. In this case hide them, or replace the device textures (see [Change Device Textures](./change_textures)).
 
-### Check CPU Usage
+#### Check CPU Usage
+{: .doc-sec2 }
 
 When streaming PC uses many computational resources.
 
@@ -51,7 +53,8 @@ In setting window,
 2. (Small effect): `Layout` tab, disable gamepad input capture and MIDI input reading. 
 3. (Small effect): `Effects` tab, set `Bloom`'s `Intensity` to 0.
 
-### Consider How to Place the Character
+#### Consider How to Place the Character
+{: .doc-sec2 }
 
 When placing the character please consider NOT to show the avatar hands or arms.
 
@@ -65,7 +68,8 @@ When you are planning the game play streaming, then move gamepad to the higher p
 
 If you want to apply bust-up layout and also want to show the hand motion, then move up keyboard and touch pad.
 
-### Choose how to Switch the Face Expressions
+#### Choose how to Switch the Face Expressions
+{: .doc-sec2 }
 
 You can use several way to switch the character's face expressions.
 
@@ -74,4 +78,4 @@ You can use several way to switch the character's face expressions.
 * Gamepad
 * MIDI controller
 
-Please see the detail in [Face Expressions](../docs/expressions).
+Please see the detail in [Expressions](../docs/expressions).

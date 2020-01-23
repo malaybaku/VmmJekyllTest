@@ -29,4 +29,4 @@ permalink: /tips/change_textures
 
 {% include docimg.html file="./images/tips/change_texture.png" %}
 
-もとに戻したいときは、配置した`key.png`および`pad.png`を削除してからVMagicMirrorを再び起動します。
+もとに戻したいときは、配置した画像ファイルを削除してからVMagicMirrorを再び起動します。

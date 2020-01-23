@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Use VMagicMirror on Mac
-permalink: /en/tips/desktop_mascot
+permalink: /en/tips/use_on_mac
 lang_prefix: /en/
 ---
 

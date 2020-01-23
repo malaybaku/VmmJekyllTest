@@ -17,7 +17,8 @@ You can integrate this feature with presentation in many ways.
 
 In this section there are 3 steps to create presentation with VMagicMirror.
 
-### Check slide layout
+#### Check slide layout
+{: .doc-sec2 }
 
 We should check the slide layout to avoid conflict with the presentation and the character.
 
@@ -37,7 +38,8 @@ Though written in Japanese, the following video also will be hints for you.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uLCMPtVyWVE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-### VMagicMirror Setup
+#### VMagicMirror Setup
+{: .doc-sec2 }
 
 * Setup according to [Get Started](../get_started)
 * Check on `Presentation-like hand`, then you are ready to adjust your character's motion.
@@ -52,7 +54,8 @@ That's all! Now you are ready for the presetation.
 
 If you want further custom, please see [Motion](../docs/motion) and [Effects](../docs/effects).
 
-### Presentation
+#### Presentation
+{: .doc-sec2 }
 
 During the presentation move the mouse to control character's hand motion.
 

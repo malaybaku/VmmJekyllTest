@@ -11,8 +11,18 @@ lang_prefix: /en/
 
 `Window` tab supports BG color when the character window is not transparent, and also can toggle whether the window is always foreground or not.
 
-`Character Transparency Support` can customize when your character is semitransparent and when is opaque.
+{% include docimg.html file="/images/docs/window_top.png" %}
 
-In default, the character becomes semitransparent during the mouse pointer is onto the character, so that you character does not disturb what exist behind her/him. You can also change the condition by changing sliding `Transparency Level`. For example, level 0 means always NOT transparent, which is older version's behavior.
+`Background`: Set background color by RGB.
 
-**Hint:** When you lost where the character is, then turning off `Transparent Window` and pressing `Reset Character Position` might be a help.
+`Transparent Window`: Check to make character window transparent. Available in Streaming tab. 
+
+`(When Transparent) Drag Character`: Check to enable drag-based move the character window when transparent. Available in Streaming tab. 
+
+`Always Foreground`: Check to place the character almost always foreground. Checked by default.
+
+`Reset Position`: Press this button to move character window just right to the control panel window. Use this function when you lost where the character window is.
+
+`Transparent Level`: Select the character transparency condition from level 0 to 4. Default value is level 2. Level 0 means always NOT transparent, and level 4 makes character always transparent.
+
+`Alpha when Transpanrent`: Set the transparency when the character is transparent. Higher value means opaque.

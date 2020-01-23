@@ -11,62 +11,84 @@ lang_prefix: /en/
 
 `Motion` tab can adjust character's proportion and motion related parameters.
 
-[![Motion Tab](./images/about_settings/img01_018_motion_tab.png)](./images/about_settings/img01_018_motion_tab.png){: data-lightbox="img01_018"}
+{% include docimg.html file="/images/docs/motion_top.png" %}
 
-## Face
+#### Face
+{: .doc-sec2 }
 
-Upper part is almost the same as `Streaming` tab in control panel.
+`LypSync`: Choose Microphone to use lip sync (viseme) feature. Available in Streaming tab.
 
-Additional check `Auto blink during face tracking` is on by default, and when it is turned off, you can control eye open and close by image processing.
+`Track Face`: Choose WebCam to use face tracking feature. Available in Streaming tab.
 
-From v0.9.6 `Enable forward / backward motion` check is available. Enabling this check maybe cause your avatar motion unstable, so please test if you plan streaming use.
+`Auto blink during face tracking`: Checked by default, and by turn off it, character blinks based on image processing.
 
-The item `Default Fun Blend Shape [%]` specifies the default fun expression rate.
+`Enable forward / backward motion`: Check to see horizontal forward / backward motion.
 
-As the value increases the character will become always smile, but some character's facial expression will be unnatural when combined to blink or other face motions. In those cases, decrease the value.
+`Disable Horizontal Flip`: Check to disable horizontal flip of motion. After changing this option press `Calibrate position` to calibrate.
 
-The `Eyebrow (Open to Customize)` is very advanced section and normally you do not need modify them. However if you have original VRM and want to move the eyebrow, or in case the eyebrow motion is too big or too small. 
+`Calibrate Position`: Press to calibrate the position by current user position captured by web camera.
+
+`Blink adjust by head motion`: Check to enable auto blink action when the avatar moves head quickly.
+
+`Blink adjust by lip sync`: Check to enable auto blink when detect the end of speech.
+
+`Eye Look Target`: Select where the character look to. Available in Streaming tab.
+
+`Default Fun Blend Shape [%]`: Specifies the default fun expression rate. As the value increases the character will become always smile, but some character's facial expression will be unnatural when combined to blink or other face motions. In those cases, decrease the value.
+
+`Eyebrow (Open to Customize)`: Advanced section and normally you do not need modify them. However this option will be helpful if you have original VRM and want to move the eyebrow, or in case the eyebrow motion is too big or too small. 
 
 * This section requires the knowledge about `BlendShape` to control VRM facial expression. If you do not know well, please refer to [Virtual Cast Wiki](https://virtualcast.jp/wiki/doku.php?id=%E3%83%A2%E3%83%87%E3%83%AB%E4%BD%9C%E6%88%90:%E3%83%96%E3%83%AC%E3%83%B3%E3%83%89%E3%82%B7%E3%82%A7%E3%82%A4%E3%83%97%E8%A8%AD%E5%AE%9A) and see latter section's image. You will see the name like `mouth_a` or `mouth_b`. This is BlendShape. And you can specify the name of BlendShape to move eyebrow, by sliding each shape in Unity Editor.
 
+#### Arm
+{: .doc-sec2 }
 
-## Arm
+`Enable Typing / Mouse Motion`: On by default. If turned off, the avatar stops to react to typing, mouse pointer move, or gamepad input. If you want to set the avatar always simply standing, turn off this checkbox.
 
-Setup how to move the arm.
+`Waist width [cm]`: Set how much the character put his/her elbow outside.
 
-If you turn off `Enable Typing / Mouse Motion`, the the avatar stop to react to typing, mouse pointer move, or gamepad input. If you want to set the avatar always simply standing, turn off this checkbox.
+`Strength to keep upper arm to body [%]`: If set larger value, the character's pose obeys more strictly to `Waits width [cm]` value.
 
-`Waist width [cm]`and `Strength to keep upper arm to body [%]` are the parameters to keep the elbow close to body(, which is subtle but critical for the cute motion).
+Please see the following example of default value, close elbow, or open elbow.
 
-Please see the following example of default value, close elbow strongly, and open.
+<div class="row">
+{% include docimg.html file="/images/docs/arm_side_default.png" customclass="col s12 m4 l4" imgclass="fit-doc-img" %}
+{% include docimg.html file="/images/docs/arm_side_close.png" customclass="col s12 m4 l4" imgclass="fit-doc-img" %}
+{% include docimg.html file="/images/docs/arm_side_open.png" customclass="col s12 m4 l4" imgclass="fit-doc-img" %}
+</div>
 
-[![Arm Side Default](./images/about_settings/img01_020_arm_side_default.png)](./images/about_settings/img01_020_arm_side_default.png){: data-lightbox="img01_020"}
+`Presentation-like hand`: Check to move the charactrer's right hand as if he/she talks in presentation.
 
-[![Arm Side Close](./images/about_settings/img01_030_arm_side_close.png)](./images/about_settings/img01_030_arm_side_close.png){: data-lightbox="img01_030"}
+`Presentation-like motion scale [%]`: This property is not used currently, and will be removed in future update.
 
-[![Arm Side Open](./images/about_settings/img01_040_arm_side_open.png)](./images/about_settings/img01_040_arm_side_open.png){: data-lightbox="img01_040"}
+`Arm position radius min [cm]`: Set this parameter to avoid the situation the arms going into the body. Larger value makes hand position to be far from body.
 
-`Show Pointer Support` toggles whether the circle shaped mouse emphasize indication should be visible or not.
-
-`Presentation-like motion scale [%]` has effect during `Presentation-like hand` check is on.
-
-The value should be small when the character is enough small compared to the whole monitor size to avoid the right arm always stretched, or vise versa.
-
-`Arm position radius min [cm]` helps to avoid arm going into the body, when large value is set. However too large value makes the arm always stretched.
-
-## Hand
+#### Hand
+{: .doc-sec2 }
 
 Parameters about hand or finger length and typing motion.
 
-Check those values when the typing motion is done far from the keyboard, or the hand is too float above the keyboard.
+`Wrist-Hand tips length [cm]`: Set the length from wrist to hand tip. This length is used to adjust the hand position when typing or moving mouse.
 
-**Hint:** After setup natural motion, set large value to `(Press key) Hand height adjust [cm]`, which make comical big typing motion.
+`Wrist-Palm length [cm]`: This property is not used currently, and will be removed in future update.
 
-[![Large Typing Motion](./images/about_settings/img01_045_large_type_motion.png)](./images/about_settings/img01_045_large_type_motion.png){: data-lightbox="img01_045"}
+`Hand height adjust [cm]`: The vertical offset length from devices to the hand.
 
+`(Press key)Hand height adjust [cm]`: The vertical offset after typing.
 
-### Wait motion
+**Hint:** You can set large value to `(Press key) Hand height adjust [cm]` after setting up natural motion, to make comical big typing motion.
 
-Wait motion is breathing like motion.
+<div class="row">
+{% include docimg.html file="/images/docs/large_typing_motion.png" customclass="col s12 m4 l4" imgclass="fit-doc-img" %}
+</div>
 
-It might be helpful for some characters to show as if (s)he is floating, with large `Scale [%]` and short `Period [sec]`.
+#### Wait motion
+{: .doc-sec2 }
+
+Wait motion is breathing like motion. Normally you can use default setting, but if it seems unnatural then disable or adjust parameters.
+
+`Enable`: Enable waiting motion.
+
+`Scale [%]`: Set the motion scale.
+
+`Period [sec]`: Set the period of wait motion by second.

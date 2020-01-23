@@ -11,39 +11,44 @@ lang_prefix: /en/
 
 In `Layout` tab you can access to the parameters to adjust surrounding device layout like camera, keyboard, gamepad, etc.
 
-[![Layout Tab](./images/about_settings/img01_050_layout_tab.png)](./images/about_settings/img01_050_layout_tab.png){: data-lightbox="img01_050"}
+<div class="row">
+{% include docimg.html file="/images/docs/layout_top_1.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
+{% include docimg.html file="/images/docs/layout_top_2.png" customclass="col s12 m6 l6" imgclass="fit-doc-img" %}
+</div>
 
-## Camera
+#### Camera
+{: .doc-sec2 }
 
-Almost same as `Camera` menu in control panel `Streaming` tab.
+`Free Camera Mode`: Check to enable camera position changing mode. Same as `Streaming` tab in control panel.
 
-In this panel you can also adjust FOV (Field of View).
+`Field of View[deg]`: Set camera field of view (FOV).
 
-## Device Layout
+`Quick Save / Quick Load`: Save and load the viewpoint. Available in `Streaming` tab of control panel.
 
-Same as `Streaming` tab in control panel.
+#### 2. Device Layout
+{: .doc-sec2 }
 
-Available from v0.9.5.
+`Free Layout Mode`: Check to custom device layouts. Available in Streaming tab of control panel.
 
-## Keyboard / MIDI
+#### 3. Keyboard / MIDI
+{: .doc-sec2 }
 
-You can change the size and height of the keyboard and mouse pad, along to your character's scale.
+`Keyboard and Touch Pad Visible`: Check to show device. Available in `Streaming` tab of control panel.
 
-This panel also supports the selection of typing effect, as control panel `Streaming` tab.
+`Use MIDI Controller for VMagicMirror`: Basically keep to on, however you should turn off when you want to use MIDI controller for other application like DAW software.
 
-From v0.9.6 MIDI controller setting is also available here.
+`MIDI Controller Visible`: Check to show device. Available in `Streaming` tab of control panel.
 
-VMagicMirror uses MIDI input to change avatar face expression.
+`Typing Effect`: Set typing effect.
 
-If you usually use DAW software or other MIDI-controller-required software, then turn off `Use MIDI Cotnroler for VMagicMirror`, to ensure VMagicMirror does not occupy MIDI devices.
 
-## Gamepad
+#### 4. Gamepad
+{: .doc-sec2 }
 
-Gamepad has the feature that the character leans by  stick input. If you have a gamepad, let's check it by moving left stick with default setting!
+`Enable Input Capture`: On by default, but if you do not use game controller and you want to save CPU usage, then turn off.
 
-* In `Lean by stick` list you can select what stick (or direction key) the character should be react.
-* `Reverse direction to lean` support to lean reversed direction.
+`Visible`: Show or hide game controller. Available in `Streaming` tab of control panel.
 
-**NOTE:**
+`Lean by Stick`: Set by which input avatar leans.
 
-In default the gamepad feature is available, but if you do not use it, and the VMagicMirror performance is not good on your machine, then check off `Enable Input Capture` on the top of `Gamepad` menu.
+`Reverse Direction to lean`: Set which axis lean should negate.

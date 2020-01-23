@@ -30,4 +30,4 @@ After the setup, start `VMagicMirror.exe` to load the specified image.
 
 {% include docimg.html file="./images/tips/img_tips_10_change_texture.png" %}
 
-When you want to recover the setting as default, remove `key.png` and `pad.png`.
+When you want to recover the setting as default, remove image files and restart VMagicMirror.
