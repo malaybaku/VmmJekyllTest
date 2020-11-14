@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_with_toc
 title: Get Started
 permalink: /get_started
 ---
