@@ -19,7 +19,7 @@ permalink: /get_started
 
 <h4 class="toc-header">Content</h4>
 
-* ToC
+*ToC
 {:toc .table-of-contents }
 
 </div>
