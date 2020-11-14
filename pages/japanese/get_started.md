@@ -7,7 +7,7 @@ permalink: /get_started
 [English](./en/get_started)
 
 # Get Started
-{: .no-toc }
+{: .no_toc }
 
 このドキュメントでは、ダウンロードした`VMagicMirror`の基本的な使い方を紹介します。
 
@@ -16,7 +16,7 @@ permalink: /get_started
 <iframe class="youtube" width="560" height="315" data-src="https://www.youtube.com/embed/kYk-YHqPeMU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Content
-{: .toc-header }
+{: .toc-header .no_toc }
 
 * ToC
 {:toc .table-of-contents }
