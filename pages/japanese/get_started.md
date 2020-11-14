@@ -7,6 +7,7 @@ permalink: /get_started
 [English](./en/get_started)
 
 # Get Started
+{: .no-toc }
 
 このドキュメントでは、ダウンロードした`VMagicMirror`の基本的な使い方を紹介します。
 
@@ -14,9 +15,15 @@ permalink: /get_started
 
 <iframe class="youtube" width="560" height="315" data-src="https://www.youtube.com/embed/kYk-YHqPeMU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-* Table of Contents
+<div class="toc-area">
+
+#### Content
+{: .toc-header }
+
+* ToC
 {:toc .table-of-contents }
 
+</div>
 
 ### 1. 起動してキャラクターを表示する
 {: .doc-sec1 }

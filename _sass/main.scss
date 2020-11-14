@@ -20,11 +20,10 @@ h4 {
 
 ul {
     padding-inline-start: 20px;
-    list-style-type: disc;
 }
 
 ul li {
-    padding-left: 1em;
+    list-style-type: disc;
 }
 
 .doc-sec1 {
@@ -35,6 +34,16 @@ ul li {
 .doc-sec2 {
     margin-top: 60px;
     margin-bottom: 30px;
+}
+
+.toc-header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.toc-area { 
+    background-color: #eee;
+    border: 1px solid #bbb;
 }
 
 code {
