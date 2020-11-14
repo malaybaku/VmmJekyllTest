@@ -17,8 +17,7 @@ permalink: /get_started
 
 <div class="toc-area">
 
-#### Content
-{: .toc-header }
+<h4 class="toc-header">Content</h4>
 
 * ToC
 {:toc .table-of-contents }
