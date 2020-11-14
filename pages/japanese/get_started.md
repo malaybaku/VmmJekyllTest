@@ -15,14 +15,11 @@ permalink: /get_started
 
 <iframe class="youtube" width="560" height="315" data-src="https://www.youtube.com/embed/kYk-YHqPeMU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<div class="toc-area">
+#### Content
+{: .toc-header }
 
-<h4 class="toc-header">Content</h4>
-
-*ToC
-{:toc .table-of-contents }
-
-</div>
+* ToC
+{:toc .table-of-contents .toc-area }
 
 ### 1. 起動してキャラクターを表示する
 {: .doc-sec1 }
