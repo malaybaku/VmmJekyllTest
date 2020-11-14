@@ -1,5 +1,5 @@
 ---
-layout: page_with_toc
+layout: page
 title: Get Started
 permalink: /get_started
 ---
@@ -13,6 +13,9 @@ permalink: /get_started
 セットアップの様子はこちらの動画でも紹介していますが、やや古いバージョンを使用していることに注意してください。
 
 <iframe class="youtube" width="560" height="315" data-src="https://www.youtube.com/embed/kYk-YHqPeMU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+{:toc}
 
 
 ### 1. 起動してキャラクターを表示する
