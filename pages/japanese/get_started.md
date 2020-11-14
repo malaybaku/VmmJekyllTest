@@ -18,12 +18,8 @@ permalink: /get_started
 #### Content
 {: .toc-header }
 
-<div class="toc-area">
-
 * ToC
 {:toc .table-of-contents }
-
-</div>
 
 ### 1. 起動してキャラクターを表示する
 {: .doc-sec1 }
