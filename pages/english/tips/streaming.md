@@ -33,6 +33,8 @@ If your avatar has green part, you might need to change chromakey color. In sett
 
 Keyboard and touchpad objects are semi-transparent and thus maybe looks not good, when in composit image. In this case hide them, or replace the device textures (see [Change Device Textures](./change_textures)).
 
+**NOTE:** OBS has one more useful choice of "Game Capture". Game capture supports to capture transparent window as is, and this feature will work very well for VMagicMirror with transparent background. If your PC has enough capacity to do so, please consider using game capture instead of normal window capture.
+
 #### Check CPU Usage
 {: .doc-sec2 }
 
@@ -51,7 +53,8 @@ In setting window,
 
 1. (Middle effect): `Effects` tab, set `Quality` to lower option.
 2. (Small effect): `Layout` tab, disable gamepad input capture and MIDI input reading. 
-3. (Small effect): `Effects` tab, set `Bloom`'s `Intensity` to 0.
+3. (Small effect): `Effects` tab, set `Image Quality` to lower one.
+4. (Small effect): `Effects` tab, set `Bloom`'s `Intensity` to 0.
 
 #### Consider How to Place the Character
 {: .doc-sec2 }
@@ -73,9 +76,9 @@ If you want to apply bust-up layout and also want to show the hand motion, then 
 
 You can use several way to switch the character's face expressions.
 
-* Keyboard, word input
-* Keyboard, number key
-* Gamepad
-* MIDI controller
+1. Keyboard, word input
+2. Keyboard, number key
+3. Gamepad
+4. MIDI controller
 
 Please see the detail in [Expressions](../docs/expressions).

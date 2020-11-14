@@ -22,7 +22,7 @@ You can download source code on [GitHub](https://github.com/malaybaku/VMagicMirr
 ### Environments
 {: .doc-sec2 }
 
-Supports Windows PC.
+Supports Windows 10. Windows 8.1 or previous OS, and 32bit edition might not work.
 
 For the optional devices:
 
@@ -33,6 +33,12 @@ Web camera: Should layout to your whole face. No high resolution needed, as VMag
 Gamepad: Support XInput style gamepad. XBox controller is a popular one supported.
 
 VMagicMirror requires few for the CPU and GPU specs, but it maybe better for the middle-end PC to concern the CPU usage.
+
+At v0.9.8, there are a few known issue.
+
+issue1: Old AMD CPU may crash the program on startup.
+
+issue2: When using old GPU the face texture might not be loaded.
 
 The developer checks VMagicMirror performance on the following environments. Please contact if there is bug-like performance issue.
 

@@ -1,16 +1,19 @@
 <div class="section">
   <div class="row">
     <div class="carousel carousel-slider center" data-indicators="true" data-namespace="DIVcarouselcarousel-slider1" style="height: 500px;">
-      <div class="carousel-item active" href="#one!" style="z-index: 0; opacity: 1; display: block; transform: translateX(0px) translateX(0px) translateX(0px) translateZ(0px);">
+      <div class="carousel-item active" style="z-index: 0; opacity: 1; display: block; transform: translateX(0px) translateX(0px) translateX(0px) translateZ(0px);">
+        <img src="{{ "/images/home/gallery_00.jpg" | relative_url }}" class="home-gallery">
+      </div>
+      <div class="carousel-item" style="transform: translateX(0px) translateX(953.906px) translateZ(0px); z-index: -1; opacity: 1; display: block;">
         <img src="{{ "/images/home/gallery_01.jpg" | relative_url }}" class="home-gallery">
       </div>
-      <div class="carousel-item" href="#two!" style="transform: translateX(0px) translateX(953.906px) translateZ(0px); z-index: -1; opacity: 1; display: block;">
+      <div class="carousel-item" style="transform: translateX(0px) translateX(953.906px) translateZ(0px); z-index: -1; opacity: 1; display: block;">
         <img src="{{ "/images/home/gallery_02.jpg" | relative_url }}" class="home-gallery">
       </div>
-      <div class="carousel-item" href="#three!" style="transform: translateX(0px) translateX(-1907.81px) translateZ(0px); z-index: -2; opacity: 1; display: block;">
+      <div class="carousel-item" style="transform: translateX(0px) translateX(-1907.81px) translateZ(0px); z-index: -2; opacity: 1; display: block;">
         <img src="{{ "/images/home/gallery_03.jpg" | relative_url }}" class="home-gallery">
       </div>
-      <div class="carousel-item" href="#four!" style="transform: translateX(0px) translateX(-953.906px) translateZ(0px); z-index: -1; opacity: 1; display: block;">
+      <div class="carousel-item" style="transform: translateX(0px) translateX(-953.906px) translateZ(0px); z-index: -1; opacity: 1; display: block;">
         <img src="{{ "/images/home/gallery_04.jpg" | relative_url }}" class="home-gallery">
       </div>
     </div>
@@ -19,8 +22,12 @@
 
 <div class="section no-pad-bot">
   <div class="container">
-    <br>
-    <h1 class="header center grey-text darken-1">VMagicMirror</h1>
+    <div class="row center">
+      <img src="{{ "/images/vmagicmirror_logo.png" | relative_url }}">
+    </div>
+    <div class="row right">
+        Logo: by <a href="https://twitter.com/otama_jacksy">@otama_jacksy</a>
+    </div>
     <div class="row center">
       <h5 class="header col s12 light">{{ page.top_desc }}</h5>
     </div>
@@ -137,4 +144,4 @@
 </div>
 
 <!-- video -->
-<iframe class="video-from-youtube center" src="https://www.youtube.com/embed/jhGOnf8HOKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="youtube video-from-youtube center" data-src="https://www.youtube.com/embed/mowJo2g6XAM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

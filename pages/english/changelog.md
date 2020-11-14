@@ -9,12 +9,160 @@ lang_prefix: /en/
 
 # Change Log
 
-#### -
+#### v1.5.0a
 {: .doc-sec2 }
 
-????/??/??
+2020/11/01
 
-* Change: Update whole web page 
+* Fix: the issue in v1.5.0 that, VRoid Hub login UI does not receive any keyboard input, and thus cannot login.
+
+
+#### v1.5.0 
+{: .doc-sec2 }
+
+2020/10/31
+
+* Add: (beta feature) `High Power Mode ` for webcam tracking. This mode leads higher CPU load, but the motion will be quick.
+* Add: Mic sensitivity adjust.
+* Add: Typing effect `Butterfly`.
+* Fix: Issue that, specifig games disturb keyboard input motion.
+* Change: When `Transparent Background` is turned off, the window TopMost (always foreground) is always disabled.
+* Change: Improve the appearance during hand down mode.
+* Change: Apply bigger eyes waiting motion.
+* Change: The process to control EyeBrow blendshapes especially for VRoid model when blink. If you feel it not good, please setup the model's  `BLINK_L` and `BLINK_R` BlendShapeClip to include the eyebrow motion.
+* Change: Change face tracking algorithm to v1.3.0 based one.
+* Change: Removed virtual cam feature from `Streaming` tab. You can still use this feature in setting window `Window` tab, but is will also be removed in v1.6.0. Please consider to use `OBS Studio` as it supports virtual cam by standard from version 26.0.
+
+
+#### v1.4.0
+{: .doc-sec2 }
+
+2020/09/24
+
+* Add: `Always-Hand-Down` mode. During this mode is selected, the hands are always down, and body motion increases.
+* Change: Improve gamepad based motion, especially when you are doing quick input.
+* Change: When Perfect Sync and other face expression with `Keep LipSync` option is running at same time, then mouth, jaw, cheek and tongue blendshapes of Perfect Sync continue to be applied.
+* Change: Warning message will appear near to the webcam selection UI, when External Tracker is on.
+* Change: `MIDI` option is removed from `Streaming` tab > `View`. This setting is available at setting window > `Layout` tab > `Keyboard / MIDI`
+* Change: Performance improvement for some part.
+* Change: Webcam face tracking algorithm slightly changed.
+* Fix: Hand position does not match to gamepad when stick based body lean feature is turned off.
+* Fix: When VMagicMirror repeats restart with background transparent option, the character window size increases.
+* Fix: Character window sometimes goes outside of the monitor area.
+* Fix: Twisted wrist after some built-in motions.
+* Change: Reduced binary size, for distribution.
+
+#### v1.3.0a
+{: .doc-sec2 }
+
+2020/08/27
+
+* Fix: Issue in v1.3.0 that, Perfect Sync could not move avatar's right brow down.
+
+#### v1.3.0
+{: .doc-sec2 }
+
+2020/08/27
+
+* Add: Support for Perfect Sync by External Tracker. See [Tips Page](./tips/perfect_sync) for the detail.
+* Add: Voice based random motion, for no tracking system environment.
+* Change: Improved head tracking for web camera.
+* Add: Option to change eye motion scale, on setting window `Motion` > `Face` > `Eye Motion Scale`.
+* Fix: Avatar looked vertically stretched when transparent mode.
+* Fix: Avatar moves strangely when webcam and fixed eye motion selected.
+* Fix: Other small issues.
+
+#### v1.2.0
+{: .doc-sec2 }
+
+2020/07/30
+
+* Fix: Fix issue related to External Tracker especially for first use.
+* Change: Unity version updated to 2019.4, which leads the improve performance.
+* Change: Internal fix, for performance improvement.
+* Change: Change colorspace from Gamma to Linear. This improves the appearance especially for the models which expect linear colorspace. For this change the light default color also changes to white (`#FFFFFF`). You can edit the color and intensity of the light from setting window `Effect` tab > `Light`.
+
+#### v1.1.0
+{: .doc-sec2 }
+
+2020/06/26
+
+* Add: External tracking app (iFacialMocap) collaboration.
+* Add: Option to continue lipsync during Word to Motion face expression is applied.
+* Add: Keyboard typing randomize mode (setting window `Motion` > `Arm`).
+* Add: Load background image feature, when the file `background.jpg` or `background.png` is put on the folder where `VMagicMirror.exe` exists.
+* Fix: Fix issue the free layout edit result often fails to be saved.
+
+
+#### v1.0.0
+{: .doc-sec2 }
+
+2020/05/22
+
+* Add: Add license preamble about reverse engineering.
+* Add: VRoid Hub collaboration
+* Add: Return to default position feature, when face tracking is enabled but not detected.
+* Change: Body motion improved.
+* Change: The pose just after the model is loaded is now hand down pose. With this update, you can use VMagicMirror with just standing model viewer if you uncheck `Motion` > `Arm` > `Enable Typing / Mouse Motion`.
+* Change: In setting window, `Motion` > `Arm` > `Presentation-like hand` > `Show Pointer Support` is unchecked now by default.
+* Fix: Fix issue some face parts might disappear when shadow depth offset is small. This issue still happens when shadow is enabled, but not happen when shadow is off.
+* Fix: Fix issue Standard shader might fail to load correctly
+
+#### v0.9.9a
+{: .doc-sec2 }
+
+2020/04/19
+
+* Fix: Fix the issue that when virtual camera output is enabled, character window seems to be stopped in about 5 seconds, after losing window focus.
+
+#### v0.9.9
+{: .doc-sec2 }
+
+2020/04/19
+
+* Add: Virtual Camera Output
+* Change: Improvement for shoulder motion.
+* Change: Show warning when installed folder path includes multi byte character, to notify face tracking might fail.
+* Fix: Fix the issue that some PC environment fails to load face texture.
+
+Shoulder motion improvement is applied by default, but you can turn off it for the case that it does not suit for your avatar. Please check at Setting Window > `Motion` > `Arm` > `Modify shoulder motion`.
+
+#### v0.9.8
+{: .doc-sec2 }
+
+2020/03/24
+
+* Add: Hand tracking with web camera. Requires camera to use this feature.
+    - Check `Streaming` tab > `Image based hand tracking` in `Face` menu.
+* Change: Now arms continues to react mouse / keyboard inputs, even when choose `keyboard (num 0-8) ` for `Device Assign` in Word to Motion selection.
+    - If you want to stop keyboard and mouse reaction, turn off Setting Window > `Motion` > `Arms` > `Motion` > `Enable Typing / Mouse Motion`.
+* Change: Made minor performance improvement.
+* Fix: Fix the issue the character's wrists are unnaturally banded on application start, if typing / mouse motion is disabled.
+
+#### v0.9.7a
+{: .doc-sec2 }
+
+2020/02/22
+
+* Add: Toggle UI to turn on /off the feature in v0.9.7, "Fix: Fix issue the right hand almost fixed when playing some first person view games, which uses mouse move to viewpoint control."
+    - In setting window turn on `Motion` > `Arm` > `Enable mouse motion to FPS assumed mode` to enable the feature.
+    - This feature is off by default, because it maybe disturb the pen tablet based motion.
+
+#### v0.9.7
+{: .doc-sec2 }
+
+2020/02/22
+
+* Add: Support PS4 Controller (DUAL SHOCK 4). In setting window turn on `Layout` > `Gamepad` > `Use DirectInput` to enable the controller.
+* Change: Change right hand move when mouse moved. With this change, the hand will slightly drift by the quick mouse move. This change is because of the fix.
+* Fix: Fix issue the right hand almost fixed when playing some first person view games, which uses mouse move to viewpoint control.
+
+#### - (not an .exe update)
+{: .doc-sec2 }
+
+2020/01/24
+
+* Change: Update web page 
 
 #### v0.9.6
 {: .doc-sec2 }

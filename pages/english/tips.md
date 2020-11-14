@@ -9,7 +9,11 @@ lang_prefix: /en/
 
 # Tips
 
-Here shows several tips based on expected use case of `VMagicMirror`.
+Here shows several tips about `VMagicMirror`, including advanced features without user interface support.
+
+Basic usage is in [Get Started](./get_started), and setting window detail is in [Docs](./docs).
+
+[Use VRoid Hub Avatar](./tips/use_vroid_hub)
 
 [Use VMagicMirror for Streaming](./tips/streaming)
 
@@ -21,4 +25,12 @@ Here shows several tips based on expected use case of `VMagicMirror`.
 
 [Change Keyboard and Touchpad Appearance](./tips/change_textures)
 
+[Load Background Image](./tips/load_background_image)
+
 [Use VMagicMirror on Mac](./tips/use_on_mac)
+
+[Using Hand Tracking](./tips/using_hand_tracking)
+
+[Use Virtual Camera](./tips/virtual_camera)
+
+[Perfect Sync](./tips/perfect_sync)
