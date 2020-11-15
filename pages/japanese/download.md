@@ -20,10 +20,11 @@ VMagicMirrorは[BOOTH](https://booth.pm/ja/items/1272298)からダウンロー�
 
 また、ソースコードは[GitHub](https://github.com/malaybaku/VMagicMirror)で公開しています。
 
-### 動作環境
+### 必要なPC環境
 {: .doc-sec1 }
 
-必須の環境
+#### 必須の環境
+{: .doc-sec2 }
 
 <div class="doc-ul" markdown="1">
 
@@ -31,19 +32,21 @@ VMagicMirrorは[BOOTH](https://booth.pm/ja/items/1272298)からダウンロー�
 
 </div>
 
-オプション
+#### オプションで対応しているデバイスなど
+{: .doc-sec2 }
 
 <div class="doc-ul" markdown="1">
 
 - マイク: 通常のマイクのほか、仮想マイク入力(ボイスチェンジャー出力など)も使用できます。
 - Webカメラ: 視野角が狭めで、顔全体が映るものを使って下さい。VMagicMirrorでは原則としてカメラ画像を320x240ピクセルに圧縮して用いるため、解像度が低いWebカメラでも問題ありません。
-- MIDIコントローラ: ほぼなんでも対応しています。
 - ゲームパッド: XInputに対応したゲームパッドか、またはDUAL SHOCK 4に対応しています。Xbox One Controllerで動作を確認しています。
 - iPhone / iPad: Face ID対応、またはA14以降のチップ搭載であれば使用できます。詳しくは[外部トラッキング](./docs/external_tracker)のページをご覧下さい。
+- MIDIコントローラ: ほぼなんでも対応していますが、キー入力のみ対応しているため、キー中心のコントローラを推奨しています。
 
 </div>
 
-動作しないことがある環境
+#### 動作しないことがある環境
+{: .doc-sec2 }
 
 <div class="doc-ul" markdown="1">
 
@@ -51,6 +54,9 @@ VMagicMirrorは[BOOTH](https://booth.pm/ja/items/1272298)からダウンロー�
 - GPU: グラフィック環境が古い場合、モデルの顔部分のテクスチャが表示されないことがあります。
 
 </div>
+
+#### 動作チェック環境
+{: .doc-sec2 }
 
 開発者は以下の環境で動作チェックをしています。もし手元のPCでVMagicMirrorの動作が不自然に重い場合、PC環境を記載のうえ開発者までご連絡下さい。
 
