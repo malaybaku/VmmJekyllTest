@@ -30,8 +30,11 @@ ul {
     margin-bottom: 30px;
 }
 
-.doc-ul ul li { 
-    list-style-type: disc;        
+.doc-ul ul {
+    padding-inline-start: 20px;
+    li { 
+        list-style-type: disc;        
+    }
 }
 
 .toc-header {
