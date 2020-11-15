@@ -14,12 +14,6 @@ h4 {
     font-size: 2.1rem;
 }
 
-/*
-ul {
-    padding-inline-start: 20px;
-}
-*/
-
 .doc-sec1 {
     margin-top: 60px;
     margin-bottom: 30px;    
@@ -31,8 +25,10 @@ ul {
 }
 
 .doc-ul ul {
+    margin: 8px 0px;
     padding-inline-start: 20px;
     li { 
+        margin: 8px 0px;
         list-style-type: disc;        
     }
 }
@@ -49,13 +45,21 @@ ul {
     display: table;
 }
 
+.note-area { 
+    background-color: #F8F8F8;
+    padding: 10px;
+    display: table;
+    @extend .z-depth-2;
+}
+
 code {
     font-family: "Roboto", sans-serif;
     font-weight: bolder;
-    background: #ddd;
-    padding: 4px;
+    background: #ddd;    
+    color: #222;
+    padding: 2px 4px;
     border-radius: 4px;
-    margin: 4px;
+    margin: 2px;
 }
 
 .carousel .indicators {
