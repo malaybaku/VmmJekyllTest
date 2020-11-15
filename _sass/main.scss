@@ -48,7 +48,7 @@ h4 {
 .toc-area { 
     background-color: #F4F4F4;
     border: 1px solid #B0B0B0;
-    padding: 10px 20px;
+    padding: 10px;
     margin: 20px 0px;
     display: table;
 }
@@ -57,6 +57,8 @@ h4 {
     background-color: #F4F4F4;
     padding: 10px 20px;
     display: table;
+    border: 1px solid #B0B0B0;
+    border-radius: 10px;
 
     strong { 
         font-weight: 600;
