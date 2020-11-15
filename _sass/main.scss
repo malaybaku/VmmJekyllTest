@@ -3,7 +3,14 @@
 
 h1, h2, h3, h4, h5, h6 {
     -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
     font-weight: bold;
+}
+
+h5, h6 { 
+    font-weight: 500;
 }
 
 h1 { 
