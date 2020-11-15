@@ -38,18 +38,17 @@ h4 {
 }
 
 .toc-area { 
-    background-color: #eee;
-    border: 1px solid #bbb;
+    background-color: #F4F4F4;
+    border: 1px solid #B0B0B0;
     padding: 10px 20px;
     margin: 20px 0px;
     display: table;
 }
 
 .note-area { 
-    background-color: #F8F8F8;
+    background-color: #F4F4F4;
     padding: 10px;
     display: table;
-    @extend .z-depth-2;
 }
 
 code {
