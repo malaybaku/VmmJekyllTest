@@ -7,8 +7,19 @@ permalink: /tips/perfect_sync
 [English](../en/tips/perfect_sync)
 
 # Tips: パーフェクトシンク
+{: .no_toc }
 
 パーフェクトシンクはVMagicMirror v1.3.0で追加された機能です。
+
+<div class="toc-area" markdown="1">
+
+#### 目次
+{: .toc-header .no_toc }
+
+* ToC
+{:toc .table-of-contents }
+
+</div>
 
 #### パーフェクトシンクとは
 {: .doc-sec2 }
@@ -19,14 +30,10 @@ permalink: /tips/perfect_sync
 
 パーフェクトシンクでは、iOSのARKitで取得できるユーザーの様々な表情を、アバターの個別のブレンドシェイプに反映する仕組みを提供します。これによって、VRMの規格で最低限サポートされるものより多様な表現が可能になります。
 
-　
-
 #### パーフェクトシンクをすぐ試すには
 {: .doc-sec2 }
 
 ※すぐモデルのセットアップに進みたい場合、このセクションをスキップして構いません。
-
-　
 
 パーフェクトシンクをすぐ試す方法を2つ紹介します。
 
@@ -53,8 +60,6 @@ permalink: /tips/perfect_sync
 
 ただし、2つ目の方法はあくまで簡易的な手段であり、パーフェクトシンクの利用は限定的です。例えば、この方法では舌を出したり、眉を片方ずつ動かすことはできません。
 
-　
-
 #### セットアップStep1. モデルのブレンドシェイプ整備
 {: .doc-sec2 }
 
@@ -77,109 +82,62 @@ permalink: /tips/perfect_sync
 
 前の章で準備したモデルをUnityで一度インポートします。そして、作成したブレンドシェイプに対応する52個の`BlendShapeClip`を作成します。クリップ名は、iOSの顔トラッキング仕様に沿って、以下の名前にして下さい。
 
-`BrowInnerUp`
+<div class="doc-ul" markdown="1">
 
-`BrowDownLeft`
+- `BrowInnerUp`
+- `BrowDownLeft`
+- `BrowDownRight`
+- `BrowOuterUpLeft`
+- `BrowOuterUpRight`
+- `EyeLookUpLeft`
+- `EyeLookUpRight`
+- `EyeLookDownLeft`
+- `EyeLookDownRight`
+- `EyeLookInLeft`
+- `EyeLookInRight`
+- `EyeLookOutLeft`
+- `EyeLookOutRight`
+- `EyeBlinkLeft`
+- `EyeBlinkRight`
+- `EyeSquintRight`
+- `EyeSquintLeft`
+- `EyeWideLeft`
+- `EyeWideRight`
+- `CheekPuff`
+- `CheekSquintLeft`
+- `CheekSquintRight`
+- `NoseSneerLeft`
+- `NoseSneerRight`
+- `JawOpen`
+- `JawForward`
+- `JawLeft`
+- `JawRight`
+- `MouthFunnel`
+- `MouthPucker`
+- `MouthLeft`
+- `MouthRight`
+- `MouthRollUpper`
+- `MouthRollLower`
+- `MouthShrugUpper`
+- `MouthShrugLower`
+- `MouthClose`
+- `MouthSmileLeft`
+- `MouthSmileRight`
+- `MouthFrownLeft`
+- `MouthFrownRight`
+- `MouthDimpleLeft`
+- `MouthDimpleRight`
+- `MouthUpperUpLeft`
+- `MouthUpperUpRight`
+- `MouthLowerDownLeft`
+- `MouthLowerDownRight`
+- `MouthPressLeft`
+- `MouthPressRight`
+- `MouthStretchLeft`
+- `MouthStretchRight`
+- `TongueOut`
 
-`BrowDownRight`
-
-`BrowOuterUpLeft`
-
-`BrowOuterUpRight`
-
-`EyeLookUpLeft`
-
-`EyeLookUpRight`
-
-`EyeLookDownLeft`
-
-`EyeLookDownRight`
-
-`EyeLookInLeft`
-
-`EyeLookInRight`
-
-`EyeLookOutLeft`
-
-`EyeLookOutRight`
-
-`EyeBlinkLeft`
-
-`EyeBlinkRight`
-
-`EyeSquintRight`
-
-`EyeSquintLeft`
-
-`EyeWideLeft`
-
-`EyeWideRight`
-
-`CheekPuff`
-
-`CheekSquintLeft`
-
-`CheekSquintRight`
-
-`NoseSneerLeft`
-
-`NoseSneerRight`
-
-`JawOpen`
-
-`JawForward`
-
-`JawLeft`
-
-`JawRight`
-
-`MouthFunnel`
-
-`MouthPucker`
-
-`MouthLeft`
-
-`MouthRight`
-
-`MouthRollUpper`
-
-`MouthRollLower`
-
-`MouthShrugUpper`
-
-`MouthShrugLower`
-
-`MouthClose`
-
-`MouthSmileLeft`
-
-`MouthSmileRight`
-
-`MouthFrownLeft`
-
-`MouthFrownRight`
-
-`MouthDimpleLeft`
-
-`MouthDimpleRight`
-
-`MouthUpperUpLeft`
-
-`MouthUpperUpRight`
-
-`MouthLowerDownLeft`
-
-`MouthLowerDownRight`
-
-`MouthPressLeft`
-
-`MouthPressRight`
-
-`MouthStretchLeft`
-
-`MouthStretchRight`
-
-`TongueOut`
+</div>
 
 それぞれの`BlendShapeClip`では原則として、Step 1で用意したモデル側のブレンドシェイプ1つを、`weight`が`100`になるようセットアップします。
 
