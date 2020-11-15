@@ -22,18 +22,22 @@ ul {
     padding-inline-start: 20px;
 }
 
-ul li {
-    list-style-type: disc;
-}
-
 .doc-sec1 {
-    margin-top: 24px;
-    margin-bottom: 24px;    
+    margin-top: 60px;
+    margin-bottom: 30px;    
 }
 
 .doc-sec2 {
     margin-top: 60px;
     margin-bottom: 30px;
+}
+
+.doc-ul {
+    padding-left: 20px;
+
+    li { 
+        list-style-type: disc;        
+    }
 }
 
 .toc-header {
