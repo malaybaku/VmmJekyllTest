@@ -121,12 +121,20 @@ img.home-gallery {
     margin-right: auto;
 }
 
+p.top-desc { 
+    font-size: 1.5rem;
+}
+
 .icon-block {
   padding: 0 15px;
 }
-.icon-block .material-icons {
+.icon-block .home-main-icon {
 	font-size: inherit;
 }
+.icon-block .home-assist-icon {
+	font-size: smaller;
+}
+
 h1.page-title {
     font-weight: 500;
     font-size: 2.3em;
